@@ -1,0 +1,560 @@
+{
+ "id": 1,
+ "slug": "pdnca-2004-sections-1-23",
+ "title": "Punjab Destitute & Neglected Children Act 2004: Sections 1-23",
+ "desc": "Short title, definitions, Child Protection & Welfare Bureau, Board, Director General, Courts",
+ "group": "Child Protection Act",
+ "color": "#7c3aed",
+ "questions": [
+  {
+   "q": "The short title of the Act is:",
+   "o": [
+    "The Punjab Destitute and Neglected Children Act 2004",
+    "The Punjab Children Protection Act 2004",
+    "The Punjab Child Welfare Ordinance 2004",
+    "The Punjab Juvenile Justice Act 2004"
+   ],
+   "a": 0,
+   "e": "Section 1 gives the short title as the Punjab Destitute and Neglected Children Act 2004 (PDNCA). It consolidates the law on rescue, protective custody, care and rehabilitation of destitute and neglected children."
+  },
+  {
+   "q": "The Act extends to:",
+   "o": [
+    "The whole of Pakistan",
+    "The whole of the Punjab",
+    "Lahore only",
+    "Islamabad Capital Territory"
+   ],
+   "a": 1,
+   "e": "Section 1 says it extends to the whole of the Punjab. It comes into force at once, but applies to areas and from dates notified by Government."
+  },
+  {
+   "q": "Under Section 2 (Saving), the Government may by notification:",
+   "o": [
+    "Exempt any class of children or any area from all or any provisions of the Act",
+    "Repeal the Act",
+    "Transfer the Bureau to Federal Government",
+    "Abolish the courts"
+   ],
+   "a": 0,
+   "e": "Section 2 allows exemption of any class of children or any area from the Act by notification in the official Gazette."
+  },
+  {
+   "q": "The preamble of the Act excludes children who are:",
+   "o": [
+    "Orphans",
+    "Below 5 years",
+    "Disabled",
+    "Involved in criminal litigation"
+   ],
+   "a": 3,
+   "e": "The Act deals with destitute and neglected children and is not meant for children in conflict with the law, who are covered by juvenile justice laws."
+  },
+  {
+   "q": "In the Act 'Government' means:",
+   "o": [
+    "The Federal Government",
+    "The Government of the Punjab in the Home Department",
+    "The Local Government Department",
+    "The High Court"
+   ],
+   "a": 1,
+   "e": "Section 3 defines Government as the Punjab Government, Home Department. This is why the Bureau is linked to the Home Department."
+  },
+  {
+   "q": "In the Act, 'child' means a natural person who has not attained the age of:",
+   "o": [
+    "Fifteen years",
+    "Sixteen years",
+    "Fourteen years",
+    "Eighteen years"
+   ],
+   "a": 3,
+   "e": "Section 3(e). However, Section 4 restricts initiation of Part VII proceedings to a child under fifteen."
+  },
+  {
+   "q": "In the Act, 'Code' means the:",
+   "o": [
+    "Code of Civil Procedure 1908",
+    "Pakistan Penal Code 1860",
+    "Code of Criminal Procedure 1898",
+    "Qanun-e-Shahadat Order 1984"
+   ],
+   "a": 2,
+   "e": "Section 3(i). Note that Section 23 says the Code and Qanun-e-Shahadat Order do not apply to the Court unless the Act or rules say so."
+  },
+  {
+   "q": "In the Act, 'Court' means:",
+   "o": [
+    "The Supreme Court",
+    "The Family Court",
+    "The Magistrate only",
+    "The Child Protection Court or any court exercising its powers under the Act"
+   ],
+   "a": 3,
+   "e": "Section 3(j) defines Court as the Child Protection Court established under Section 22 and any court exercising its powers."
+  },
+  {
+   "q": "In the Act, 'Bureau' means the:",
+   "o": [
+    "Anti-Corruption Establishment",
+    "Child Protection and Welfare Bureau established under Section 5",
+    "Punjab Social Welfare Board",
+    "Punjab Police Bureau"
+   ],
+   "a": 1,
+   "e": "Section 3(d). The Bureau is a body corporate with perpetual succession."
+  },
+  {
+   "q": "In the Act, 'Board' means the:",
+   "o": [
+    "Board of Governors constituted under Section 6",
+    "Board of Revenue",
+    "Board of Intermediate Education",
+    "Punjab Education Board"
+   ],
+   "a": 0,
+   "e": "Section 3(b). Executive authority and management of the Bureau vests in this Board (Section 10)."
+  },
+  {
+   "q": "In the Act, 'Fund' means the:",
+   "o": [
+    "Destitute and Neglected Children's Welfare Fund established under Section 18",
+    "Zakat Fund",
+    "Child Education Fund",
+    "Chief Minister's Relief Fund"
+   ],
+   "a": 0,
+   "e": "Section 3(l). The Bureau and each child protection institution shall establish such a Fund under Section 18."
+  },
+  {
+   "q": "According to Section 3, 'begging' includes:",
+   "o": [
+    "Only street singing",
+    "Only door-to-door selling",
+    "Only sitting outside a mosque",
+    "Soliciting or receiving alms, and displaying wounds or deformities to get alms"
+   ],
+   "a": 3,
+   "e": "Section 3(a) covers soliciting or receiving alms in a public place, exposing sores, wounds or deformity to get alms and wandering without visible means of subsistence."
+  },
+  {
+   "q": "In the Act, 'brothel' means:",
+   "o": [
+    "A hostel",
+    "A place used for prostitution or known to offer it",
+    "A children's home",
+    "A theatre"
+   ],
+   "a": 1,
+   "e": "Section 3(c). A child living in a brothel or with a prostitute is a destitute and neglected child under Section 3(k)(iv)."
+  },
+  {
+   "q": "In the Act, 'narcotic drug' has the meaning given in the:",
+   "o": [
+    "Pakistan Penal Code",
+    "Control of Narcotic Substances Act 1997",
+    "Drugs Act 1976",
+    "Customs Act 1969"
+   ],
+   "a": 1,
+   "e": "Section 3(p) refers to the Control of Narcotic Substances Act 1997. Section 37 punishes giving an intoxicant or narcotic to a child without a doctor's prescription."
+  },
+  {
+   "q": "In the Act, 'local area' means a district, city district, tehsil or town as defined in the:",
+   "o": [
+    "Punjab Local Government Ordinance 2001",
+    "Punjab Municipal Act 1911",
+    "Land Revenue Act 1967",
+    "Police Order 2002"
+   ],
+   "a": 0,
+   "e": "Section 3(n). Courts and child protection units are established for a local area."
+  },
+  {
+   "q": "In the Act, 'prostitution' means:",
+   "o": [
+    "Illegal sexual intercourse for hire, in money or kind",
+    "Any dance",
+    "Any marriage",
+    "Any gathering"
+   ],
+   "a": 0,
+   "e": "Section 3(r). Exposing a child to prostitution is punishable under Section 40."
+  },
+  {
+   "q": "Section 3(k) lists how many circumstances in which a child is 'destitute and neglected'?",
+   "o": [
+    "Five",
+    "Three",
+    "Ten",
+    "Eight"
+   ],
+   "a": 3,
+   "e": "The eight circumstances include begging, no home or means, unfit guardian, living in a brothel, abuse or exploitation, beyond parental control, loss of parents without income, and victim of an offence by a parent or guardian."
+  },
+  {
+   "q": "A child who is found begging is:",
+   "o": [
+    "Not covered by the Act",
+    "A destitute and neglected child under Section 3(k)(i)",
+    "A juvenile offender only",
+    "A ward of court"
+   ],
+   "a": 1,
+   "e": "Begging is the first circumstance listed. For such a child a CPO need not first report to the Court even if with a parent (second proviso to Section 24)."
+  },
+  {
+   "q": "A child who has lost one or both parents and has no adequate means is:",
+   "o": [
+    "Destitute and neglected under Section 3(k)(vii)",
+    "Adopted",
+    "A ward only",
+    "Under no category"
+   ],
+   "a": 0,
+   "e": "Orphanhood plus lack of adequate income qualifies. A child with lost parents but with adequate income does not qualify under this clause."
+  },
+  {
+   "q": "A child who is beyond parental control is covered under which clause of Section 3(k)?",
+   "o": [
+    "(i)",
+    "(iii)",
+    "(vi)",
+    "(viii)"
+   ],
+   "a": 2,
+   "e": "Clause (vi) is 'is beyond parental control'. Clause (iii) is unfit or incapacitated parent or guardian."
+  },
+  {
+   "q": "A child who is a victim of an offence in which the parent or guardian is convicted or accused falls under:",
+   "o": [
+    "Section 3(k)(ii)",
+    "Section 3(k)(iv)",
+    "Section 3(k)(vi)",
+    "Section 3(k)(viii)"
+   ],
+   "a": 3,
+   "e": "This is the last circumstance in the list, which protects children whose own guardians are accused or convicted of an offence against them."
+  },
+  {
+   "q": "'Suitable person' in the Act means:",
+   "o": [
+    "A person fit to take custody of a destitute and neglected child",
+    "A judge",
+    "A police officer",
+    "A donor"
+   ],
+   "a": 0,
+   "e": "Section 3(t). Court may place a child with a suitable person under Section 28."
+  },
+  {
+   "q": "Under Section 4, proceedings under Part VII can be initiated for a child who has not attained the age of:",
+   "o": [
+    "Eighteen years",
+    "Twelve years",
+    "Ten years",
+    "Fifteen years"
+   ],
+   "a": 3,
+   "e": "Section 4(1): if the child reaches fifteen during proceedings, the proceedings continue. This is a favourite exam question because it differs from the 18-year definition of child."
+  },
+  {
+   "q": "Under Section 4, who decides a dispute about the age of a child?",
+   "o": [
+    "The Court",
+    "The police",
+    "The Bureau",
+    "The Chief Minister"
+   ],
+   "a": 0,
+   "e": "Section 4(2): the Court decides the age question first, before proceeding."
+  },
+  {
+   "q": "The Child Protection and Welfare Bureau is established under which Section?",
+   "o": [
+    "Section 3",
+    "Section 9",
+    "Section 5",
+    "Section 22"
+   ],
+   "a": 2,
+   "e": "Section 5(1): Government shall establish the Bureau as soon as possible. Part II (ss.5-14) is about the Bureau."
+  },
+  {
+   "q": "Under Section 5 the Bureau is a:",
+   "o": [
+    "Department of Home",
+    "Court",
+    "Body corporate with perpetual succession",
+    "Political party"
+   ],
+   "a": 2,
+   "e": "It can hold property, sue and be sued. Government may transfer land or buildings to it free of cost."
+  },
+  {
+   "q": "Who is the Patron-in-Chief of the Board of Governors?",
+   "o": [
+    "The Governor",
+    "The Chief Minister",
+    "The Chief Justice",
+    "The Home Secretary"
+   ],
+   "a": 1,
+   "e": "Under Section 6 (as substituted in 2007), the Chief Minister is Patron-in-Chief; the Chairperson is appointed from among the members."
+  },
+  {
+   "q": "Which of the following is NOT a member of the Board of Governors?",
+   "o": [
+    "Secretary Home Department",
+    "Secretary Social Welfare Department",
+    "Secretary Local Government Department",
+    "The Prime Minister"
+   ],
+   "a": 3,
+   "e": "The Board includes the Chief Minister, three secretaries (Home, Social Welfare, Local Government), MPAs, donor representatives, professors, non-official members and the Director General."
+  },
+  {
+   "q": "How many Members of the Provincial Assembly are on the Board?",
+   "o": [
+    "Three (two from treasury benches and one from the Opposition)",
+    "Five",
+    "One",
+    "Seven"
+   ],
+   "a": 0,
+   "e": "One MPA is nominated by the Leader of the Opposition."
+  },
+  {
+   "q": "The term of the representatives of donors on the Board is:",
+   "o": [
+    "Two years",
+    "Four years",
+    "Five years",
+    "Three years"
+   ],
+   "a": 1,
+   "e": "Donors' representatives (two) and the six non-official members serve four-year terms."
+  },
+  {
+   "q": "How many non-official members does the Board have?",
+   "o": [
+    "Six",
+    "Two",
+    "Four",
+    "Ten"
+   ],
+   "a": 0,
+   "e": "Each non-official member must hold at least a Master's degree and have five years' field experience in child welfare or related fields."
+  },
+  {
+   "q": "The quorum for a Board meeting is:",
+   "o": [
+    "Three members",
+    "Five members including two ex-officio members",
+    "Seven members",
+    "Ten members"
+   ],
+   "a": 1,
+   "e": "Section 6(7): the presence of five members, including two ex-officio, is needed. Decisions are by majority with a casting vote to the person presiding."
+  },
+  {
+   "q": "Who has a casting vote in case of a tie in the Board?",
+   "o": [
+    "The person presiding the meeting",
+    "The Director General",
+    "The Home Secretary",
+    "Nobody"
+   ],
+   "a": 0,
+   "e": "Decisions are by majority of members present and voting. In a tie the presiding person has a second or casting vote."
+  },
+  {
+   "q": "The Chairperson of the Board is appointed by:",
+   "o": [
+    "The High Court",
+    "The Director General",
+    "Donors",
+    "The Government from among the members"
+   ],
+   "a": 3,
+   "e": "The Chairperson can serve a maximum of two consecutive terms and holds office at the pleasure of Government."
+  },
+  {
+   "q": "Who is the Member/Secretary of the Board?",
+   "o": [
+    "The Home Secretary",
+    "The Chairperson",
+    "The Director General of the Bureau",
+    "The Chief Minister"
+   ],
+   "a": 2,
+   "e": "The Director General is also the chief executive of the Bureau (Section 13)."
+  },
+  {
+   "q": "Non-ex-officio members of the Board hold office at the pleasure of:",
+   "o": [
+    "The Court",
+    "The Government",
+    "The Director General",
+    "The Chief Minister's wife"
+   ],
+   "a": 1,
+   "e": "Section 7: Government may remove them as prescribed; they may resign by writing to Government."
+  },
+  {
+   "q": "Which of the following is a power of the Board under Section 9?",
+   "o": [
+    "To try offenders",
+    "To establish the Fund and supervise prosecutions under the Act",
+    "To pass death sentences",
+    "To appoint judges"
+   ],
+   "a": 1,
+   "e": "The Board also establishes, manages and recognizes child protection institutions, appoints staff and authorizes expenditure from the Fund."
+  },
+  {
+   "q": "Under Section 10, executive authority and management of the Bureau vests in the:",
+   "o": [
+    "Government",
+    "Director General",
+    "Court",
+    "Board"
+   ],
+   "a": 3,
+   "e": "This is a repeated exam question. The Director General is the chief executive but the executive authority vests in the Board."
+  },
+  {
+   "q": "The Director General of the Bureau is appointed by:",
+   "o": [
+    "The Chief Justice",
+    "Government for a specified term",
+    "The Board",
+    "The Governor"
+   ],
+   "a": 1,
+   "e": "Section 13: the DG is the chief executive and can be removed by Government as prescribed; he or she may resign to Government."
+  },
+  {
+   "q": "The annual progress report of the Bureau is prepared by the:",
+   "o": [
+    "Director General",
+    "Chairperson",
+    "Chief Minister",
+    "Court"
+   ],
+   "a": 0,
+   "e": "Section 14: the DG prepares the report after each financial year and presents it at the next Board meeting."
+  },
+  {
+   "q": "Child Protection Officers are appointed by the:",
+   "o": [
+    "Bureau",
+    "High Court",
+    "Police",
+    "Local Government"
+   ],
+   "a": 0,
+   "e": "Section 15(1). The Board determines eligibility, terms and conditions of service."
+  },
+  {
+   "q": "Who must provide assistance to a Child Protection Officer when asked?",
+   "o": [
+    "The Deputy Commissioner",
+    "The Judge",
+    "The Station House Officer of the police station",
+    "The Governor"
+   ],
+   "a": 2,
+   "e": "Section 15: a CPO may seek police help and the SHO shall provide appropriate assistance."
+  },
+  {
+   "q": "Part III of the Act deals with:",
+   "o": [
+    "Courts",
+    "Fund",
+    "Offences",
+    "Child Protection Officers and Child Protection Unit"
+   ],
+   "a": 3,
+   "e": "Sections 15-17. A unit is established for each local area under Section 16 and works under the control and supervision of the Bureau (Section 17)."
+  },
+  {
+   "q": "Child Protection Courts are provided in Part ___ of the Act.",
+   "o": [
+    "II",
+    "VI",
+    "VIII",
+    "IX"
+   ],
+   "a": 1,
+   "e": "Part VI (Sections 22-23) deals with Child Protection Courts. Part VII covers rescue, custody and rehabilitation. NOTE: some past-paper keys show VII, so verify against the latest official text."
+  },
+  {
+   "q": "The presiding officer of a Child Protection Court is appointed by:",
+   "o": [
+    "Government in consultation with the Lahore High Court",
+    "Chief Minister alone",
+    "Bureau",
+    "Board"
+   ],
+   "a": 0,
+   "e": "Section 22(2). The High Court may prescribe qualifications."
+  },
+  {
+   "q": "Until a Court is established for a local area, the Lahore High Court may confer its powers on a:",
+   "o": [
+    "Civil Judge",
+    "Magistrate only",
+    "Sessions Judge or Additional Sessions Judge",
+    "Chief Justice"
+   ],
+   "a": 2,
+   "e": "Section 22(3). This is why Sessions Courts function as Child Protection Courts in many districts."
+  },
+  {
+   "q": "Under Section 23 the Court shall finally decide a case within ___ of the production of the child before it.",
+   "o": [
+    "One week",
+    "One month",
+    "Six months",
+    "One year"
+   ],
+   "a": 1,
+   "e": "Section 23(2) of the original text. A few past-paper keys show 'three months', which could reflect later amendments, so check the latest official Act before the exam."
+  },
+  {
+   "q": "Which of the following does NOT apply to the Child Protection Court unless the Act or rules say so?",
+   "o": [
+    "The Code of Criminal Procedure and the Qanun-e-Shahadat Order 1984",
+    "The Constitution",
+    "The Penal Code",
+    "Islamic injunctions"
+   ],
+   "a": 0,
+   "e": "Section 23(3). The Court follows a simplified child-friendly procedure."
+  },
+  {
+   "q": "An appeal or revision against an order of the Child Protection Court:",
+   "o": [
+    "Does not lie, but the Court may recall or modify its orders in the interest of justice",
+    "Lies to the Supreme Court",
+    "Lies to the Board",
+    "Lies to the Governor"
+   ],
+   "a": 0,
+   "e": "Section 23(4). This is a typical exam question."
+  },
+  {
+   "q": "The Child Protection Court is deemed to be a Court of Sessions under Section ___ of the Code.",
+   "o": [
+    "144",
+    "476",
+    "154",
+    "497"
+   ],
+   "a": 1,
+   "e": "Section 23(5) deems the Court a Court of Sessions for section 476 of the Code of Criminal Procedure."
+  }
+ ]
+}

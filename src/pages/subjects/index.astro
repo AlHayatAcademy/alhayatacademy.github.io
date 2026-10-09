@@ -1,0 +1,19 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import { groups, poolSize, testsOfGroup } from '../../lib.js';
+---
+<Base title="PPSC Test Subjects: Pakistan Studies, English, Urdu, Maths, Science & More" description="Subject-wise PPSC preparation: Pakistan Studies, Current Affairs, GK, Islamic Studies, English, Urdu, Maths, Everyday Science, Computer and child protection, with practice MCQs for each." active="subjects">
+  <div class="page-hero"><div class="wrap">
+    <Crumbs items={[['Home', '/'], ['Subjects']]} />
+    <h1>PPSC preparation by subject</h1><p>Every subject in the General Ability syllabus, plus child protection and social sciences.</p>
+  </div></div>
+  <section class="block"><div class="wrap"><div class="grid">
+    {groups.map((g) => (
+      <a class="card pcard" href={`/subjects/${g.slug}/`} style={`--c:${g.color}`}>
+        <div class="ico">{g.icon}</div><h3>{g.name}</h3><p>{g.blurb}</p>
+        <span class="tag">{testsOfGroup(g.name).length} tests · {poolSize(g.name)} MCQs</span>
+      </a>
+    ))}
+  </div></div></section>
+</Base>

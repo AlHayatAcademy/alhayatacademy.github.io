@@ -1,0 +1,107 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import Ad from '../../components/Ad.astro';
+import { posts, groups, tests, groupByName, planDays, ads_total, site, abs, poolSize } from '../../lib.js';
+export function getStaticPaths() { return posts.map((p) => ({ params: { slug: p.slug }, props: { post: p } })); }
+const p = Astro.props.post;
+const covered = [...new Set(p.syllabus.filter((s) => s.covered).flatMap((s) => s.groups))];
+const practice = covered.map((g) => ({ g: groupByName[g], tests: tests.filter((t) => t.group === g) })).filter((x) => x.g);
+const plan15 = planDays(p.mix, 15);
+const plan30 = planDays(p.mix, 30);
+const total = ads_total(p);
+const year = 2026;
+const faqs = [
+  [`What is the PPSC ${p.name} syllabus?`, p.syllabus.map((s) => `${s.label}${s.weight ? ` (${s.weight}%)` : ''}: ${s.note}`).join(' ')],
+  [`How many questions and how much time is there?`, `${p.pattern}. Confirm the exact paper rules in your advertisement on ppsc.gop.pk.`],
+  [`Is there negative marking in the ${p.name} test?`, `Some PPSC syllabi, such as the BS-19 director posts, state 0.25 marks deducted per wrong MCQ. The ${p.name} syllabi we reviewed do not state it, so check your advertisement. Our mock exam uses −0.25 so you learn to avoid blind guessing.`],
+  ...(p.faq_extra || []),
+  [`How should I prepare for the ${p.name} test?`, p.mix ? `Follow the weights above: practise each subject test, review every explanation, then take the timed mock exam at least three times before the test.` : `Practise the listed skills daily and check the advertisement for test dates and stages.`],
+];
+const schema = [
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+];
+const title = `PPSC ${p.name} Test Preparation ${year}: Syllabus, Pattern & MCQs`;
+const desc = `${p.name} (${p.bps}) PPSC syllabus ${year}: ${p.syllabus.map((s) => s.label + (s.weight ? ' ' + s.weight + '%' : '')).join(', ')}. Practice MCQs and a timed mock exam.`.slice(0, 300);
+---
+<Base title={title} description={desc} active="posts" schema={schema}>
+  <div class="page-hero" style={`background:linear-gradient(135deg,${p.color},#db2777)`}><div class="wrap">
+    <Crumbs items={[['Home', '/'], ['PPSC posts', '/posts/'], [p.name]]} />
+    <h1>{p.icon} PPSC {p.name} test preparation {year}</h1>
+    <p>{p.summary}</p>
+    <div class="btnrow">
+      {p.mix && <a class="btn amber" href={`/exam/${p.slug}/`}>⏱️ Start mock exam</a>}
+      <a class="btn alt" style="background:#fff" href="#practice">📝 Practice tests</a>
+    </div>
+  </div></div>
+
+  <section class="block"><div class="narrow" style="width:min(1000px,100% - 32px)">
+    <div class="facts">
+      <div class="fact"><small>Grade</small><b>{p.bps}</b></div>
+      <div class="fact"><small>Department</small><b style="font-size:.92rem">{p.dept}</b></div>
+      <div class="fact"><small>Paper</small><b style="font-size:.92rem">{p.pattern}</b></div>
+      {total > 0 && <div class="fact"><small>Posts in advertisements reviewed</small><b>{total}</b></div>}
+    </div>
+
+    <h2 style="margin-top:28px">Syllabus and marks split</h2>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Part</th><th>Share</th><th>What is covered</th><th>On this site</th></tr></thead>
+      <tbody>{p.syllabus.map((s) => (
+        <tr><td><b>{s.label}</b></td><td>{s.weight ? s.weight + '%' : 'Not stated'}</td><td>{s.note}</td>
+          <td>{s.covered ? <span class="pill ok">Practice available</span> : <span class="pill no">Not yet covered</span>}</td></tr>
+      ))}</tbody>
+    </table></div>
+    <p class="notice info">Source: PPSC syllabi for recent advertisements, summarised by us. Syllabi can change between advertisements, so always confirm yours on <a href="https://ppsc.gop.pk" rel="noopener">ppsc.gop.pk</a>.</p>
+
+    {p.stages.length > 1 && (<><h2>Selection stages</h2><ol>{p.stages.map((s) => <li>{s}</li>)}</ol></>)}
+
+    <Ad kind="inline" />
+
+    {p.mix && (<>
+      <h2 id="mock">Timed mock exam for {p.name}</h2>
+      <p>Our mock follows this subject mix{p.mix2 ? ' (two versions are provided because the official CPO syllabus was not available)' : ''}:</p>
+      <div class="tablewrap"><table><thead><tr><th>Subject</th><th>Questions</th></tr></thead><tbody>
+        {Object.entries(p.mix).map(([g, c]) => <tr><td>{groupByName[g]?.icon} {g}</td><td>{c}</td></tr>)}
+        <tr><th>Total</th><th>{Object.values(p.mix).reduce((a, b) => a + b, 0)}</th></tr>
+      </tbody></table></div>
+      <div class="btnrow"><a class="btn amber" href={`/exam/${p.slug}/`}>⏱️ Start {p.name} mock exam</a>{p.mix2 && <a class="btn alt" href={`/exam/${p.slug}/?v=2`}>Child-protection-heavy version</a>}</div>
+    </>)}
+
+    <h2 id="practice">Practice tests for {p.name}</h2>
+    {practice.length === 0 && <p>This post is skill based. Practise typing and shorthand on a computer and review the stages above.</p>}
+    {practice.map(({ g, tests: ts }) => (
+      <div style="margin-bottom:22px">
+        <h3>{g.icon} <a href={`/subjects/${g.slug}/`}>{g.name}</a> <small style="color:var(--muted)">({p.mix?.[g.name] ? p.mix[g.name] + ' questions in the mock' : poolSize(g.name) + ' MCQs'})</small></h3>
+        <div class="grid g3">{ts.map((t) => (
+          <a class="card tcard" href={`/practice/${t.slug}/`} style={`--c:${g.color}`}><h3>{t.title}</h3><p>{t.desc}</p><div class="meta">{t.questions.length} MCQs</div></a>
+        ))}</div>
+      </div>
+    ))}
+
+    {plan15.length > 0 && (<>
+      <h2>15-day study plan</h2>
+      <p>Days are shared out by subject weight. Use the last day for a full mock exam and an error review.</p>
+      <ol>
+        {(() => { let d = 1; return plan15.map((x) => { const a = d; d += x.d; return <li><b>Day {a}{x.d > 1 ? `–${d - 1}` : ''}:</b> {groupByName[x.g]?.icon} {x.g}</li>; }); })()}
+        <li><b>Final days:</b> two full mock exams, revise every wrong answer.</li>
+      </ol>
+      <details class="faq"><summary>30-day version</summary>
+        <ol>{(() => { let d = 1; return plan30.map((x) => { const a = d; d += x.d; return <li><b>Day {a}{x.d > 1 ? `–${d - 1}` : ''}:</b> {x.g}</li>; }); })()}<li><b>Last 3 days:</b> full mocks and error review.</li></ol>
+      </details>
+    </>)}
+
+    {p.ads.length > 0 && (<>
+      <h2>Recent advertisements for {p.name}</h2>
+      <div class="tablewrap"><table><thead><tr><th>Case</th><th>Where</th><th>Posts</th><th>Basis</th></tr></thead><tbody>
+        {p.ads.map((a) => <tr><td>{a.case}</td><td>{a.where}</td><td>{a.posts}</td><td>{a.basis}</td></tr>)}
+      </tbody></table></div>
+      <p class="notice info">Taken from the syllabi PDFs. Closing dates and fees are in the official advertisement, which we do not reproduce.</p>
+    </>)}
+
+    <h2>Frequently asked questions</h2>
+    {faqs.map(([q, a]) => <details class="faq"><summary>{q}</summary><p>{a}</p></details>)}
+
+    <h2>Related posts</h2>
+    <div class="btnrow">{posts.filter((x) => x.slug !== p.slug).slice(0, 6).map((x) => <a class="btn alt sm" href={`/posts/${x.slug}/`}>{x.icon} {x.name}</a>)}</div>
+  </div></section>
+</Base>

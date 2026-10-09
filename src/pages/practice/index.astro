@@ -1,0 +1,45 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import { tests, groups, totalQuestions } from '../../lib.js';
+const gc = Object.fromEntries(groups.map((g) => [g.name, g]));
+---
+<Base title="Free PPSC Practice MCQs with Answers & Explanations" description={`${totalQuestions.toLocaleString()} free PPSC practice MCQs in ${tests.length} topic tests: Pakistan Studies, Current Affairs, English, Urdu, Maths, Science, Computer, Islamiat and more, with explanations.`} active="practice">
+  <div class="page-hero"><div class="wrap">
+    <Crumbs items={[['Home', '/'], ['Practice MCQs']]} />
+    <h1>PPSC practice MCQs</h1>
+    <p>{tests.length} topic tests of 50 questions each. Tap an option to see the answer and a full explanation instantly.</p>
+  </div></div>
+  <section class="block"><div class="wrap">
+    <div class="filters" id="filters">
+      <button class="on" data-g="all">All</button>
+      {groups.map((g) => <button data-g={g.slug}>{g.icon} {g.short}</button>)}
+    </div>
+    <div class="grid g3" id="list">
+      {tests.map((t) => (
+        <a class="card tcard" href={`/practice/${t.slug}/`} data-g={gc[t.group].slug} data-slug={t.slug} style={`--c:${gc[t.group].color}`}>
+          <span class="tag">{gc[t.group].icon} {t.group}</span>
+          <h3>{t.title}</h3><p>{t.desc}</p>
+          <div class="bar"><i></i></div>
+          <div class="meta"><span>{t.questions.length} MCQs</span><span class="done"></span></div>
+        </a>
+      ))}
+    </div>
+  </div></section>
+  <script>
+    import { read } from '../../scripts/store.js';
+    const cards = [...document.querySelectorAll('#list .card')];
+    document.getElementById('filters').addEventListener('click', (e) => {
+      const b = e.target.closest('button'); if (!b) return;
+      document.querySelectorAll('#filters button').forEach((x) => x.classList.toggle('on', x === b));
+      cards.forEach((c) => (c.style.display = b.dataset.g === 'all' || c.dataset.g === b.dataset.g ? '' : 'none'));
+    });
+    const s = read();
+    cards.forEach((c) => {
+      const r = s.tests[c.dataset.slug]; if (!r) return;
+      const n = r.ans.filter((a) => a != null).length; if (!n) return;
+      c.querySelector('.bar i').style.width = (n / 50) * 100 + '%';
+      c.querySelector('.done').textContent = `${n}/50 done` + (r.best ? ` · best ${r.best}%` : '');
+    });
+  </script>
+</Base>

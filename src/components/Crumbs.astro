@@ -1,0 +1,10 @@
+---
+import { abs } from '../lib.js';
+const { items } = Astro.props; // [[label, href], ...] last has no href
+const ld = { '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+  itemListElement: items.map(([name, href], i) => ({ '@type': 'ListItem', position: i + 1, name, ...(href ? { item: abs(href) } : {}) })) };
+---
+<nav class="crumbs" aria-label="Breadcrumb">
+  {items.map(([label, href], i) => (<>{i > 0 && ' › '}{href ? <a href={href}>{label}</a> : <span>{label}</span>}</>))}
+</nav>
+<script type="application/ld+json" set:html={JSON.stringify(ld)} />

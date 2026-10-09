@@ -1,0 +1,158 @@
+[
+ {
+  "slug": "child-protection-act",
+  "name": "Child Protection Act",
+  "short": "Child Protection Act",
+  "icon": "🛡️",
+  "color": "#7c3aed",
+  "blurb": "Punjab Destitute and Neglected Children Act 2004, section by section.",
+  "tips": [
+   "Memorise section numbers, ages (child is under 18; Part VII proceedings under 15), time limits and penalties.",
+   "Learn the Board's composition and the CPO's powers, then the Parts of the Act in order.",
+   "Check the latest text on punjablaws.gov.pk because the Act was amended after 2004."
+  ]
+ },
+ {
+  "slug": "child-rights-law",
+  "name": "Child Rights & Law",
+  "short": "Child Rights",
+  "icon": "⚖️",
+  "color": "#0ea5e9",
+  "blurb": "UNCRC, child-related laws in Pakistan, child protection practice and scenarios.",
+  "tips": [
+   "Know UNCRC article numbers and the four general principles.",
+   "Link each law to its year: JJSO 2000, Zainab Alert Act 2020, Child Marriage Restraint Act 1929.",
+   "Practise scenario questions: the first action is almost always the child's safety."
+  ]
+ },
+ {
+  "slug": "social-sciences",
+  "name": "Social Sciences",
+  "short": "Social Sciences",
+  "icon": "🧠",
+  "color": "#db2777",
+  "blurb": "Social work, psychology, sociology and criminology.",
+  "tips": [
+   "Learn who founded or developed each theory or method; PPSC likes name-to-concept matching.",
+   "Compare similar terms side by side (casework vs group work, primary vs secondary prevention).",
+   "Revise stages and models as lists: Erikson, Piaget, Kohlberg."
+  ]
+ },
+ {
+  "slug": "pakistan-studies",
+  "name": "Pakistan Studies",
+  "short": "Pakistan Studies",
+  "icon": "🇵🇰",
+  "color": "#059669",
+  "blurb": "History, constitution, geography, economy and culture of Pakistan.",
+  "tips": [
+   "Make a timeline from 1857 to 1973 and attach constitutions and amendments to it.",
+   "Learn firsts and superlatives: first, largest, highest, longest.",
+   "Revise provinces, rivers, dams, minerals and CPEC facts once a week."
+  ]
+ },
+ {
+  "slug": "islamic-studies",
+  "name": "Islamic Studies",
+  "short": "Islamiat",
+  "icon": "🕌",
+  "color": "#15803d",
+  "blurb": "Quran, Seerah, Khulafa, hadith and Islamic history.",
+  "tips": [
+   "Memorise years of battles and events in the Hijri calendar.",
+   "Know the Khulafa-e-Rashideen, the Sihah Sittah and their authors.",
+   "Revise pillars, articles of faith, and basic fiqh counts (for example fard acts of wudu)."
+  ]
+ },
+ {
+  "slug": "current-affairs",
+  "name": "Current Affairs",
+  "short": "Current Affairs",
+  "icon": "📰",
+  "color": "#dc2626",
+  "blurb": "Pakistan and world current affairs, institutions, organisations and days.",
+  "tips": [
+   "Read one national newspaper section daily for the last 6 to 12 months before the test.",
+   "Focus on appointments, awards, treaties, summits and international days.",
+   "Verify office-holders the day before the exam: they change."
+  ]
+ },
+ {
+  "slug": "gk-geography",
+  "name": "GK & Geography",
+  "short": "GK & Geography",
+  "icon": "🌍",
+  "color": "#f59e0b",
+  "blurb": "World geography, capitals, inventions, books, sports and awards.",
+  "tips": [
+   "Learn capitals and currencies in small groups of ten.",
+   "Revise the longest, highest, largest and deepest lists.",
+   "Pair inventions with inventors and books with authors."
+  ]
+ },
+ {
+  "slug": "everyday-science",
+  "name": "Everyday Science",
+  "short": "Everyday Science",
+  "icon": "🔬",
+  "color": "#06b6d4",
+  "blurb": "Physics, chemistry, biology, health and environment.",
+  "tips": [
+   "Learn SI units and symbols; they appear every time.",
+   "Know vitamin deficiency diseases and common diseases with their causes.",
+   "Understand everyday applications: why the sky is blue, how a fuse works."
+  ]
+ },
+ {
+  "slug": "computer-it",
+  "name": "Computer & IT",
+  "short": "Computer & IT",
+  "icon": "💻",
+  "color": "#4f46e5",
+  "blurb": "Computer basics, MS Office, internet, networking and cyber safety.",
+  "tips": [
+   "Practise Word, Excel and PowerPoint shortcuts on a real computer.",
+   "Know file extensions, memory units and number systems.",
+   "Learn Excel functions (SUM, IF, VLOOKUP) and cell references."
+  ]
+ },
+ {
+  "slug": "english",
+  "name": "English",
+  "short": "English",
+  "icon": "📘",
+  "color": "#2563eb",
+  "blurb": "Vocabulary, idioms, grammar, voice, narration and spelling.",
+  "tips": [
+   "Do ten vocabulary words daily with synonyms and antonyms.",
+   "Master tenses, voice and narration rules with quick patterns.",
+   "Learn common prepositions with their verbs and adjectives."
+  ]
+ },
+ {
+  "slug": "urdu",
+  "name": "Urdu",
+  "short": "Urdu",
+  "icon": "✍️",
+  "color": "#ca8a04",
+  "blurb": "اردو ادب، قواعد، محاورے اور ضرب الامثال",
+  "tips": [
+   "اردو شعرا اور ان کی کتب کی فہرست یاد کریں۔",
+   "محاورے اور ضرب الامثال کے مطلب مثالوں کے ساتھ پڑھیں۔",
+   "واحد جمع، مذکر مؤنث، مترادف اور متضاد کی مشق کریں۔"
+  ]
+ },
+ {
+  "slug": "maths-reasoning",
+  "name": "Maths & Reasoning",
+  "short": "Maths & Reasoning",
+  "icon": "➗",
+  "color": "#c026d3",
+  "blurb": "Basic maths, series, ratio, percentage and mental ability.",
+  "tips": [
+   "Memorise squares, cubes and fractions to percentages.",
+   "Use shortcuts for percentage, ratio, average and simple interest.",
+   "In series questions, check differences, ratios and squares first."
+  ]
+ }
+]

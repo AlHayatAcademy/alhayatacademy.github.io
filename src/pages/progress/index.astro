@@ -1,0 +1,28 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import { tests } from '../../lib.js';
+const list = tests.map((t) => ({ slug: t.slug, title: t.title, n: t.questions.length }));
+---
+<Base title="My Progress: Practice and Mock Exam History" description="Your saved practice scores and mock exam history. Stored only in your browser." noindex={true}>
+  <div class="page-hero"><div class="wrap"><Crumbs items={[['Home', '/'], ['My progress']]} /><h1>My progress</h1><p>Saved in this browser only. Nothing is uploaded.</p></div></div>
+  <section class="block"><div class="narrow"><div id="p"></div>
+    <script id="tl" type="application/json" set:html={JSON.stringify(list)}></script></div></section>
+  <script>
+    const list = JSON.parse(document.getElementById('tl').textContent);
+    let s = {};
+    try { s = JSON.parse(localStorage.getItem('pph_v1') || '{}'); } catch (e) {}
+    const tests = s.tests || {}, exams = s.exams || [];
+    const names = Object.fromEntries(list.map((t) => [t.slug, t]));
+    const rows = list.filter((t) => tests[t.slug]).map((t) => {
+      const r = tests[t.slug]; const done = (r.ans || []).filter((x) => x !== null && x !== undefined && x !== '').length;
+      return `<tr><td><a href="/practice/${t.slug}/">${t.title}</a></td><td>${done}/${t.n}</td><td>${r.best ?? ''}</td></tr>`;
+    }).join('');
+    const ex = exams.slice().reverse().map((e) => `<tr><td>${e.slug}</td><td>${e.score} / ${e.total}</td><td>${new Date(e.d).toLocaleDateString()}</td></tr>`).join('');
+    document.getElementById('p').innerHTML =
+      `<h2>Practice tests</h2>${rows ? `<div class="tablewrap"><table><thead><tr><th>Test</th><th>Answered</th><th>Best</th></tr></thead><tbody>${rows}</tbody></table></div>` : '<p>No practice yet. <a href="/practice/">Start a test</a>.</p>'}` +
+      `<h2>Mock exams</h2>${ex ? `<div class="tablewrap"><table><thead><tr><th>Post</th><th>Net score</th><th>Date</th></tr></thead><tbody>${ex}</tbody></table></div>` : '<p>No mock exams yet. <a href="/exam/">Take one</a>.</p>'}` +
+      `<p><button class="btn sm alt" id="clr">Clear my data</button></p>`;
+    document.getElementById('clr').onclick = () => { if (confirm('Clear all saved progress?')) { try { localStorage.removeItem('pph_v1'); } catch (e) {} location.reload(); } };
+  </script>
+</Base>

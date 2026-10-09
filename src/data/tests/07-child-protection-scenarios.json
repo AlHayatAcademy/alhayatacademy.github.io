@@ -1,0 +1,560 @@
+{
+ "id": 7,
+ "slug": "child-protection-scenarios",
+ "title": "Child Protection Scenarios & Mixed Mock",
+ "desc": "Situation-based questions on casework, child labour and first response",
+ "group": "Child Rights & Law",
+ "color": "#ef4444",
+ "questions": [
+  {
+   "q": "A teacher notices bruises on a student who says his father beats him. The first action should be:",
+   "o": [
+    "Report the concern to the school's child protection focal person/authority and the helpline",
+    "Ignore it as a family matter",
+    "Confront the father in public",
+    "Post a photo on social media"
+   ],
+   "a": 0,
+   "e": "Teachers must report suspected abuse through the proper channel. Reporting in good faith protects the child and the teacher."
+  },
+  {
+   "q": "A child tells a CPO she is afraid to go home because of her uncle. The CPO should:",
+   "o": [
+    "Return her immediately",
+    "Listen, assess risk and arrange safety before any return",
+    "Tell the uncle",
+    "Ask the child to be quiet"
+   ],
+   "a": 1,
+   "e": "Assessment of risk is vital before any decision about returning a child to the home. Do not alert the alleged perpetrator."
+  },
+  {
+   "q": "A boy of 12 is arrested for theft. Which is correct?",
+   "o": [
+    "He should be sent to adult jail",
+    "He should be handcuffed",
+    "He should be treated under juvenile justice procedures and separated from adults",
+    "His name should be published"
+   ],
+   "a": 2,
+   "e": "Children in conflict with law are protected by juvenile laws. Detention is a last resort and identity is protected."
+  },
+  {
+   "q": "A 15-year-old girl is being married by her family. Which approach is best?",
+   "o": [
+    "Attend the wedding",
+    "Intervene through authorities, counsel family and support the girl",
+    "Do nothing",
+    "Blame the girl"
+   ],
+   "a": 1,
+   "e": "Child marriage violates child rights; interventions combine legal action with community dialogue and support to girls, including education."
+  },
+  {
+   "q": "A child who is separated from caregivers during a flood should first be:",
+   "o": [
+    "Adopted immediately",
+    "Registered, kept safe and traced for family reunification",
+    "Ignored",
+    "Sent to work"
+   ],
+   "a": 1,
+   "e": "Emergency child protection includes separated children registration, interim care and tracing."
+  },
+  {
+   "q": "An 'unaccompanied child' is one who:",
+   "o": [
+    "Is separated from both parents and is not cared for by an adult responsible for him or her",
+    "Is with his father",
+    "Is with a teacher",
+    "Is in school"
+   ],
+   "a": 0,
+   "e": "Separated children are separated from both parents or previous caregivers but may be with other relatives."
+  },
+  {
+   "q": "An orphan who has lost both parents is a:",
+   "o": [
+    "Single orphan",
+    "Double orphan",
+    "Social orphan",
+    "Foundling"
+   ],
+   "a": 1,
+   "e": "UNICEF defines an orphan as a child who lost one or both parents. A foundling is an abandoned child of unknown parentage."
+  },
+  {
+   "q": "In case of an anonymous tip about child abuse, the proper step is:",
+   "o": [
+    "Verify and respond as the child may be in danger",
+    "Discard it",
+    "Publish it",
+    "Charge the caller"
+   ],
+   "a": 0,
+   "e": "Anonymous reports should still be assessed on risk and followed up."
+  },
+  {
+   "q": "Sexual grooming of children online involves:",
+   "o": [
+    "Teaching computers",
+    "Playing games alone",
+    "Writing code",
+    "Building trust with a child to manipulate or exploit"
+   ],
+   "a": 3,
+   "e": "Online safety education for children and parents and reporting to FIA cyber crime unit are important prevention steps."
+  },
+  {
+   "q": "Cyberbullying is:",
+   "o": [
+    "Computer repair",
+    "Online education",
+    "Harassment using digital means",
+    "Online banking"
+   ],
+   "a": 2,
+   "e": "Victims may show anxiety, withdrawal and school refusal. Schools need clear anti-bullying policies."
+  },
+  {
+   "q": "Which of the following BEST describes 'bullying'?",
+   "o": [
+    "Repeated intentional aggressive behaviour with a power imbalance",
+    "One-time accidental push",
+    "Friendly teasing",
+    "Competition"
+   ],
+   "a": 0,
+   "e": "Olweus defines bullying as repeated negative actions against a person who has difficulty defending himself."
+  },
+  {
+   "q": "A child 'in need of special protection' includes:",
+   "o": [
+    "Street, trafficked, working and disabled children",
+    "Only rich children",
+    "Only school toppers",
+    "Only adults"
+   ],
+   "a": 0,
+   "e": "Special protection measures are for children facing exceptionally difficult circumstances."
+  },
+  {
+   "q": "The best placement for a lost child whose parents have been traced and are safe is:",
+   "o": [
+    "Orphanage permanently",
+    "Adoption by strangers",
+    "Detention",
+    "Reunification with parents after assessment"
+   ],
+   "a": 3,
+   "e": "Family reunification is preferred if it is safe."
+  },
+  {
+   "q": "Which is a proper way to handle media regarding a child abuse case?",
+   "o": [
+    "Release photos",
+    "Protect identity and give only general information",
+    "Give name and address",
+    "Hold press conference with child"
+   ],
+   "a": 1,
+   "e": "Ethical reporting avoids secondary victimization."
+  },
+  {
+   "q": "A child is working as a domestic servant at age 11 and is beaten by the employer. Which law/standard is primarily violated?",
+   "o": [
+    "Tax law",
+    "Child labour prohibitions and protection from abuse",
+    "Traffic law",
+    "Copyright law"
+   ],
+   "a": 1,
+   "e": "Such employment is prohibited by child labour laws; abuse is a criminal offence."
+  },
+  {
+   "q": "The WHO defines an 'adolescent' as a person aged:",
+   "o": [
+    "10 to 19 years",
+    "5 to 10 years",
+    "15 to 30 years",
+    "18 to 25 years"
+   ],
+   "a": 0,
+   "e": "The UN defines 'youth' as 15–24 years and the Commonwealth as 15–29 years. Pakistan's National Youth Policy defines youth as 15–29."
+  },
+  {
+   "q": "The six-month period for which WHO recommends exclusive breastfeeding is:",
+   "o": [
+    "First 6 months of life",
+    "First month",
+    "First year only",
+    "First 2 years"
+   ],
+   "a": 0,
+   "e": "After 6 months complementary foods are added and breastfeeding continues up to 2 years or beyond."
+  },
+  {
+   "q": "BCG vaccine protects against:",
+   "o": [
+    "Tuberculosis",
+    "Measles",
+    "Polio",
+    "Tetanus"
+   ],
+   "a": 0,
+   "e": "BCG is given at birth under the EPI schedule. Pentavalent protects against five diseases (diphtheria, pertussis, tetanus, hepatitis B, Hib)."
+  },
+  {
+   "q": "Which disease remains endemic in Pakistan and Afghanistan?",
+   "o": [
+    "Plague",
+    "Smallpox",
+    "Polio",
+    "Cholera"
+   ],
+   "a": 2,
+   "e": "Pakistan and Afghanistan are the only two countries with wild poliovirus type 1. Smallpox was eradicated in 1980."
+  },
+  {
+   "q": "MUAC stands for:",
+   "o": [
+    "Maternal Under-Age Care",
+    "Medical Under Analysis Chart",
+    "Measured Uniform Area Code",
+    "Mid-Upper Arm Circumference"
+   ],
+   "a": 3,
+   "e": "MUAC below 11.5 cm in a child aged 6–59 months indicates severe acute malnutrition."
+  },
+  {
+   "q": "Stunting means:",
+   "o": [
+    "Low weight for height",
+    "Obesity",
+    "Low height for age due to chronic malnutrition",
+    "Anaemia"
+   ],
+   "a": 2,
+   "e": "Wasting is low weight for height, indicating acute malnutrition. Pakistan has one of the highest stunting rates in the region."
+  },
+  {
+   "q": "A trained person who assists childbirth in rural areas is:",
+   "o": [
+    "Surgeon",
+    "Dentist",
+    "Traditional birth attendant",
+    "Pharmacist"
+   ],
+   "a": 2,
+   "e": "Lady Health Workers (LHW) programme (1994) provides primary health care at community level in Pakistan."
+  },
+  {
+   "q": "The Lady Health Worker programme in Pakistan began in:",
+   "o": [
+    "1947",
+    "1994",
+    "2005",
+    "2018"
+   ],
+   "a": 1,
+   "e": "The National Programme for Family Planning and Primary Health Care started in 1994 and works in rural and peri-urban areas."
+  },
+  {
+   "q": "Which of the following is a function of a Child Protection Committee at the community level?",
+   "o": [
+    "Identify risks and refer cases to the formal system",
+    "Collect taxes",
+    "Judge crimes",
+    "Run elections"
+   ],
+   "a": 0,
+   "e": "Community-based child protection mechanisms link informal community actors to formal services."
+  },
+  {
+   "q": "In social casework, 'transference' means:",
+   "o": [
+    "Worker transfers files",
+    "Moving clients",
+    "Client directs feelings about significant others toward the worker",
+    "Changing offices"
+   ],
+   "a": 2,
+   "e": "Countertransference is the worker's emotional response to the client; supervision helps manage it."
+  },
+  {
+   "q": "Which statement about 'home visits' by a social worker is TRUE?",
+   "o": [
+    "They are useless",
+    "They must be secret from the family",
+    "They provide direct observation of the child's environment",
+    "They replace court orders"
+   ],
+   "a": 2,
+   "e": "Home visits help in assessment, monitoring and building trust. Safety of the worker should also be planned."
+  },
+  {
+   "q": "When a child cannot be returned to family and no kin are available, the next preferred option is:",
+   "o": [
+    "Foster or family-type alternative care",
+    "Street life",
+    "Child labour",
+    "Adult prison"
+   ],
+   "a": 0,
+   "e": "Long-term institutional care should be a last resort."
+  },
+  {
+   "q": "'Case conference' is:",
+   "o": [
+    "A sports event",
+    "A meeting of professionals to discuss a child's case and plan",
+    "An exam",
+    "A fundraising"
+   ],
+   "a": 1,
+   "e": "Case conferences improve coordinated decision-making. Minutes should be recorded and confidentiality maintained."
+  },
+  {
+   "q": "A Child Protection Officer receives a report of an abused child in a madrasa. Which is the most appropriate approach?",
+   "o": [
+    "Take it seriously, ensure safety and follow legal procedure without bias",
+    "Ignore due to religion",
+    "Mock the child",
+    "Hide the case"
+   ],
+   "a": 0,
+   "e": "Child protection applies to all settings including schools, madrasas and homes. Procedures remain the same."
+  },
+  {
+   "q": "Which of the following is a protective factor in a school setting?",
+   "o": [
+    "Caring teacher and a safe environment",
+    "Bullying culture",
+    "Harsh punishment",
+    "Isolation"
+   ],
+   "a": 0,
+   "e": "Positive school climate and connectedness reduce risk behaviour."
+  },
+  {
+   "q": "'Resilience' in children means:",
+   "o": [
+    "Total absence of stress",
+    "Weakness",
+    "Aggression",
+    "Ability to adapt and recover despite adversity"
+   ],
+   "a": 3,
+   "e": "Protective factors such as a supportive adult, problem-solving skills and community support promote resilience."
+  },
+  {
+   "q": "Which of the following is NOT a sign of neglect?",
+   "o": [
+    "Child consistently well-fed and appropriately dressed",
+    "Persistent hunger",
+    "Poor hygiene",
+    "Untreated medical problems"
+   ],
+   "a": 0,
+   "e": "Neglect indicators include chronic hunger, inadequate clothing, absence from school and lack of supervision."
+  },
+  {
+   "q": "Munchausen syndrome by proxy involves:",
+   "o": [
+    "Child pretending sickness",
+    "Genetic illness",
+    "Infection",
+    "Caregiver inducing illness in a child to gain attention"
+   ],
+   "a": 3,
+   "e": "Also called fabricated or induced illness (FII), it is a form of child abuse."
+  },
+  {
+   "q": "'Shaken baby syndrome' is a form of:",
+   "o": [
+    "Infection",
+    "Malnutrition",
+    "Vitamin deficiency",
+    "Abusive head trauma"
+   ],
+   "a": 3,
+   "e": "Violent shaking can cause brain damage or death in infants. Prevention requires caregiver education about crying and stress."
+  },
+  {
+   "q": "Which one is a legal duty of a medical practitioner treating a suspected abused child?",
+   "o": [
+    "Refuse treatment",
+    "Discharge quickly",
+    "Provide treatment and medico-legal documentation and report",
+    "Conceal findings"
+   ],
+   "a": 2,
+   "e": "Medico-legal certificates (MLC) are essential evidence in abuse cases."
+  },
+  {
+   "q": "The doctrine of 'in the best interest' guides:",
+   "o": [
+    "Corporate tax",
+    "Elections",
+    "Customs",
+    "Decision making for children"
+   ],
+   "a": 3,
+   "e": "It appears in the UNCRC, in domestic law (e.g., Guardians and Wards Act) and in policy."
+  },
+  {
+   "q": "Which of the following is a 'worst form' of child labour in Pakistan?",
+   "o": [
+    "Reading books",
+    "Assisting teacher",
+    "Brick kiln, carpet weaving with bonded debts, and domestic work under abuse",
+    "Playing cricket"
+   ],
+   "a": 2,
+   "e": "Children in bonded labour are especially vulnerable. Action needs multi-sectoral cooperation."
+  },
+  {
+   "q": "'Peshgi' in Pakistan is:",
+   "o": [
+    "Advance loan that often binds labourers in debt bondage",
+    "Gift",
+    "Salary",
+    "Tax"
+   ],
+   "a": 0,
+   "e": "Debt bondage is outlawed by the Bonded Labour System (Abolition) Act 1992."
+  },
+  {
+   "q": "What does 'NOC' stand for?",
+   "o": [
+    "National Office Code",
+    "Notice of Change",
+    "Non-official Copy",
+    "No Objection Certificate"
+   ],
+   "a": 3,
+   "e": "NOCs are required for NGOs and many procedures. Familiarity with office abbreviations is useful in public service exams."
+  },
+  {
+   "q": "'SOP' stands for:",
+   "o": [
+    "Social Operational Plan",
+    "State Official Paper",
+    "Standard Operating Procedure",
+    "System of Principles"
+   ],
+   "a": 2,
+   "e": "SOPs describe steps for handling cases consistently, e.g., rescue SOP, referral SOP."
+  },
+  {
+   "q": "An MoU is:",
+   "o": [
+    "Method of Use",
+    "Ministry of Union",
+    "Money of Utility",
+    "Memorandum of Understanding"
+   ],
+   "a": 3,
+   "e": "MoUs set out cooperation between organizations, e.g., Bureau and an NGO for services."
+  },
+  {
+   "q": "A 'stakeholder' in a child protection programme includes:",
+   "o": [
+    "Only donors",
+    "Children, families, government and NGOs",
+    "Only staff",
+    "Only media"
+   ],
+   "a": 1,
+   "e": "Stakeholder analysis identifies who is affected, who has influence and how to engage them."
+  },
+  {
+   "q": "Which of the following is a social work practice principle for dealing with parents?",
+   "o": [
+    "Blame them always",
+    "Respect and engage them as partners unless unsafe",
+    "Exclude them always",
+    "Humiliate them"
+   ],
+   "a": 1,
+   "e": "Working with families improves outcomes. Safety remains the priority."
+  },
+  {
+   "q": "'Gatekeeping' in child protection refers to:",
+   "o": [
+    "Screening to ensure children enter care only when necessary",
+    "Guarding gates",
+    "Immigration control",
+    "Security staff"
+   ],
+   "a": 0,
+   "e": "Gatekeeping prevents unnecessary separation by exploring family support options first."
+  },
+  {
+   "q": "'Kinship care' refers to:",
+   "o": [
+    "Care in prison",
+    "Foreign adoption",
+    "Boarding school",
+    "Care by relatives or close family friends"
+   ],
+   "a": 3,
+   "e": "It is the most common form of alternative care globally and in Pakistan."
+  },
+  {
+   "q": "A 'care leaver' is:",
+   "o": [
+    "A doctor",
+    "An orphan only",
+    "A teacher",
+    "A young person who leaves the alternative care system on reaching adulthood"
+   ],
+   "a": 3,
+   "e": "Care leavers need preparation for independent living: education, jobs, housing and support."
+  },
+  {
+   "q": "The Social Welfare Department's 'Darul Aman' is mainly for:",
+   "o": [
+    "Prisoners",
+    "Women victims of violence and their children",
+    "Soldiers",
+    "Farmers"
+   ],
+   "a": 1,
+   "e": "Shelters give temporary accommodation, counselling and legal aid."
+  },
+  {
+   "q": "'Mental Health Gap Action Programme (mhGAP)' is a programme of:",
+   "o": [
+    "ILO",
+    "FAO",
+    "IMF",
+    "WHO"
+   ],
+   "a": 3,
+   "e": "mhGAP aims to scale up services for mental, neurological and substance use disorders in low- and middle-income countries."
+  },
+  {
+   "q": "The standard first-aid priority when a child is brought in injured and abused is:",
+   "o": [
+    "Interview at length",
+    "Stabilize the child's medical condition and ensure safety",
+    "Take photos for media",
+    "Call the abuser"
+   ],
+   "a": 1,
+   "e": "Medical stabilization comes first; evidence collection and interviews follow without delay in a child-friendly manner."
+  },
+  {
+   "q": "Identification of the 'best interests' of a child in a complex case is best done by:",
+   "o": [
+    "A multidisciplinary assessment considering the child's views, safety and needs",
+    "Taking a vote among staff",
+    "Following the loudest voice",
+    "Using luck"
+   ],
+   "a": 0,
+   "e": "Best interests determination weighs the child's safety, identity, views, family ties, health and education and is documented and reviewed."
+  }
+ ]
+}

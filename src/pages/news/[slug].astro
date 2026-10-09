@@ -1,0 +1,37 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import Ad from '../../components/Ad.astro';
+import { getCollection, render } from 'astro:content';
+import { site, abs, posts } from '../../lib.js';
+export async function getStaticPaths() {
+  const items = await getCollection('news');
+  return items.map((e) => ({ params: { slug: e.id.split('/').pop() }, props: { e } }));
+}
+const { e } = Astro.props;
+const { Content } = await render(e);
+const related = e.data.post ? posts.find((p) => p.slug === e.data.post) : null;
+const d = e.data.date;
+const schema = [{ '@context': 'https://schema.org', '@type': 'NewsArticle', headline: e.data.title, description: e.data.description,
+  datePublished: d.toISOString(), dateModified: d.toISOString(), mainEntityOfPage: abs(Astro.url.pathname),
+  author: { '@type': 'Organization', name: site.name }, publisher: { '@type': 'Organization', name: site.name } }];
+---
+<Base title={e.data.title} description={e.data.description} active="news" schema={schema}>
+  <div class="page-hero"><div class="wrap">
+    <Crumbs items={[['Home', '/'], ['News', '/news/'], [e.data.category]]} />
+    <h1 style="font-size:clamp(1.5rem,4vw,2.2rem)">{e.data.title}</h1>
+    <p>{d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' })} · {e.data.category}</p>
+  </div></div>
+  <section class="block"><div class="narrow">
+    <article class="prose"><Content /></article>
+    <Ad kind="inline" />
+    {related && (
+      <div class="card" style="margin-top:18px">
+        <h3>Prepare for this test</h3>
+        <div class="btnrow"><a class="btn" href={`/posts/${related.slug}/`}>{related.icon} {related.name} syllabus</a>{related.mix && <a class="btn amber" href={`/exam/${related.slug}/`}>⏱️ Mock exam</a>}</div>
+      </div>
+    )}
+    <p class="notice info">Information is summarised from published PPSC syllabi and notices. Check the official PPSC website for dates, fees and eligibility.</p>
+    <div class="btnrow"><a class="btn alt" href="/news/">← All news</a><a class="btn alt" href="/jobs/">Latest jobs</a></div>
+  </div></section>
+</Base>

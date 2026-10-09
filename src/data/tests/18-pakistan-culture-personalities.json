@@ -1,0 +1,560 @@
+{
+ "id": 18,
+ "slug": "pakistan-culture-personalities",
+ "title": "Pakistan: Culture, Personalities & Landmarks",
+ "desc": "Festivals, heroes, sports, awards and monuments",
+ "group": "Pakistan Studies",
+ "color": "#ca8a04",
+ "questions": [
+  {
+   "q": "Faisal Mosque in Islamabad was designed by a:",
+   "o": [
+    "Pakistani architect",
+    "Saudi architect",
+    "Italian architect",
+    "Turkish architect (Vedat Dalokay)"
+   ],
+   "a": 3,
+   "e": "It was funded by King Faisal of Saudi Arabia and completed in 1986-88. It is among the largest mosques in South Asia."
+  },
+  {
+   "q": "The Badshahi Mosque in Lahore was built by:",
+   "o": [
+    "Emperor Akbar",
+    "Emperor Shah Jahan",
+    "Emperor Babur",
+    "Emperor Aurangzeb"
+   ],
+   "a": 3,
+   "e": "It was completed in 1673 and was the largest mosque in the world for about 300 years."
+  },
+  {
+   "q": "Shalimar Gardens in Lahore were built by:",
+   "o": [
+    "Shah Jahan",
+    "Akbar",
+    "Jahangir",
+    "Aurangzeb"
+   ],
+   "a": 0,
+   "e": "Built in 1641-42, they are a UNESCO World Heritage site along with Lahore Fort."
+  },
+  {
+   "q": "Lahore Fort (Shahi Qila) is notable for the:",
+   "o": [
+    "Taj Mahal",
+    "Sheesh Mahal",
+    "Eiffel Tower",
+    "Colosseum"
+   ],
+   "a": 1,
+   "e": "It was extensively built under Akbar and later Mughal emperors."
+  },
+  {
+   "q": "Wazir Khan Mosque in Lahore is famous for its:",
+   "o": [
+    "Marble dome",
+    "Iron pillars",
+    "Fresco and tile work",
+    "Glass minarets"
+   ],
+   "a": 2,
+   "e": "It was built in 1634-35 during Shah Jahan's reign."
+  },
+  {
+   "q": "Minar-e-Pakistan marks the site of the:",
+   "o": [
+    "Independence declaration",
+    "Lahore Resolution of 1940",
+    "Battle of Panipat",
+    "Simla Conference"
+   ],
+   "a": 1,
+   "e": "It was built in 1960-68 at Iqbal Park (formerly Minto Park)."
+  },
+  {
+   "q": "Mazar-e-Quaid is located in:",
+   "o": [
+    "Lahore",
+    "Karachi",
+    "Islamabad",
+    "Quetta"
+   ],
+   "a": 1,
+   "e": "It was completed in 1970 and designed by Yahya Merchant."
+  },
+  {
+   "q": "The tomb of Allama Iqbal is near:",
+   "o": [
+    "Faisal Mosque, Islamabad",
+    "Mazar-e-Quaid, Karachi",
+    "Shalimar Gardens, Lahore",
+    "Badshahi Mosque, Lahore"
+   ],
+   "a": 3,
+   "e": "Hazuri Bagh has the tomb of Iqbal."
+  },
+  {
+   "q": "Mohenjo-daro is in:",
+   "o": [
+    "Harappa, Punjab",
+    "Larkana, Sindh",
+    "Taxila, Punjab",
+    "Mehrgarh, Balochistan"
+   ],
+   "a": 1,
+   "e": "It means 'Mound of the Dead' and is a World Heritage Site of the Indus Valley Civilization."
+  },
+  {
+   "q": "Harappa, a major Indus Valley site, is located in:",
+   "o": [
+    "Sahiwal district, Punjab",
+    "Larkana",
+    "Quetta",
+    "Peshawar"
+   ],
+   "a": 0,
+   "e": "Harappa's discovery in the 1920s revealed a Bronze Age civilization."
+  },
+  {
+   "q": "Taxila is famous for:",
+   "o": [
+    "Mughal gardens",
+    "Indus script",
+    "Colonial buildings",
+    "Gandhara civilization and Buddhist ruins"
+   ],
+   "a": 3,
+   "e": "It is a UNESCO World Heritage Site near Islamabad."
+  },
+  {
+   "q": "Rohtas Fort was built by:",
+   "o": [
+    "Akbar",
+    "Sher Shah Suri",
+    "Babur",
+    "Shah Jahan"
+   ],
+   "a": 1,
+   "e": "It is near Jhelum and was built in 1540-1547 to check Mughal Emperor Humayun."
+  },
+  {
+   "q": "The Makli Necropolis is in:",
+   "o": [
+    "Karachi",
+    "Thatta, Sindh",
+    "Bahawalpur",
+    "Quetta"
+   ],
+   "a": 1,
+   "e": "It is among the largest necropolises in the world, UNESCO site."
+  },
+  {
+   "q": "The Kalash people live in:",
+   "o": [
+    "Gilgit",
+    "Quetta",
+    "Swat",
+    "Chitral valleys (Bumburet, Rumbur, Birir)"
+   ],
+   "a": 3,
+   "e": "They have a unique culture, with the 'Chilam Joshi' (spring) festival and Chaumos (winter)."
+  },
+  {
+   "q": "The 'Chilam Joshi' festival is celebrated by:",
+   "o": [
+    "Kalash community",
+    "Parsi community",
+    "Hindu community",
+    "Sikh community"
+   ],
+   "a": 0,
+   "e": "Chilam Joshi is a spring festival, celebrated in May."
+  },
+  {
+   "q": "The Shandur Polo Festival is held at:",
+   "o": [
+    "Karachi beach",
+    "Lahore Fort",
+    "Quetta",
+    "Shandur Pass between Chitral and Gilgit"
+   ],
+   "a": 3,
+   "e": "It features a polo match between Chitral and Gilgit teams at about 3,700 m, the highest polo ground in the world."
+  },
+  {
+   "q": "The 'Basant' festival is associated with:",
+   "o": [
+    "Cricket",
+    "Kite flying in Lahore",
+    "Boat races",
+    "Horse dance"
+   ],
+   "a": 1,
+   "e": "Basant was banned in many years because of safety concerns."
+  },
+  {
+   "q": "The 'Lok Virsa' Museum is in:",
+   "o": [
+    "Lahore",
+    "Karachi",
+    "Peshawar",
+    "Islamabad"
+   ],
+   "a": 3,
+   "e": "It is the National Institute of Folk and Traditional Heritage."
+  },
+  {
+   "q": "Pakistan's national language is:",
+   "o": [
+    "English",
+    "Punjabi",
+    "Urdu",
+    "Sindhi"
+   ],
+   "a": 2,
+   "e": "English is the official language per Article 251 with Urdu as national language."
+  },
+  {
+   "q": "The most widely spoken mother tongue in Pakistan is:",
+   "o": [
+    "Punjabi",
+    "Urdu",
+    "Sindhi",
+    "Pashto"
+   ],
+   "a": 0,
+   "e": "About 38 percent speak Punjabi as first language (2017 census)."
+  },
+  {
+   "q": "The national anthem of Pakistan was written by:",
+   "o": [
+    "Allama Iqbal",
+    "Hafeez Jalandhari",
+    "Faiz",
+    "Josh"
+   ],
+   "a": 1,
+   "e": "The tune was composed by Ahmad G. Chagla. It was adopted in 1954."
+  },
+  {
+   "q": "The national flag of Pakistan was designed by:",
+   "o": [
+    "Syed Amir-ud-Din Kedwai (based on League flag)",
+    "Jinnah",
+    "Iqbal",
+    "Mountbatten"
+   ],
+   "a": 0,
+   "e": "The flag has green and a white stripe, crescent and star. The Constituent Assembly adopted it on 11 August 1947."
+  },
+  {
+   "q": "The white stripe on Pakistan's flag represents:",
+   "o": [
+    "Muslims",
+    "Agriculture",
+    "Minorities",
+    "Peace between nations"
+   ],
+   "a": 2,
+   "e": "The green represents the Muslim majority; the crescent, progress; the star, light and knowledge."
+  },
+  {
+   "q": "The national bird of Pakistan is:",
+   "o": [
+    "Peacock",
+    "Parrot",
+    "Chukar (Partridge)",
+    "Eagle"
+   ],
+   "a": 2,
+   "e": "The Chukar partridge is found in the northern areas and Balochistan."
+  },
+  {
+   "q": "The national tree of Pakistan is:",
+   "o": [
+    "Neem",
+    "Banyan",
+    "Shisham",
+    "Deodar"
+   ],
+   "a": 3,
+   "e": "Deodar cedar is found in the Himalayas and Hindu Kush."
+  },
+  {
+   "q": "The national fruit of Pakistan is:",
+   "o": [
+    "Banana",
+    "Apple",
+    "Orange",
+    "Mango"
+   ],
+   "a": 3,
+   "e": "Pakistan is among the top mango producing countries."
+  },
+  {
+   "q": "The national sport of Pakistan is:",
+   "o": [
+    "Cricket",
+    "Squash",
+    "Field hockey",
+    "Kabaddi"
+   ],
+   "a": 2,
+   "e": "Pakistan has won the Hockey World Cup four times."
+  },
+  {
+   "q": "Pakistan won the Cricket World Cup in:",
+   "o": [
+    "1992",
+    "1987",
+    "1999",
+    "2007"
+   ],
+   "a": 0,
+   "e": "Under Imran Khan at Melbourne, defeating England in the final on 25 March 1992."
+  },
+  {
+   "q": "Pakistan won the ICC T20 World Cup in:",
+   "o": [
+    "2007",
+    "2010",
+    "2009",
+    "2022"
+   ],
+   "a": 2,
+   "e": "Pakistan won the 2009 T20 World Cup at Lord's under Younis Khan."
+  },
+  {
+   "q": "Pakistan won the ICC Champions Trophy in:",
+   "o": [
+    "2009",
+    "2017",
+    "2025",
+    "1992"
+   ],
+   "a": 1,
+   "e": "It defeated India in the final at The Oval, London, in June 2017."
+  },
+  {
+   "q": "Pakistan won the Hockey World Cup how many times?",
+   "o": [
+    "Four times",
+    "Once",
+    "Twice",
+    "Never"
+   ],
+   "a": 0,
+   "e": "1971, 1978, 1982 and 1994."
+  },
+  {
+   "q": "Pakistan's Olympic gold medal in 2024 was won by:",
+   "o": [
+    "Muhammad Asif",
+    "Shah Hussain",
+    "Arshad Nadeem",
+    "Talha Talib"
+   ],
+   "a": 2,
+   "e": "His 92.97 m javelin throw broke the Olympic record."
+  },
+  {
+   "q": "Pakistan's first Olympic gold medal was won in:",
+   "o": [
+    "Rome 1960 (hockey)",
+    "Tokyo 1964",
+    "Munich 1972",
+    "Paris 2024"
+   ],
+   "a": 0,
+   "e": "Pakistan won its first gold in men's hockey at Rome in 1960."
+  },
+  {
+   "q": "The legendary squash player Jahangir Khan won the British Open how many times in a row?",
+   "o": [
+    "Three",
+    "Ten (1982-91)",
+    "Five",
+    "Two"
+   ],
+   "a": 1,
+   "e": "He was unbeaten for over five years and also won the World Open six times."
+  },
+  {
+   "q": "Who is known as 'Jansher Khan'?",
+   "o": [
+    "Cricketer",
+    "World champion squash player",
+    "Hockey player",
+    "Boxer"
+   ],
+   "a": 1,
+   "e": "Jansher Khan won the World Open eight times."
+  },
+  {
+   "q": "Who is the first Pakistani female Nobel laureate?",
+   "o": [
+    "Benazir Bhutto",
+    "Fatima Jinnah",
+    "Asma Jahangir",
+    "Malala Yousafzai"
+   ],
+   "a": 3,
+   "e": "She won the Nobel Peace Prize in 2014 at the age of 17."
+  },
+  {
+   "q": "Pakistan's first Oscar winner was:",
+   "o": [
+    "Malala",
+    "Sharmeen Obaid-Chinoy",
+    "Asif Kapadia",
+    "Maria Toor"
+   ],
+   "a": 1,
+   "e": "She won in 2012 for 'Saving Face' and again in 2016 for 'A Girl in the River'."
+  },
+  {
+   "q": "Who is known as the 'Messiah of the Poor' in Pakistan's welfare history?",
+   "o": [
+    "Abdul Sattar Edhi",
+    "Jinnah",
+    "Imran Khan",
+    "Akhtar Hameed Khan"
+   ],
+   "a": 0,
+   "e": "Edhi (1928-2016) founded the Edhi Foundation and the world's largest volunteer ambulance service."
+  },
+  {
+   "q": "The 'Lyari Expressway' is in:",
+   "o": [
+    "Karachi",
+    "Lahore",
+    "Islamabad",
+    "Quetta"
+   ],
+   "a": 0,
+   "e": "It is built along the Lyari River."
+  },
+  {
+   "q": "The 'Orange Line Metro Train' operates in:",
+   "o": [
+    "Karachi",
+    "Lahore",
+    "Islamabad",
+    "Peshawar"
+   ],
+   "a": 1,
+   "e": "It began commercial operation in October 2020."
+  },
+  {
+   "q": "Pakistan's first motorway M-2 connects:",
+   "o": [
+    "Karachi and Hyderabad",
+    "Lahore and Islamabad",
+    "Peshawar and Islamabad",
+    "Multan and Sukkur"
+   ],
+   "a": 1,
+   "e": "M-2 was inaugurated in 1997 and is 367 km long."
+  },
+  {
+   "q": "The highest civil award of Pakistan is:",
+   "o": [
+    "Sitara-e-Imtiaz",
+    "Tamgha-e-Imtiaz",
+    "Pride of Performance",
+    "Nishan-e-Pakistan"
+   ],
+   "a": 3,
+   "e": "Nishan-e-Haider is the highest military award, with 11 recipients so far."
+  },
+  {
+   "q": "The birthplace of Quaid-e-Azam, Wazir Mansion, is located in:",
+   "o": [
+    "Lahore",
+    "Karachi",
+    "Islamabad",
+    "Quetta"
+   ],
+   "a": 1,
+   "e": "Muhammad Ali Jinnah was born on 25 December 1876 at Wazir Mansion, Karachi, which is now a museum."
+  },
+  {
+   "q": "The Pakistan Monument in Islamabad is shaped like a:",
+   "o": [
+    "Blooming flower with four main petals for the provinces",
+    "Star",
+    "Minaret",
+    "Fort"
+   ],
+   "a": 0,
+   "e": "The four large petals represent the four provinces and the three smaller petals represent Gilgit-Baltistan, Azad Kashmir and the tribal areas (FATA, merged in 2018)."
+  },
+  {
+   "q": "The Hiran Minar near Sheikhupura was built by Mughal Emperor Jahangir in memory of his:",
+   "o": [
+    "Wife",
+    "Pet antelope (Mansraj)",
+    "Horse",
+    "Falcon"
+   ],
+   "a": 1,
+   "e": "It is a 100-foot tower beside a large water tank."
+  },
+  {
+   "q": "The Ranikot Fort, called the 'Great Wall of Sindh', is located in:",
+   "o": [
+    "Larkana",
+    "Quetta",
+    "Jamshoro district, Sindh",
+    "Multan"
+   ],
+   "a": 2,
+   "e": "It is believed to be among the largest forts in the world with walls about 26 km long."
+  },
+  {
+   "q": "Mehrgarh in Balochistan is important because it is:",
+   "o": [
+    "The first Mughal city",
+    "One of the earliest Neolithic sites in South Asia (about 7000 BC)",
+    "A British cantonment",
+    "A modern port"
+   ],
+   "a": 1,
+   "e": "Mehrgarh reveals early farming and herding settlements before the Indus Valley civilization."
+  },
+  {
+   "q": "Quaid-e-Azam Muhammad Ali Jinnah died on:",
+   "o": [
+    "14 August 1948",
+    "11 September 1948",
+    "25 December 1948",
+    "23 March 1948"
+   ],
+   "a": 1,
+   "e": "He died in Karachi and is buried at Mazar-e-Quaid."
+  },
+  {
+   "q": "Allama Iqbal was born in:",
+   "o": [
+    "Lahore",
+    "Delhi",
+    "Aligarh",
+    "Sialkot"
+   ],
+   "a": 3,
+   "e": "He was born on 9 November 1877 and died on 21 April 1938."
+  },
+  {
+   "q": "Fatima Jinnah is known as:",
+   "o": [
+    "Mother of Nations only in India",
+    "Madar-e-Millat",
+    "Khatoon-e-Pakistan",
+    "Rani of Pakistan"
+   ],
+   "a": 1,
+   "e": "Madar-e-Millat means Mother of the Nation."
+  }
+ ]
+}

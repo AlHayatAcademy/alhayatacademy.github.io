@@ -1,0 +1,560 @@
+{
+ "id": 44,
+ "slug": "hardware-networks-security",
+ "title": "Computer Skills IV: Hardware, Networks, Databases & Security",
+ "desc": "CPU, memory, number systems, internet, databases and cyber safety",
+ "group": "Computer & IT",
+ "color": "#9333ea",
+ "questions": [
+  {
+   "q": "The brain of the computer is the",
+   "o": [
+    "RAM",
+    "CPU",
+    "Monitor",
+    "Mouse"
+   ],
+   "a": 1,
+   "e": "The Central Processing Unit executes instructions."
+  },
+  {
+   "q": "Full form of CPU",
+   "o": [
+    "Control Processing Unit",
+    "Central Processing Unit",
+    "Core Peripheral Unit",
+    "Central Program Unit"
+   ],
+   "a": 1,
+   "e": "It has an ALU and a control unit."
+  },
+  {
+   "q": "The part of the CPU that performs arithmetic and logic is the",
+   "o": [
+    "CU",
+    "Register",
+    "ALU",
+    "Cache"
+   ],
+   "a": 2,
+   "e": "ALU: Arithmetic Logic Unit."
+  },
+  {
+   "q": "Volatile memory that loses data when power is off",
+   "o": [
+    "ROM",
+    "SSD",
+    "Hard disk",
+    "RAM"
+   ],
+   "a": 3,
+   "e": "RAM is temporary working memory."
+  },
+  {
+   "q": "Memory that keeps start-up instructions permanently",
+   "o": [
+    "Cache",
+    "RAM",
+    "Register",
+    "ROM"
+   ],
+   "a": 3,
+   "e": "ROM is non-volatile."
+  },
+  {
+   "q": "Which is the smallest unit of data?",
+   "o": [
+    "Bit",
+    "Byte",
+    "Nibble",
+    "Word"
+   ],
+   "a": 0,
+   "e": "A bit is a 0 or 1."
+  },
+  {
+   "q": "How many bits make a byte?",
+   "o": [
+    "2",
+    "8",
+    "4",
+    "16"
+   ],
+   "a": 1,
+   "e": "One byte is 8 bits."
+  },
+  {
+   "q": "How many bytes are in a kilobyte (binary convention)?",
+   "o": [
+    "2048",
+    "1024",
+    "1000",
+    "512"
+   ],
+   "a": 1,
+   "e": "1 KB = 1024 bytes in the traditional convention."
+  },
+  {
+   "q": "Which is larger?",
+   "o": [
+    "Megabyte",
+    "Byte",
+    "Kilobyte",
+    "Gigabyte"
+   ],
+   "a": 3,
+   "e": "KB, MB, GB, TB in increasing order."
+  },
+  {
+   "q": "The binary number system has base",
+   "o": [
+    "16",
+    "10",
+    "8",
+    "2"
+   ],
+   "a": 3,
+   "e": "It uses only 0 and 1."
+  },
+  {
+   "q": "The decimal number 10 in binary is",
+   "o": [
+    "1110",
+    "1001",
+    "1100",
+    "1010"
+   ],
+   "a": 3,
+   "e": "8 + 2 = 10."
+  },
+  {
+   "q": "The hexadecimal system has base",
+   "o": [
+    "2",
+    "10",
+    "8",
+    "16"
+   ],
+   "a": 3,
+   "e": "It uses 0-9 and A-F."
+  },
+  {
+   "q": "A keyboard is an",
+   "o": [
+    "Processing device",
+    "Storage device",
+    "Output device",
+    "Input device"
+   ],
+   "a": 3,
+   "e": "It sends data to the computer."
+  },
+  {
+   "q": "A printer is an",
+   "o": [
+    "Memory",
+    "Storage device",
+    "Output device",
+    "Input device"
+   ],
+   "a": 2,
+   "e": "It produces hard copies."
+  },
+  {
+   "q": "A scanner is an",
+   "o": [
+    "Output device",
+    "Input device",
+    "Port",
+    "Software"
+   ],
+   "a": 1,
+   "e": "It converts documents to digital images."
+  },
+  {
+   "q": "A touchscreen is",
+   "o": [
+    "Output only",
+    "Input only",
+    "Storage",
+    "Both input and output"
+   ],
+   "a": 3,
+   "e": "It shows images and accepts touch."
+  },
+  {
+   "q": "Which of these is a storage device?",
+   "o": [
+    "Keyboard",
+    "Scanner",
+    "Speaker",
+    "Hard disk"
+   ],
+   "a": 3,
+   "e": "Also USB drives and SSDs."
+  },
+  {
+   "q": "SSD stands for",
+   "o": [
+    "Solid State Drive",
+    "Static System Drive",
+    "Super Speed Disk",
+    "Secure Storage Device"
+   ],
+   "a": 0,
+   "e": "SSDs have no moving parts."
+  },
+  {
+   "q": "Which device connects a computer to a network and converts signals?",
+   "o": [
+    "Plotter",
+    "Joystick",
+    "Modem",
+    "Scanner"
+   ],
+   "a": 2,
+   "e": "Modem: modulator-demodulator."
+  },
+  {
+   "q": "A device that connects several computers in a LAN",
+   "o": [
+    "Switch",
+    "Printer",
+    "Scanner",
+    "Webcam"
+   ],
+   "a": 0,
+   "e": "Switches forward data to the right device."
+  },
+  {
+   "q": "LAN stands for",
+   "o": [
+    "Linked Access Node",
+    "Long Area Network",
+    "Large Area Network",
+    "Local Area Network"
+   ],
+   "a": 3,
+   "e": "It covers a small area such as an office."
+  },
+  {
+   "q": "WAN stands for",
+   "o": [
+    "Wireless Area Network",
+    "Web Access Network",
+    "World Area Node",
+    "Wide Area Network"
+   ],
+   "a": 3,
+   "e": "The internet is the largest WAN."
+  },
+  {
+   "q": "The protocol used to load web pages",
+   "o": [
+    "POP3",
+    "HTTP",
+    "SMTP",
+    "FTP"
+   ],
+   "a": 1,
+   "e": "HTTPS is the secure version."
+  },
+  {
+   "q": "The protocol commonly used to send email",
+   "o": [
+    "FTP",
+    "HTTP",
+    "SMTP",
+    "SNMP"
+   ],
+   "a": 2,
+   "e": "SMTP: Simple Mail Transfer Protocol."
+  },
+  {
+   "q": "FTP is used for",
+   "o": [
+    "Sending email",
+    "Printing",
+    "Transferring files",
+    "Browsing pages"
+   ],
+   "a": 2,
+   "e": "File Transfer Protocol."
+  },
+  {
+   "q": "A URL is",
+   "o": [
+    "A file type",
+    "A browser",
+    "A virus",
+    "A web address"
+   ],
+   "a": 3,
+   "e": "Uniform Resource Locator."
+  },
+  {
+   "q": "An IP address identifies",
+   "o": [
+    "A web page",
+    "A user's age",
+    "A device on a network",
+    "A file"
+   ],
+   "a": 2,
+   "e": "It is a numeric label for a device."
+  },
+  {
+   "q": "DNS translates",
+   "o": [
+    "Images to videos",
+    "Domain names to IP addresses",
+    "Emails to texts",
+    "Files to folders"
+   ],
+   "a": 1,
+   "e": "Domain Name System."
+  },
+  {
+   "q": "Software that lets you browse websites",
+   "o": [
+    "Search engine",
+    "Web browser",
+    "Antivirus",
+    "Compiler"
+   ],
+   "a": 1,
+   "e": "Chrome, Edge, Firefox are examples."
+  },
+  {
+   "q": "A search engine is",
+   "o": [
+    "A browser",
+    "A protocol",
+    "A website that finds information",
+    "A virus"
+   ],
+   "a": 2,
+   "e": "Google and Bing are examples."
+  },
+  {
+   "q": "Which of these is an operating system?",
+   "o": [
+    "Oracle",
+    "Linux",
+    "Python",
+    "Photoshop"
+   ],
+   "a": 1,
+   "e": "Linux, Windows, macOS, Android."
+  },
+  {
+   "q": "Which is an example of system software?",
+   "o": [
+    "Photoshop",
+    "Tally",
+    "Windows",
+    "MS Excel"
+   ],
+   "a": 2,
+   "e": "It manages hardware and runs other software."
+  },
+  {
+   "q": "Which is application software?",
+   "o": [
+    "BIOS",
+    "MS Word",
+    "Linux",
+    "Device driver"
+   ],
+   "a": 1,
+   "e": "Application software does user tasks."
+  },
+  {
+   "q": "A programme that translates source code at once into machine code",
+   "o": [
+    "Compiler",
+    "Interpreter",
+    "Loader",
+    "Assembler"
+   ],
+   "a": 0,
+   "e": "An interpreter works line by line."
+  },
+  {
+   "q": "The lowest-level programming language",
+   "o": [
+    "Java",
+    "C++",
+    "Python",
+    "Machine language"
+   ],
+   "a": 3,
+   "e": "It consists of 0s and 1s."
+  },
+  {
+   "q": "DBMS stands for",
+   "o": [
+    "Database Management System",
+    "Direct Backup Management System",
+    "Data Base Machine System",
+    "Digital Binary Memory System"
+   ],
+   "a": 0,
+   "e": "MS Access and MySQL are examples."
+  },
+  {
+   "q": "In a database, a row is called a",
+   "o": [
+    "Record",
+    "Field",
+    "Query",
+    "Table"
+   ],
+   "a": 0,
+   "e": "A column is a field."
+  },
+  {
+   "q": "In a database, a column is called a",
+   "o": [
+    "Form",
+    "Report",
+    "Record",
+    "Field"
+   ],
+   "a": 3,
+   "e": "It holds one type of data."
+  },
+  {
+   "q": "A field that uniquely identifies each record",
+   "o": [
+    "Query",
+    "Index",
+    "Primary key",
+    "Foreign key"
+   ],
+   "a": 2,
+   "e": "No two records share a primary key value."
+  },
+  {
+   "q": "Malicious software designed to harm a computer",
+   "o": [
+    "Shareware",
+    "Freeware",
+    "Firmware",
+    "Malware"
+   ],
+   "a": 3,
+   "e": "Includes viruses, worms and ransomware."
+  },
+  {
+   "q": "Malware that locks files and demands payment",
+   "o": [
+    "Firmware",
+    "Ransomware",
+    "Spyware",
+    "Adware"
+   ],
+   "a": 1,
+   "e": "Do not pay; restore from backup."
+  },
+  {
+   "q": "Fake emails that trick users into sharing passwords",
+   "o": [
+    "Spooling",
+    "Phishing",
+    "Cloning",
+    "Booting"
+   ],
+   "a": 1,
+   "e": "Check the sender and links."
+  },
+  {
+   "q": "A security system that filters network traffic",
+   "o": [
+    "Firewall",
+    "Router",
+    "Browser",
+    "Modem"
+   ],
+   "a": 0,
+   "e": "It blocks unauthorised access."
+  },
+  {
+   "q": "Software that detects and removes viruses",
+   "o": [
+    "Spreadsheet",
+    "Driver",
+    "Antivirus",
+    "Compiler"
+   ],
+   "a": 2,
+   "e": "Keep it updated."
+  },
+  {
+   "q": "A strong password should",
+   "o": [
+    "Be 1234",
+    "Be your name",
+    "Mix letters, numbers and symbols",
+    "Be your birth date"
+   ],
+   "a": 2,
+   "e": "Longer and unique is better."
+  },
+  {
+   "q": "Making copies of important data is called",
+   "o": [
+    "Formatting",
+    "Backup",
+    "Booting",
+    "Spooling"
+   ],
+   "a": 1,
+   "e": "Keep backups in another place too."
+  },
+  {
+   "q": "Starting a computer is called",
+   "o": [
+    "Rebooting",
+    "Booting",
+    "Formatting",
+    "Shutdown"
+   ],
+   "a": 1,
+   "e": "Booting loads the OS."
+  },
+  {
+   "q": "Key combination to open Task Manager in Windows",
+   "o": [
+    "Ctrl+Shift+Esc",
+    "Win+L",
+    "Alt+F4",
+    "Ctrl+Alt+Tab"
+   ],
+   "a": 0,
+   "e": "Ctrl+Alt+Del also gives access."
+  },
+  {
+   "q": "Shortcut to switch between open windows",
+   "o": [
+    "Win+D",
+    "Alt+F4",
+    "Ctrl+Tab",
+    "Alt+Tab"
+   ],
+   "a": 3,
+   "e": "Alt+Tab cycles windows."
+  },
+  {
+   "q": "Shortcut to close the active window",
+   "o": [
+    "Ctrl+F4",
+    "Alt+Tab",
+    "Alt+F4",
+    "Ctrl+Esc"
+   ],
+   "a": 2,
+   "e": "Alt+F4 closes the program."
+  }
+ ]
+}

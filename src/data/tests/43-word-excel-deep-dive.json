@@ -1,0 +1,560 @@
+{
+ "id": 43,
+ "slug": "word-excel-deep-dive",
+ "title": "Computer Skills III: MS Word & Excel Deep Dive",
+ "desc": "Shortcuts, formulas, functions and features asked in clerk tests",
+ "group": "Computer & IT",
+ "color": "#9333ea",
+ "questions": [
+  {
+   "q": "Shortcut to make selected text bold in Word",
+   "o": [
+    "Ctrl+U",
+    "Ctrl+E",
+    "Ctrl+I",
+    "Ctrl+B"
+   ],
+   "a": 3,
+   "e": "Ctrl+B applies bold. Ctrl+I is italic, Ctrl+U underline."
+  },
+  {
+   "q": "Shortcut to centre-align a paragraph in Word",
+   "o": [
+    "Ctrl+R",
+    "Ctrl+E",
+    "Ctrl+L",
+    "Ctrl+J"
+   ],
+   "a": 1,
+   "e": "Ctrl+E centres; L left, R right, J justify."
+  },
+  {
+   "q": "Shortcut to open the Find box in Word",
+   "o": [
+    "Ctrl+F",
+    "Ctrl+H",
+    "Ctrl+G",
+    "Ctrl+K"
+   ],
+   "a": 0,
+   "e": "Ctrl+H opens Replace, Ctrl+F opens Find (navigation pane)."
+  },
+  {
+   "q": "Shortcut to select all content",
+   "o": [
+    "Ctrl+P",
+    "Ctrl+S",
+    "Ctrl+Z",
+    "Ctrl+A"
+   ],
+   "a": 3,
+   "e": "A stands for All."
+  },
+  {
+   "q": "Shortcut to undo the last action",
+   "o": [
+    "Ctrl+Z",
+    "Ctrl+Y",
+    "Ctrl+V",
+    "Ctrl+X"
+   ],
+   "a": 0,
+   "e": "Ctrl+Y redoes."
+  },
+  {
+   "q": "Shortcut to print a document",
+   "o": [
+    "Ctrl+O",
+    "Ctrl+N",
+    "Ctrl+P",
+    "Ctrl+S"
+   ],
+   "a": 2,
+   "e": "P stands for Print."
+  },
+  {
+   "q": "Shortcut to create a new document",
+   "o": [
+    "Ctrl+W",
+    "Ctrl+O",
+    "Ctrl+Q",
+    "Ctrl+N"
+   ],
+   "a": 3,
+   "e": "N stands for New."
+  },
+  {
+   "q": "Shortcut to open an existing file",
+   "o": [
+    "Ctrl+E",
+    "Ctrl+P",
+    "Ctrl+O",
+    "Ctrl+N"
+   ],
+   "a": 2,
+   "e": "O stands for Open."
+  },
+  {
+   "q": "Default file extension of Word 2007 and later",
+   "o": [
+    ".dotx",
+    ".doc",
+    ".docx",
+    ".rtf"
+   ],
+   "a": 2,
+   "e": ".doc was used by Word 97-2003; .docx is the XML-based format."
+  },
+  {
+   "q": "Extension of a Word template",
+   "o": [
+    ".docx",
+    ".dotx",
+    ".pptx",
+    ".xlsx"
+   ],
+   "a": 1,
+   "e": ".dotx (or .dot in older versions) is a template."
+  },
+  {
+   "q": "The Word feature that sends the same letter to many recipients",
+   "o": [
+    "Track Changes",
+    "Macro",
+    "Mail Merge",
+    "Thesaurus"
+   ],
+   "a": 2,
+   "e": "Mail Merge combines a main document with a data source."
+  },
+  {
+   "q": "Text that appears at the top of every page is a",
+   "o": [
+    "Footer",
+    "Footnote",
+    "Caption",
+    "Header"
+   ],
+   "a": 3,
+   "e": "Footers are at the bottom."
+  },
+  {
+   "q": "Text that appears at the bottom of every page is a",
+   "o": [
+    "Footer",
+    "Margin",
+    "Endnote",
+    "Header"
+   ],
+   "a": 0,
+   "e": "Page numbers are commonly placed here."
+  },
+  {
+   "q": "A note placed at the bottom of the same page to explain text is a",
+   "o": [
+    "Endnote",
+    "Header",
+    "Comment",
+    "Footnote"
+   ],
+   "a": 3,
+   "e": "Endnotes come at the end of the document."
+  },
+  {
+   "q": "Page orientation options in Word are",
+   "o": [
+    "Tall and Short",
+    "Horizontal and Diagonal",
+    "Left and Right",
+    "Portrait and Landscape"
+   ],
+   "a": 3,
+   "e": "Portrait is vertical; landscape is horizontal."
+  },
+  {
+   "q": "Feature that shows edits made by different reviewers",
+   "o": [
+    "Track Changes",
+    "Print Preview",
+    "Mail Merge",
+    "Format Painter"
+   ],
+   "a": 0,
+   "e": "Track Changes records insertions and deletions."
+  },
+  {
+   "q": "Tool used to copy formatting from one text to another",
+   "o": [
+    "Thesaurus",
+    "Spell Check",
+    "Format Painter",
+    "Find and Replace"
+   ],
+   "a": 2,
+   "e": "Format Painter is on the Home tab."
+  },
+  {
+   "q": "Pressing the Tab key in a table's last cell",
+   "o": [
+    "Splits the table",
+    "Deletes the table",
+    "Adds a new row",
+    "Closes the table"
+   ],
+   "a": 2,
+   "e": "A new row is added at the bottom."
+  },
+  {
+   "q": "Which key combination inserts a page break in Word?",
+   "o": [
+    "Shift+Enter",
+    "Ctrl+Enter",
+    "Ctrl+Tab",
+    "Alt+Enter"
+   ],
+   "a": 1,
+   "e": "Ctrl+Enter starts a new page."
+  },
+  {
+   "q": "The Word feature that suggests synonyms",
+   "o": [
+    "Spelling",
+    "Compare",
+    "Macro",
+    "Thesaurus"
+   ],
+   "a": 3,
+   "e": "Shift+F7 opens the Thesaurus."
+  },
+  {
+   "q": "Shortcut key for the spelling and grammar check in Word",
+   "o": [
+    "F7",
+    "F12",
+    "F5",
+    "F9"
+   ],
+   "a": 0,
+   "e": "F7 starts Spelling and Grammar."
+  },
+  {
+   "q": "A Save As dialog box in Word is opened by",
+   "o": [
+    "F2",
+    "F1",
+    "F12",
+    "F10"
+   ],
+   "a": 2,
+   "e": "F12 opens Save As."
+  },
+  {
+   "q": "In Excel, a formula must begin with",
+   "o": [
+    "#",
+    "=",
+    "$",
+    "@"
+   ],
+   "a": 1,
+   "e": "Every formula starts with an equals sign."
+  },
+  {
+   "q": "The intersection of a row and a column in Excel is a",
+   "o": [
+    "Range",
+    "Table",
+    "Cell",
+    "Sheet"
+   ],
+   "a": 2,
+   "e": "A cell such as B3."
+  },
+  {
+   "q": "The address of the cell in column C and row 5 is",
+   "o": [
+    "C5",
+    "R5C",
+    "C-5",
+    "5C"
+   ],
+   "a": 0,
+   "e": "Excel uses column letter then row number."
+  },
+  {
+   "q": "A group of selected cells is called a",
+   "o": [
+    "Chart",
+    "Row",
+    "Workbook",
+    "Range"
+   ],
+   "a": 3,
+   "e": "For example A1:B5."
+  },
+  {
+   "q": "The function that adds numbers in a range",
+   "o": [
+    "ADD",
+    "SUM",
+    "TOTAL",
+    "PLUS"
+   ],
+   "a": 1,
+   "e": "=SUM(A1:A5) adds the values."
+  },
+  {
+   "q": "The function that gives the mean of numbers",
+   "o": [
+    "MODE",
+    "MEDIAN",
+    "AVERAGE",
+    "MEAN"
+   ],
+   "a": 2,
+   "e": "=AVERAGE(A1:A5)."
+  },
+  {
+   "q": "The function that returns the largest value",
+   "o": [
+    "BIG",
+    "TOP",
+    "HIGH",
+    "MAX"
+   ],
+   "a": 3,
+   "e": "=MAX(range)."
+  },
+  {
+   "q": "The function that returns the smallest value",
+   "o": [
+    "BOTTOM",
+    "LOW",
+    "MIN",
+    "SMALL"
+   ],
+   "a": 2,
+   "e": "=MIN(range)."
+  },
+  {
+   "q": "The function that counts cells containing numbers",
+   "o": [
+    "COUNT",
+    "COUNTA",
+    "LEN",
+    "SUMIF"
+   ],
+   "a": 0,
+   "e": "COUNTA counts non-empty cells of any kind."
+  },
+  {
+   "q": "The function used for a logical test with true/false results",
+   "o": [
+    "TEXT",
+    "IF",
+    "AND",
+    "SUM"
+   ],
+   "a": 1,
+   "e": "=IF(condition, value_if_true, value_if_false)."
+  },
+  {
+   "q": "The function that looks up a value in the first column of a table",
+   "o": [
+    "HLOOKUP",
+    "MATCH",
+    "INDEX",
+    "VLOOKUP"
+   ],
+   "a": 3,
+   "e": "VLOOKUP searches vertically."
+  },
+  {
+   "q": "The symbol used to make a cell reference absolute",
+   "o": [
+    "&",
+    "#",
+    "$",
+    "%"
+   ],
+   "a": 2,
+   "e": "$A$1 stays fixed when copied."
+  },
+  {
+   "q": "The cell reference A1 copied one cell down becomes",
+   "o": [
+    "A2",
+    "B1",
+    "A0",
+    "A1"
+   ],
+   "a": 0,
+   "e": "Relative references shift with position."
+  },
+  {
+   "q": "The default name of the first worksheet in a new Excel workbook (recent versions)",
+   "o": [
+    "Sheet1",
+    "Table1",
+    "Book1",
+    "Page1"
+   ],
+   "a": 0,
+   "e": "Book1 is the workbook; Sheet1 is the worksheet."
+  },
+  {
+   "q": "Default file extension of an Excel workbook",
+   "o": [
+    ".xls",
+    ".docx",
+    ".csv",
+    ".xlsx"
+   ],
+   "a": 3,
+   "e": ".xls is the older format."
+  },
+  {
+   "q": "Shortcut to edit the active cell in Excel",
+   "o": [
+    "F7",
+    "F2",
+    "F5",
+    "F4"
+   ],
+   "a": 1,
+   "e": "F2 enters edit mode."
+  },
+  {
+   "q": "Pressing F4 while editing a reference",
+   "o": [
+    "Opens Help",
+    "Cycles absolute and relative reference",
+    "Inserts a chart",
+    "Saves the file"
+   ],
+   "a": 1,
+   "e": "F4 toggles $ signs."
+  },
+  {
+   "q": "The Excel feature that arranges data in ascending or descending order",
+   "o": [
+    "Filter",
+    "Wrap",
+    "Sort",
+    "Merge"
+   ],
+   "a": 2,
+   "e": "Sort is on the Data tab."
+  },
+  {
+   "q": "The Excel feature that shows only rows meeting a condition",
+   "o": [
+    "Freeze",
+    "Filter",
+    "Sort",
+    "Group"
+   ],
+   "a": 1,
+   "e": "AutoFilter hides non-matching rows."
+  },
+  {
+   "q": "The Excel feature that keeps header rows visible while scrolling",
+   "o": [
+    "Merge",
+    "Group",
+    "Split",
+    "Freeze Panes"
+   ],
+   "a": 3,
+   "e": "View tab, Freeze Panes."
+  },
+  {
+   "q": "An Excel graph with circular slices of a whole is a",
+   "o": [
+    "Line chart",
+    "Bar chart",
+    "Scatter chart",
+    "Pie chart"
+   ],
+   "a": 3,
+   "e": "Pie charts show proportions."
+  },
+  {
+   "q": "Joining several cells into one cell is called",
+   "o": [
+    "Filter",
+    "Split",
+    "Wrap",
+    "Merge"
+   ],
+   "a": 3,
+   "e": "Merge and Centre is on the Home tab."
+  },
+  {
+   "q": "The number of rows in recent versions of an Excel worksheet is about",
+   "o": [
+    "65,536",
+    "256",
+    "1,048,576",
+    "16,384"
+   ],
+   "a": 2,
+   "e": "Older .xls had 65,536 rows."
+  },
+  {
+   "q": "The number of columns in a recent Excel worksheet is",
+   "o": [
+    "1,024",
+    "16,384",
+    "256",
+    "65,536"
+   ],
+   "a": 1,
+   "e": "Columns go up to XFD."
+  },
+  {
+   "q": "The last column name in recent Excel is",
+   "o": [
+    "XYZ",
+    "IV",
+    "XFD",
+    "ZZ"
+   ],
+   "a": 2,
+   "e": "16,384 columns."
+  },
+  {
+   "q": "Shortcut to move to cell A1 in Excel",
+   "o": [
+    "Ctrl+A",
+    "Alt+Home",
+    "Ctrl+Home",
+    "Ctrl+End"
+   ],
+   "a": 2,
+   "e": "Ctrl+End goes to the last used cell."
+  },
+  {
+   "q": "The Excel error shown when dividing by zero",
+   "o": [
+    "#DIV/0!",
+    "#VALUE!",
+    "#REF!",
+    "#NAME?"
+   ],
+   "a": 0,
+   "e": "Dividing by zero is not allowed."
+  },
+  {
+   "q": "The Excel error shown for an unrecognised function name",
+   "o": [
+    "#N/A",
+    "#NUM!",
+    "#NULL!",
+    "#NAME?"
+   ],
+   "a": 3,
+   "e": "Usually a typo in the function name."
+  }
+ ]
+}

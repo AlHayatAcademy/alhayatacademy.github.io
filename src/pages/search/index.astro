@@ -1,0 +1,23 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+---
+<Base title="Search PPSC Syllabus, MCQs, Jobs and News" description="Search every post, syllabus, practice test, guide and news item on the site." noindex={true}>
+  <div class="page-hero"><div class="wrap"><Crumbs items={[['Home', '/'], ['Search']]} /><h1>Search</h1></div></div>
+  <section class="block"><div class="narrow">
+    <div id="search"></div>
+    <noscript>Search needs JavaScript. Browse the <a href="/posts/">posts</a> or <a href="/practice/">tests</a> instead.</noscript>
+  </div></section>
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+  <script is:inline>
+    (function () {
+      var s = document.createElement('script'); s.src = '/pagefind/pagefind-ui.js';
+      s.onload = function () {
+        var ui = new PagefindUI({ element: '#search', showSubResults: false, autofocus: true });
+        var q = new URLSearchParams(location.search).get('q'); if (q) ui.triggerSearch(q);
+      };
+      s.onerror = function () { document.getElementById('search').textContent = 'Search index is built when the site is deployed.'; };
+      document.head.appendChild(s);
+    })();
+  </script>
+</Base>

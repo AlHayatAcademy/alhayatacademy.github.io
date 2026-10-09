@@ -1,0 +1,560 @@
+{
+ "id": 14,
+ "slug": "pakistan-studies-basics",
+ "title": "Pakistan Studies: Pakistan Movement & Basics",
+ "desc": "Lahore Resolution, 3 June Plan, heritage sites and national symbols",
+ "group": "Pakistan Studies",
+ "color": "#059669",
+ "questions": [
+  {
+   "q": "The Lahore Resolution (Pakistan Resolution) was passed on:",
+   "o": [
+    "23 March 1940",
+    "14 August 1947",
+    "11 September 1948",
+    "6 June 1946"
+   ],
+   "a": 0,
+   "e": "It was moved by A.K. Fazlul Haque (Sher-e-Bangal) at the Lahore session of the All-India Muslim League and seconded by Chaudhry Khaliquzzaman. It is celebrated as Pakistan Day."
+  },
+  {
+   "q": "The All-India Muslim League was founded in:",
+   "o": [
+    "Lahore, 1940",
+    "Dhaka, 1906",
+    "Delhi, 1947",
+    "Karachi, 1930"
+   ],
+   "a": 1,
+   "e": "It was founded on 30 December 1906 in Dhaka under the leadership of Nawab Salimullah and Nawab Waqar-ul-Mulk after the Partition of Bengal controversy."
+  },
+  {
+   "q": "The Two-Nation Theory was articulated most clearly in the political arena by:",
+   "o": [
+    "Mahatma Gandhi",
+    "Jawaharlal Nehru",
+    "Quaid-e-Azam Muhammad Ali Jinnah",
+    "Lord Mountbatten"
+   ],
+   "a": 2,
+   "e": "Jinnah's Lahore address (1940) argued that Hindus and Muslims are two separate nations with distinct religion, culture and social order."
+  },
+  {
+   "q": "Allama Iqbal presented the idea of a separate Muslim state at:",
+   "o": [
+    "Allahabad in 1930",
+    "Lahore in 1940",
+    "Delhi in 1946",
+    "Dhaka in 1906"
+   ],
+   "a": 0,
+   "e": "The Allahabad Address (Presidential address to the Muslim League session, December 1930) envisaged a consolidated Muslim state in north-west India."
+  },
+  {
+   "q": "The Lucknow Pact of 1916 was between:",
+   "o": [
+    "Muslim League and British",
+    "Congress and British",
+    "Khilafat and League",
+    "Muslim League and Congress"
+   ],
+   "a": 3,
+   "e": "Jinnah was ambassador of Hindu–Muslim unity. The Congress accepted separate electorates for Muslims."
+  },
+  {
+   "q": "Jinnah's Fourteen Points were presented in:",
+   "o": [
+    "1916",
+    "1940",
+    "1947",
+    "1929"
+   ],
+   "a": 3,
+   "e": "They were a response to the Nehru Report (1928) and included separate electorates, one-third representation in the central legislature and provincial autonomy."
+  },
+  {
+   "q": "The Nehru Report was published in:",
+   "o": [
+    "1916",
+    "1928",
+    "1935",
+    "1947"
+   ],
+   "a": 1,
+   "e": "Motilal Nehru's report rejected separate electorates. Jinnah's reaction led to the Fourteen Points."
+  },
+  {
+   "q": "The Round Table Conferences were held in London in:",
+   "o": [
+    "1940-1942",
+    "1946-1947",
+    "1905-1906",
+    "1930-1932"
+   ],
+   "a": 3,
+   "e": "Three conferences were held to discuss constitutional reforms. Allama Iqbal and Jinnah attended."
+  },
+  {
+   "q": "The Government of India Act 1935 introduced:",
+   "o": [
+    "Partition",
+    "Dyarchy at provincial level",
+    "Separate electorates for the first time",
+    "Provincial autonomy"
+   ],
+   "a": 3,
+   "e": "It abolished dyarchy in provinces and introduced it at the centre (never implemented). It was used as an interim constitution of Pakistan with modifications."
+  },
+  {
+   "q": "Provincial elections under the 1935 Act were held in:",
+   "o": [
+    "1946",
+    "1923",
+    "1937",
+    "1940"
+   ],
+   "a": 2,
+   "e": "The Congress formed ministries in most provinces and the Muslim League did poorly, leading to its reorganization."
+  },
+  {
+   "q": "'Day of Deliverance' was observed by Muslims on:",
+   "o": [
+    "23 March 1940",
+    "14 August 1947",
+    "3 June 1947",
+    "22 December 1939"
+   ],
+   "a": 3,
+   "e": "It marked the end of Congress rule in provinces."
+  },
+  {
+   "q": "The Cabinet Mission Plan came to India in:",
+   "o": [
+    "1940",
+    "1942",
+    "1947",
+    "1946"
+   ],
+   "a": 3,
+   "e": "The Plan proposed a loose federation. It was accepted initially and then rejected by the Congress."
+  },
+  {
+   "q": "The 3 June Plan (Mountbatten Plan) was announced in:",
+   "o": [
+    "1947",
+    "1946",
+    "1940",
+    "1950"
+   ],
+   "a": 0,
+   "e": "It announced the partition of India and held that Muslim-majority provinces would decide by vote. The Indian Independence Act was passed in July 1947."
+  },
+  {
+   "q": "The Radcliffe Award, which decided the boundary of Punjab and Bengal, was announced on:",
+   "o": [
+    "17 August 1947",
+    "14 August 1947",
+    "3 June 1947",
+    "1 January 1948"
+   ],
+   "a": 0,
+   "e": "Sir Cyril Radcliffe chaired the Boundary Commissions. Controversy over Gurdaspur and Ferozepur affected Kashmir."
+  },
+  {
+   "q": "Pakistan came into existence on:",
+   "o": [
+    "15 August 1947",
+    "14 August 1947 (27 Ramadan)",
+    "23 March 1956",
+    "16 December 1971"
+   ],
+   "a": 1,
+   "e": "The first Governor-General was Quaid-e-Azam. The first Prime Minister was Liaquat Ali Khan."
+  },
+  {
+   "q": "The first Prime Minister of Pakistan was:",
+   "o": [
+    "Khawaja Nazimuddin",
+    "Liaquat Ali Khan",
+    "Huseyn Shaheed Suhrawardy",
+    "Muhammad Ali Bogra"
+   ],
+   "a": 1,
+   "e": "Liaquat Ali Khan served from 1947 until his assassination in Rawalpindi on 16 October 1951."
+  },
+  {
+   "q": "The Objectives Resolution was passed by the Constituent Assembly on:",
+   "o": [
+    "23 March 1940",
+    "12 March 1949",
+    "10 April 1973",
+    "14 August 1973"
+   ],
+   "a": 1,
+   "e": "It was moved by Liaquat Ali Khan and became the preamble and later a substantive part of the Constitution through Article 2A (1985)."
+  },
+  {
+   "q": "Pakistan's first Constitution was enforced on:",
+   "o": [
+    "14 August 1947",
+    "23 March 1956",
+    "1 July 1962",
+    "10 April 1973"
+   ],
+   "a": 1,
+   "e": "The 1956 Constitution declared Pakistan an Islamic Republic. It lasted until October 1958 when martial law was imposed by Iskander Mirza and Ayub Khan."
+  },
+  {
+   "q": "The 1962 Constitution was introduced under:",
+   "o": [
+    "Yahya Khan",
+    "Zia-ul-Haq",
+    "Ayub Khan",
+    "Zulfiqar Ali Bhutto"
+   ],
+   "a": 2,
+   "e": "It created a presidential system with Basic Democracies (80,000 Basic Democrats as an electoral college)."
+  },
+  {
+   "q": "The war between Pakistan and India in September 1965 ended with the:",
+   "o": [
+    "Simla Agreement",
+    "Lahore Declaration",
+    "Tashkent Declaration (January 1966)",
+    "Indus Waters Treaty"
+   ],
+   "a": 2,
+   "e": "The Tashkent Declaration was mediated by the USSR (Alexei Kosygin)."
+  },
+  {
+   "q": "The Simla Agreement was signed in:",
+   "o": [
+    "1965",
+    "1972",
+    "1999",
+    "1960"
+   ],
+   "a": 1,
+   "e": "Signed by Zulfiqar Ali Bhutto and Indira Gandhi on 2 July 1972 after the 1971 war. It converted the ceasefire line in Kashmir into the Line of Control."
+  },
+  {
+   "q": "East Pakistan became Bangladesh in:",
+   "o": [
+    "August 1947",
+    "December 1971",
+    "March 1965",
+    "1999"
+   ],
+   "a": 1,
+   "e": "The war ended on 16 December 1971 with the fall of Dhaka."
+  },
+  {
+   "q": "Indus Waters Treaty was signed in:",
+   "o": [
+    "1947",
+    "1960",
+    "1965",
+    "1972"
+   ],
+   "a": 1,
+   "e": "It was brokered by the World Bank. The three eastern rivers (Ravi, Beas, Sutlej) went to India and the three western rivers (Indus, Jhelum, Chenab) to Pakistan."
+  },
+  {
+   "q": "The Constitution of 1973 was passed under the government of:",
+   "o": [
+    "Zulfiqar Ali Bhutto",
+    "Zia-ul-Haq",
+    "Ayub Khan",
+    "Nawaz Sharif"
+   ],
+   "a": 0,
+   "e": "It is the current Constitution of Pakistan, enforced on 14 August 1973."
+  },
+  {
+   "q": "Pakistan's first nuclear tests were conducted in May:",
+   "o": [
+    "1974 at Pokhran",
+    "1971",
+    "1998 at Chagai",
+    "2008"
+   ],
+   "a": 2,
+   "e": "Pakistan conducted tests on 28 May 1998 (Youm-e-Takbeer), after India's tests of 11 and 13 May. The nuclear programme was initiated under Z.A. Bhutto and Dr. A.Q. Khan."
+  },
+  {
+   "q": "The Kashmir issue was taken to the UN Security Council in:",
+   "o": [
+    "1965",
+    "1972",
+    "1999",
+    "1948"
+   ],
+   "a": 3,
+   "e": "The UNSC passed Resolution 47 (1948) calling for plebiscite in Jammu and Kashmir. India has not held it."
+  },
+  {
+   "q": "The highest mountain peak of Pakistan is:",
+   "o": [
+    "Nanga Parbat",
+    "Tirich Mir",
+    "Rakaposhi",
+    "K2 (8,611 m)"
+   ],
+   "a": 3,
+   "e": "K2 (Mount Godwin-Austen) is the second highest in the world after Everest. Nanga Parbat (8,126 m) is the ninth highest."
+  },
+  {
+   "q": "Pakistan's longest river is:",
+   "o": [
+    "Jhelum",
+    "Chenab",
+    "Indus",
+    "Ravi"
+   ],
+   "a": 2,
+   "e": "The Indus (about 3,180 km) rises in Tibet near Lake Mansarovar and falls into the Arabian Sea near Karachi."
+  },
+  {
+   "q": "The largest province of Pakistan by area is:",
+   "o": [
+    "Punjab",
+    "Sindh",
+    "Khyber Pakhtunkhwa",
+    "Balochistan"
+   ],
+   "a": 3,
+   "e": "Balochistan covers about 44% of the country's area. Punjab is the largest by population."
+  },
+  {
+   "q": "The most populous province of Pakistan is:",
+   "o": [
+    "Punjab",
+    "Sindh",
+    "Balochistan",
+    "KP"
+   ],
+   "a": 0,
+   "e": "Punjab has about 127 million people (2023 census), over half of the nation."
+  },
+  {
+   "q": "The capital of Gilgit-Baltistan is:",
+   "o": [
+    "Gilgit",
+    "Skardu",
+    "Muzaffarabad",
+    "Hunza"
+   ],
+   "a": 0,
+   "e": "Muzaffarabad is the capital of Azad Jammu and Kashmir. GB became a province-like entity under the 2009 Self-Governance Order."
+  },
+  {
+   "q": "Total area of Pakistan is approximately:",
+   "o": [
+    "796,095 sq km",
+    "1,000,000 sq km",
+    "881,913 sq km",
+    "500,000 sq km"
+   ],
+   "a": 2,
+   "e": "The area is 881,913 sq km (some sources 796,095 sq km excluding GB and AJK)."
+  },
+  {
+   "q": "The largest dam by storage in Pakistan is:",
+   "o": [
+    "Mangla Dam",
+    "Tarbela Dam",
+    "Warsak Dam",
+    "Diamer-Bhasha Dam"
+   ],
+   "a": 1,
+   "e": "Tarbela (1976) is on the Indus in KP; Mangla (1967) is on the Jhelum in AJK."
+  },
+  {
+   "q": "Pakistan's major seaport is:",
+   "o": [
+    "Gwadar",
+    "Karachi",
+    "Port Qasim",
+    "Ormara"
+   ],
+   "a": 1,
+   "e": "Karachi Port handles most trade. Gwadar Port in Balochistan is a deep-sea port developed under CPEC."
+  },
+  {
+   "q": "CPEC (China-Pakistan Economic Corridor) was launched in:",
+   "o": [
+    "1990",
+    "2005",
+    "2020",
+    "2013 (agreement 2015)"
+   ],
+   "a": 3,
+   "e": "CPEC links Kashgar in Xinjiang with Gwadar port and is part of China's Belt and Road Initiative."
+  },
+  {
+   "q": "The national language of Pakistan is:",
+   "o": [
+    "Urdu",
+    "English",
+    "Punjabi",
+    "Pashto"
+   ],
+   "a": 0,
+   "e": "English is the official language alongside Urdu per Article 251, which also provides for provincial languages."
+  },
+  {
+   "q": "The national flower of Pakistan is:",
+   "o": [
+    "Rose",
+    "Jasmine (Chambeli)",
+    "Tulip",
+    "Lotus"
+   ],
+   "a": 1,
+   "e": "National animal: Markhor; national bird: Chukar partridge; national tree: Deodar; national sport: Field Hockey (official)."
+  },
+  {
+   "q": "The national animal of Pakistan is:",
+   "o": [
+    "Snow leopard",
+    "Markhor",
+    "Indus dolphin",
+    "Lion"
+   ],
+   "a": 1,
+   "e": "The Markhor is a wild goat found in northern mountains. Snow leopard is a flagship species too."
+  },
+  {
+   "q": "Pakistan's national poet is:",
+   "o": [
+    "Allama Muhammad Iqbal",
+    "Faiz Ahmed Faiz",
+    "Ghalib",
+    "Ahmad Faraz"
+   ],
+   "a": 0,
+   "e": "Iqbal (1877–1938) was a poet-philosopher. His birthday (9 November) is Iqbal Day."
+  },
+  {
+   "q": "The first female Prime Minister of Pakistan and of the Muslim world was:",
+   "o": [
+    "Benazir Bhutto",
+    "Fatima Jinnah",
+    "Begum Liaquat Ali",
+    "Maryam Nawaz"
+   ],
+   "a": 0,
+   "e": "Benazir Bhutto first served 1988–90 and again 1993–96. She was assassinated on 27 December 2007 in Rawalpindi."
+  },
+  {
+   "q": "The mother of the nation, Madar-e-Millat, is:",
+   "o": [
+    "Begum Raana",
+    "Benazir Bhutto",
+    "Bi Amma",
+    "Fatima Jinnah"
+   ],
+   "a": 3,
+   "e": "Fatima Jinnah (1893–1967) contested the 1965 presidential election against Ayub Khan."
+  },
+  {
+   "q": "The Khilafat Movement started in:",
+   "o": [
+    "1947",
+    "1857",
+    "1906",
+    "1919"
+   ],
+   "a": 3,
+   "e": "The movement sought to preserve the Ottoman Caliphate. Leaders included Maulana Muhammad Ali Jauhar and Shaukat Ali."
+  },
+  {
+   "q": "The War of Independence (Mutiny) in the subcontinent occurred in:",
+   "o": [
+    "1857",
+    "1906",
+    "1757",
+    "1947"
+   ],
+   "a": 0,
+   "e": "The failed uprising led to the end of Mughal rule and the Company Raj, with direct British Crown rule."
+  },
+  {
+   "q": "Sir Syed Ahmad Khan established the Muhammadan Anglo-Oriental College at Aligarh in:",
+   "o": [
+    "1906",
+    "1920",
+    "1947",
+    "1875"
+   ],
+   "a": 3,
+   "e": "It became Aligarh Muslim University in 1920. Sir Syed's Scientific Society was founded in 1864."
+  },
+  {
+   "q": "The first Pakistan census was conducted in:",
+   "o": [
+    "1947",
+    "1951",
+    "1961",
+    "1998"
+   ],
+   "a": 1,
+   "e": "The 2023 digital census recorded a population of 241.49 million."
+  },
+  {
+   "q": "The Quaid-e-Azam died on:",
+   "o": [
+    "11 September 1948",
+    "14 August 1947",
+    "25 December 1876",
+    "23 March 1940"
+   ],
+   "a": 0,
+   "e": "He was born on 25 December 1876 in Karachi. Mazar-e-Quaid is in Karachi."
+  },
+  {
+   "q": "Pakistan became a member of the United Nations on:",
+   "o": [
+    "14 August 1947",
+    "23 March 1956",
+    "1 January 1948",
+    "30 September 1947"
+   ],
+   "a": 3,
+   "e": "Pakistan is also a member of OIC, SAARC, ECO and the Commonwealth."
+  },
+  {
+   "q": "Pakistan's Parliament is called:",
+   "o": [
+    "Loya Jirga",
+    "Majlis-e-Shoora",
+    "Lok Sabha",
+    "Knesset"
+   ],
+   "a": 1,
+   "e": "It consists of the President, the National Assembly and the Senate. The Senate has 96 members; the National Assembly has 336 (266 general seats, 60 for women, 10 for minorities)."
+  },
+  {
+   "q": "UNESCO World Heritage sites in Pakistan include:",
+   "o": [
+    "Mohenjo-daro, Taxila, Lahore Fort and Shalimar Gardens",
+    "Taj Mahal",
+    "Angkor Wat",
+    "Hagia Sophia"
+   ],
+   "a": 0,
+   "e": "Others: Takht-i-Bahi, Rohtas Fort, Makli Necropolis (Thatta), Historical Monuments of Thatta."
+  },
+  {
+   "q": "The Indus Valley civilization site in Sindh is:",
+   "o": [
+    "Harappa",
+    "Taxila",
+    "Mohenjo-daro",
+    "Mehrgarh"
+   ],
+   "a": 2,
+   "e": "Harappa is in Punjab (Sahiwal). Mehrgarh in Balochistan shows early Neolithic life (7000 BC)."
+  }
+ ]
+}

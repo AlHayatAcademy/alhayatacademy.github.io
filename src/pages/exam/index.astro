@@ -1,0 +1,20 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import { posts, mixTotal } from '../../lib.js';
+const list = posts.filter((p) => p.mix);
+---
+<Base title="PPSC Mock Exams: Timed 100-MCQ Tests with Negative Marking" description="Take timed PPSC mock exams built from real syllabus splits: Junior Clerk, Assistant, Deputy Accountant, Junior Computer Operator and more. 0.9 minute per question and 0.25 negative marking." active="exam">
+  <div class="page-hero"><div class="wrap">
+    <Crumbs items={[['Home', '/'], ['Mock exams']]} />
+    <h1>PPSC mock exams</h1><p>A fresh paper every attempt, built from your post's syllabus split. Timed, scored with −0.25 per wrong answer, with a subject-wise breakdown and a full review.</p>
+  </div></div>
+  <section class="block"><div class="wrap"><div class="grid">
+    {list.map((p) => (
+      <a class="card pcard" href={`/exam/${p.slug}/`} style={`--c:${p.color}`}>
+        <div class="ico">{p.icon}</div><h3>{p.name} mock</h3>
+        <p>{mixTotal(p.mix)} MCQs · {Math.round(mixTotal(p.mix) * 0.9)} minutes</p><span class="tag">Start exam</span>
+      </a>
+    ))}
+  </div></div></section>
+</Base>

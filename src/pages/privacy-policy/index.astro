@@ -1,0 +1,11 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import { site } from '../../lib.js';
+---
+<Base title="Privacy Policy" description="How this site handles data, cookies, advertising and analytics.">
+  <div class="page-hero"><div class="wrap"><Crumbs items={[['Home', '/'], ['Privacy Policy']]} /><h1>Privacy Policy</h1></div></div>
+  <section class="block"><div class="narrow"><article class="prose">
+<p>Last updated: {site.updated}.</p><h2>Data we store</h2><p>Practice progress and mock exam history are stored in your own browser (local storage). They are not sent to us.</p><h2>Cookies and advertising</h2><p>We may show ads from Google AdSense. Google and its partners use cookies to serve ads based on your visits to this and other sites. You can opt out of personalised advertising at <a href="https://adssettings.google.com" rel="noopener">Google Ad Settings</a>.</p><h2>Analytics</h2><p>We may use Google Analytics to understand how pages are used. It collects anonymous usage data such as pages visited and device type.</p><h2>Contact</h2><p>Questions about this policy: <a href={`mailto:${site.email}`}>{site.email}</a>.</p>
+  </article></div></section>
+</Base>

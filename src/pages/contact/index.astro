@@ -1,0 +1,11 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import { site } from '../../lib.js';
+---
+<Base title="Contact" description="How to contact the site for corrections, suggestions and business enquiries.">
+  <div class="page-hero"><div class="wrap"><Crumbs items={[['Home', '/'], ['Contact']]} /><h1>Contact</h1></div></div>
+  <section class="block"><div class="narrow"><article class="prose">
+<p>Email: <a href={`mailto:${site.email}`}>{site.email}</a></p><p>Please include the page link and, for a corrected question, the reason and your source.</p>
+  </article></div></section>
+</Base>

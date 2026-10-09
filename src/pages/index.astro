@@ -1,0 +1,110 @@
+---
+import Base from '../layouts/Base.astro';
+import Ad from '../components/Ad.astro';
+import { site, posts, groups, tests, totalQuestions, poolSize } from '../lib.js';
+import { getCollection } from 'astro:content';
+const latest = (await getCollection('news')).sort((a, b) => +b.data.date - +a.data.date).slice(0, 4);
+const guides = (await getCollection('guides')).sort((a, b) => a.data.order - b.data.order).slice(0, 4);
+const featured = posts.filter((p) => p.slug !== 'general-ability');
+const ga = posts.find((p) => p.slug === 'general-ability');
+const start = [tests.find((t) => t.slug === 'pakistan-history-firsts'), tests.find((t) => t.slug === 'current-affairs-pakistan-1'), tests.find((t) => t.slug === 'english-1'), tests.find((t) => t.slug === 'ms-office-internet'), tests.find((t) => t.slug === 'maths-reasoning-1'), tests.find((t) => t.slug === 'urdu-1')].filter(Boolean);
+const faqs = [
+  ['What is the PPSC test pattern?', 'In the syllabi we reviewed, most MCQ papers are one paper of 100 marks and 90 minutes. Some posts use General Ability only, some mix it with subject questions, and some are 100% qualification related. See each post page for its exact split.'],
+  ['Is there negative marking in PPSC tests?', 'The BS-19 director syllabi we reviewed state a deduction of 0.25 marks per wrong MCQ. Other syllabi do not mention it, so check your own advertisement. Our mock exams use 0.25 so you practise safely.'],
+  ['Which subjects are in the General Ability test?', 'General Knowledge, Pakistan Studies, Current Affairs, Islamic Studies (GK for non-Muslims), Geography, Basic Mathematics, English, Urdu, Everyday Science and Basic Computer Studies.'],
+  ['Is this website free and official?', 'It is free and independent. It is not affiliated with PPSC. Always confirm syllabus, dates and rules on the official PPSC website.'],
+  ['How should I use this site?', 'Open your post page, read the syllabus split, do the subject practice tests, review explanations of wrong answers, then take a timed mock exam every few days.'],
+];
+const schema = [{ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) }];
+---
+<Base title="PPSC Test Preparation 2026: Syllabus, MCQs & Mock Tests" description={`Free PPSC test preparation for Junior Clerk, Assistant, Deputy Accountant and more. ${totalQuestions.toLocaleString()} practice MCQs with explanations, syllabus breakdowns and timed mock exams.`} active="home" schema={schema}>
+  <section class="hero">
+    <div class="wrap">
+      <h1>Prepare for any PPSC test. Free.</h1>
+      <p class="lead">Syllabus breakdowns, {totalQuestions.toLocaleString()} practice MCQs with explanations, and timed mock exams built from the real PPSC pattern.</p>
+      <form class="search" action="/search/" method="get" role="search">
+        <input type="search" name="q" placeholder="Search a post, subject or topic (e.g. Junior Clerk syllabus)" aria-label="Search" />
+        <button class="btn amber" type="submit">Search</button>
+      </form>
+      <div class="chips">
+        <a class="chip" href="/jobs/">💼 Latest PPSC jobs</a><a class="chip" href="/news/">📰 News</a>
+        {featured.slice(0, 6).map((p) => <a class="chip" href={`/posts/${p.slug}/`}>{p.icon} {p.name}</a>)}
+      </div>
+      <div class="stats">
+        <div class="stat"><b>{totalQuestions.toLocaleString()}</b>practice MCQs</div>
+        <div class="stat"><b>{tests.length}</b>topic tests</div>
+        <div class="stat"><b>{posts.length - 1}</b>post guides</div>
+        <div class="stat"><b>100</b>MCQ mock exams</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block"><div class="wrap">
+    <div class="sec-head"><div><h2>Latest PPSC news and jobs</h2><p>New advertisements, syllabus updates and test dates.</p></div><div class="btnrow"><a class="btn amber sm" href="/jobs/">💼 All jobs</a><a class="btn alt sm" href="/news/">All news</a></div></div>
+    <div class="grid">
+      {latest.map((n) => <a class="card" href={`/news/${n.id.split('/').pop()}/`}><span class="tag">{n.data.category}</span><h3>{n.data.title}</h3><p style="color:var(--muted);font-size:.93rem">{n.data.description}</p></a>)}
+    </div>
+  </div></section>
+
+  <section class="block"><div class="wrap">
+    <div class="sec-head"><div><h2>What are you preparing for?</h2><p>Pick your post to see its exact syllabus and a matching mock exam.</p></div><a class="btn alt sm" href="/posts/">All posts</a></div>
+    <div class="grid">
+      {featured.map((p) => (
+        <a class="card pcard" href={`/posts/${p.slug}/`} style={`--c:${p.color}`}>
+          <div class="ico">{p.icon}</div>
+          <h3>{p.name}</h3>
+          <p>{p.pattern}</p>
+          <span class="tag">{p.bps}</span>
+        </a>
+      ))}
+      <a class="card pcard" href="/syllabus/" style="--c:#64748b"><div class="ico">📚</div><h3>Other posts</h3><p>Food Safety, Auditor, Analyst, Planning, Finance and more: qualification-based papers.</p><span class="tag">Syllabus list</span></a>
+    </div>
+  </div></section>
+
+  <section class="block" style="background:var(--surface)"><div class="wrap">
+    <h2>Your 3-step plan</h2>
+    <div class="grid g3">
+      <div class="card"><h3>1. Know your paper</h3><p>Open your post page. Check how marks are split between General Ability and subject questions.</p><a class="btn sm" href="/posts/">Find my post</a></div>
+      <div class="card"><h3>2. Practise by topic</h3><p>Each 50-question test shows an explanation the moment you answer. Your progress is saved on your device.</p><a class="btn sm green" href="/practice/">Start practising</a></div>
+      <div class="card"><h3>3. Take a timed mock</h3><p>100 MCQs, 90 minutes, −0.25 for wrong answers, with a full review at the end.</p><a class="btn sm amber" href="/exam/">Take a mock exam</a></div>
+    </div>
+  </div></section>
+
+  <Ad kind="banner" />
+
+  <section class="block"><div class="wrap">
+    <div class="sec-head"><div><h2>Practice by subject</h2><p>Every General Ability subject, plus child protection and social science tests.</p></div><a class="btn alt sm" href="/subjects/">All subjects</a></div>
+    <div class="grid">
+      {groups.map((g) => (
+        <a class="card pcard" href={`/subjects/${g.slug}/`} style={`--c:${g.color}`}>
+          <div class="ico">{g.icon}</div><h3>{g.name}</h3>
+          <p>{g.blurb}</p><span class="tag">{poolSize(g.name)} MCQs</span>
+        </a>
+      ))}
+    </div>
+  </div></section>
+
+  <section class="block" style="background:var(--surface)"><div class="wrap">
+    <div class="sec-head"><div><h2>Quick start tests</h2><p>Jump in with a 50-question test.</p></div></div>
+    <div class="grid g3">
+      {start.map((t) => (
+        <a class="card tcard" href={`/practice/${t.slug}/`} style={`--c:${groups.find((g) => g.name === t.group).color}`}>
+          <span class="tag">{t.group}</span><h3>{t.title}</h3><p>{t.desc}</p><div class="meta">{t.questions.length} MCQs · explanations included</div>
+        </a>
+      ))}
+    </div>
+    <div class="btnrow"><a class="btn" href={`/posts/${ga.slug}/`}>🎯 General Ability master plan</a><a class="btn alt" href="/syllabus/">PPSC syllabus 2026</a></div>
+  </div></section>
+
+  <section class="block"><div class="wrap">
+    <div class="sec-head"><div><h2>Study guides</h2><p>Strategies that match the way PPSC papers are set.</p></div><a class="btn alt sm" href="/guides/">All guides</a></div>
+    <div class="grid">
+      {guides.map((g) => <a class="card" href={`/guides/${g.id}/`}><h3>{g.data.title}</h3><p style="color:var(--muted);font-size:.93rem">{g.data.description}</p></a>)}
+    </div>
+  </div></section>
+
+  <section class="block"><div class="narrow">
+    <h2>Frequently asked questions</h2>
+    {faqs.map(([q, a]) => <details class="faq"><summary>{q}</summary><p>{a}</p></details>)}
+  </div></section>
+</Base>

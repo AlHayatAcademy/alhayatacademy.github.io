@@ -1,0 +1,11 @@
+{
+  "name": "PPSC Prep Hub",
+  "tagline": "Free PPSC test preparation: syllabus, MCQs, timed mock tests",
+  "url": "https://your-domain.example",
+  "email": "contact@your-domain.example",
+  "lang": "en",
+  "adsenseClient": "",
+  "adsenseSlots": { "inline": "", "banner": "" },
+  "gaId": "",
+  "updated": "2026-10-09"
+}

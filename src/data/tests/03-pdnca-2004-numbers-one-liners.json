@@ -1,0 +1,560 @@
+{
+ "id": 3,
+ "slug": "pdnca-2004-numbers-one-liners",
+ "title": "Punjab Child Protection Act 2004: Numbers & One-liners",
+ "desc": "Parts, periods, amounts, ages and who-is-who drill",
+ "group": "Child Protection Act",
+ "color": "#e11d48",
+ "questions": [
+  {
+   "q": "The total number of sections in the Act is:",
+   "o": [
+    "40",
+    "60",
+    "35",
+    "51"
+   ],
+   "a": 3,
+   "e": "The Act has 51 sections arranged in nine Parts. Section 51 is the repeal and saving provision."
+  },
+  {
+   "q": "The total number of Parts in the Act is:",
+   "o": [
+    "Five",
+    "Seven",
+    "Nine",
+    "Twelve"
+   ],
+   "a": 2,
+   "e": "Parts I-IX: Preliminary, Bureau, CPOs and Unit, Fund, Institutions, Courts, Rescue and Custody, Special Offences and Miscellaneous."
+  },
+  {
+   "q": "Part I of the Act is titled:",
+   "o": [
+    "The Bureau",
+    "Preliminary",
+    "Courts",
+    "Offences"
+   ],
+   "a": 1,
+   "e": "Part I (Sections 1-4) covers short title, saving, definitions and initiation of proceedings."
+  },
+  {
+   "q": "Part V of the Act deals with:",
+   "o": [
+    "Courts",
+    "The Fund",
+    "Offences",
+    "Child Protection Institutions"
+   ],
+   "a": 3,
+   "e": "Part V (Sections 20-21). Part IV is the Fund (Sections 18-19)."
+  },
+  {
+   "q": "Part VIII of the Act deals with:",
+   "o": [
+    "Miscellaneous",
+    "Courts",
+    "Institutions",
+    "Special offences"
+   ],
+   "a": 3,
+   "e": "Part VIII is Sections 34-43. Part IX is Miscellaneous (Sections 44-51)."
+  },
+  {
+   "q": "The Act was enacted in the year:",
+   "o": [
+    "1983",
+    "1976",
+    "2007",
+    "2004"
+   ],
+   "a": 3,
+   "e": "It was amended in 2007 (the Board section was substituted), then in 2014 and 2017 per reports; a further amendment bill was reported in 2025."
+  },
+  {
+   "q": "The Board of Governors section was substituted in:",
+   "o": [
+    "2004",
+    "2014",
+    "2020",
+    "2007"
+   ],
+   "a": 3,
+   "e": "Section 6 was substituted by the first amendment, in 2007."
+  },
+  {
+   "q": "A child under which age can be taken into custody by a CPO to start Part VII proceedings?",
+   "o": [
+    "Fifteen years",
+    "Twelve years",
+    "Eighteen years",
+    "Ten years"
+   ],
+   "a": 0,
+   "e": "Section 4(1). The definition of child (18) is wider than the age for proceedings (15)."
+  },
+  {
+   "q": "Which number correctly matches: 'A CPO produces a child before the Court within'?",
+   "o": [
+    "24 days",
+    "72 hours",
+    "24 hours",
+    "10 days"
+   ],
+   "a": 2,
+   "e": "Section 24. A child is first taken to the nearest institution if not immediately producible (Section 25)."
+  },
+  {
+   "q": "Which number correctly matches the maximum compensation for false information?",
+   "o": [
+    "Rs 50,000",
+    "Rs 5,000",
+    "Rs 500",
+    "Rs 5 lakh"
+   ],
+   "a": 0,
+   "e": "Section 31(1)."
+  },
+  {
+   "q": "Which number correctly matches the maximum fine under Part VIII?",
+   "o": [
+    "Rs 10,000",
+    "Rs 1,00,000",
+    "Rs 25,000",
+    "Rs 50,000"
+   ],
+   "a": 3,
+   "e": "All Part VIII penalties mention fines up to Rs 50,000 in the original text."
+  },
+  {
+   "q": "Which number correctly matches the term of non-ex-officio donor representatives on the Board?",
+   "o": [
+    "1 year",
+    "10 years",
+    "6 months",
+    "4 years"
+   ],
+   "a": 3,
+   "e": "Donors' representatives and the six non-official members serve four-year terms."
+  },
+  {
+   "q": "Which number correctly matches the number of secretaries who are ex-officio members of the Board?",
+   "o": [
+    "Three",
+    "One",
+    "Five",
+    "Seven"
+   ],
+   "a": 0,
+   "e": "Home, Social Welfare and Local Government secretaries."
+  },
+  {
+   "q": "Which number is the quorum of the Board?",
+   "o": [
+    "Two",
+    "Seven",
+    "Five",
+    "Eleven"
+   ],
+   "a": 2,
+   "e": "Including two ex-officio members."
+  },
+  {
+   "q": "The maximum imprisonment for abetting escape under Section 41 is:",
+   "o": [
+    "Seven years",
+    "Ten years",
+    "Five years",
+    "Two years"
+   ],
+   "a": 2,
+   "e": "The longest penalty in Part VIII."
+  },
+  {
+   "q": "The maximum imprisonment for inciting a child to bet under Section 39 is:",
+   "o": [
+    "Six months",
+    "One year",
+    "Three years",
+    "Five years"
+   ],
+   "a": 0,
+   "e": "The shortest imprisonment term in Part VIII."
+  },
+  {
+   "q": "Which offence under the Act has no imprisonment (fine only)?",
+   "o": [
+    "Cruelty to a child",
+    "Allowing a child into a place selling liquor or drugs (Section 38)",
+    "Employing a child to beg",
+    "Abetting escape"
+   ],
+   "a": 1,
+   "e": "Section 38 originally prescribes a fine up to Rs 50,000."
+  },
+  {
+   "q": "Which of the following is NOT an offence under Part VIII of the Act?",
+   "o": [
+    "Child marriage",
+    "Cruelty to a child by a person in charge",
+    "Employing a child to beg",
+    "Inciting a child to bet"
+   ],
+   "a": 0,
+   "e": "Child marriage is dealt with under the Child Marriage Restraint Act 1929, not the PDNCA."
+  },
+  {
+   "q": "Which Section deals with 'cruelty to children'?",
+   "o": [
+    "Section 24",
+    "Section 20",
+    "Section 35",
+    "Section 5"
+   ],
+   "a": 2,
+   "e": "Cruelty includes ill-treating, neglecting, abandoning or exposing a child."
+  },
+  {
+   "q": "Which Section deals with employing a child for begging?",
+   "o": [
+    "Section 37",
+    "Section 36",
+    "Section 31",
+    "Section 28"
+   ],
+   "a": 1,
+   "e": "Penalty up to 3 years or fine up to Rs 50,000 or both."
+  },
+  {
+   "q": "Which Section deals with giving intoxicants or narcotics to a child?",
+   "o": [
+    "Section 37",
+    "Section 34",
+    "Section 39",
+    "Section 22"
+   ],
+   "a": 0,
+   "e": "Without the prescription of a qualified medical practitioner."
+  },
+  {
+   "q": "Which Section deals with offences being cognizable?",
+   "o": [
+    "Section 41",
+    "Section 42",
+    "Section 44",
+    "Section 50"
+   ],
+   "a": 1,
+   "e": "Section 43 says procedure follows the Code of Criminal Procedure."
+  },
+  {
+   "q": "Which Section deals with repeal of earlier laws?",
+   "o": [
+    "Section 49",
+    "Section 5",
+    "Section 1",
+    "Section 51"
+   ],
+   "a": 3,
+   "e": "Repealed: Punjab Children Ordinance 1983, Punjab Youthful Offenders Ordinance 1983, Punjab Supervision and Control of Children Homes Act 1976."
+  },
+  {
+   "q": "Which Section establishes the Welfare Fund?",
+   "o": [
+    "Section 22",
+    "Section 28",
+    "Section 18",
+    "Section 45"
+   ],
+   "a": 2,
+   "e": "Section 18 requires the Bureau and each child protection institution to establish a Fund."
+  },
+  {
+   "q": "Which Section deals with audit of the Fund?",
+   "o": [
+    "Section 19",
+    "Section 17",
+    "Section 20",
+    "Section 21"
+   ],
+   "a": 0,
+   "e": "The annual audit report must be made public."
+  },
+  {
+   "q": "Which Section establishes Child Protection Courts?",
+   "o": [
+    "Section 23",
+    "Section 22",
+    "Section 24",
+    "Section 26"
+   ],
+   "a": 1,
+   "e": "Section 23 deals with powers and functions of the Court."
+  },
+  {
+   "q": "Which Section deals with the powers and functions of the Court?",
+   "o": [
+    "Section 22",
+    "Section 25",
+    "Section 30",
+    "Section 23"
+   ],
+   "a": 3,
+   "e": "Includes one month period, no appeal, deemed Court of Sessions."
+  },
+  {
+   "q": "Which Section deals with discharge of a child from an institution?",
+   "o": [
+    "Section 44",
+    "Section 45",
+    "Section 46",
+    "Section 47"
+   ],
+   "a": 0,
+   "e": "Section 45 is transfers; Section 46 public servants; Section 47 protection of good faith acts."
+  },
+  {
+   "q": "Which Section deals with protection of acts done in good faith?",
+   "o": [
+    "Section 46",
+    "Section 48",
+    "Section 47",
+    "Section 49"
+   ],
+   "a": 2,
+   "e": "No suit or prosecution lies for acts done in good faith under the Act."
+  },
+  {
+   "q": "Which Section gives overriding effect to the Act?",
+   "o": [
+    "Section 2",
+    "Section 20",
+    "Section 50",
+    "Section 48"
+   ],
+   "a": 3,
+   "e": "Section 48."
+  },
+  {
+   "q": "Who gives the Bureau its executive authority per the Act?",
+   "o": [
+    "The Chief Minister",
+    "The Board, not the Government or Director General",
+    "The Court",
+    "The Police"
+   ],
+   "a": 1,
+   "e": "Section 10."
+  },
+  {
+   "q": "Who is the 'chief executive' of the Bureau?",
+   "o": [
+    "Chairperson",
+    "Home Secretary",
+    "Director General",
+    "Patron-in-Chief"
+   ],
+   "a": 2,
+   "e": "Section 13. Executive authority is with the Board, but the DG is chief executive."
+  },
+  {
+   "q": "Who is the 'Patron-in-Chief' of the Board?",
+   "o": [
+    "Governor",
+    "Chief Justice",
+    "Home Minister",
+    "Chief Minister"
+   ],
+   "a": 3,
+   "e": "The Chairperson is appointed by Government among members."
+  },
+  {
+   "q": "Who appoints Child Protection Officers?",
+   "o": [
+    "The Home Department",
+    "The Court",
+    "The Governor",
+    "The Bureau"
+   ],
+   "a": 3,
+   "e": "Section 15."
+  },
+  {
+   "q": "Who establishes a Child Protection Unit?",
+   "o": [
+    "The Court",
+    "The Bureau for each local area",
+    "The police",
+    "The Federal Government"
+   ],
+   "a": 1,
+   "e": "Section 16."
+  },
+  {
+   "q": "Who appoints the presiding officer of the Child Protection Court?",
+   "o": [
+    "The Board",
+    "Government after consulting the Lahore High Court",
+    "The Director General",
+    "The CPO"
+   ],
+   "a": 1,
+   "e": "Section 22(2)."
+  },
+  {
+   "q": "Which Act is referred to in the definition of 'narcotic drug'?",
+   "o": [
+    "Anti-Narcotics Act 2001",
+    "Drugs Act 1976",
+    "Control of Narcotic Substances Act 1997",
+    "Dangerous Drugs Act 1930"
+   ],
+   "a": 2,
+   "e": "Section 3(p)."
+  },
+  {
+   "q": "Which Ordinance is referred to in the definition of 'local area'?",
+   "o": [
+    "Local Government Act 2013",
+    "Municipal Ordinance 1960",
+    "Police Order 2002",
+    "Punjab Local Government Ordinance 2001"
+   ],
+   "a": 3,
+   "e": "Section 3(n): district, city district, tehsil or town."
+  },
+  {
+   "q": "Which Code is referred to in the Act as 'the Code'?",
+   "o": [
+    "Code of Civil Procedure 1908",
+    "Code of Criminal Procedure 1898",
+    "Family Code",
+    "Penal Code 1860"
+   ],
+   "a": 1,
+   "e": "Section 3(i)."
+  },
+  {
+   "q": "The Act applies to destitute and neglected children and does NOT cover:",
+   "o": [
+    "Children found begging",
+    "Children involved in criminal litigation",
+    "Orphans",
+    "Children beyond parental control"
+   ],
+   "a": 1,
+   "e": "The preamble excludes children in conflict with the law, who are dealt with under juvenile justice law."
+  },
+  {
+   "q": "Which department of the Punjab Government is 'Government' for the Act?",
+   "o": [
+    "Education Department",
+    "Home Department",
+    "Finance Department",
+    "Law Department"
+   ],
+   "a": 1,
+   "e": "Section 3(m). The Bureau works under the administrative control of Home Department, per the Act."
+  },
+  {
+   "q": "A child living with or associating with persons leading immoral lives is:",
+   "o": [
+    "Not covered",
+    "A juvenile offender",
+    "Destitute and neglected under Section 3(k)(iv)",
+    "Adopted"
+   ],
+   "a": 2,
+   "e": "Clause (iv) includes living in a brothel or with a prostitute, frequenting such places or associating with immoral persons."
+  },
+  {
+   "q": "A child whose parent or guardian is unfit or incapacitated is:",
+   "o": [
+    "Not covered",
+    "Destitute and neglected under Section 3(k)(iii)",
+    "A ward",
+    "A delinquent"
+   ],
+   "a": 1,
+   "e": "Clause (iii)."
+  },
+  {
+   "q": "A child with no home or settled place of abode and no visible means of subsistence is:",
+   "o": [
+    "Destitute and neglected under Section 3(k)(ii)",
+    "Not covered",
+    "An orphan only",
+    "A truant"
+   ],
+   "a": 0,
+   "e": "Clause (ii)."
+  },
+  {
+   "q": "The person who brings a false, frivolous or vexatious complaint can be:",
+   "o": [
+    "Sentenced to death",
+    "Exiled",
+    "Fined Rs 5 million",
+    "Ordered to pay compensation up to Rs 50,000"
+   ],
+   "a": 3,
+   "e": "Section 31. This discourages malicious complaints but does not bar other civil or criminal liability."
+  },
+  {
+   "q": "For the purposes of the Act, who may be 'summoned to show cause' about a child being found with them?",
+   "o": [
+    "The Chairperson",
+    "The parent or guardian",
+    "The donor",
+    "The Director General"
+   ],
+   "a": 1,
+   "e": "Section 26."
+  },
+  {
+   "q": "Under which Section can a child be transferred to another province?",
+   "o": [
+    "Section 22",
+    "Section 30",
+    "Section 45",
+    "Section 10"
+   ],
+   "a": 2,
+   "e": "Only with that province's consent and a similar law."
+  },
+  {
+   "q": "The Bureau and institutions must make which report public?",
+   "o": [
+    "Weekly case report",
+    "CPO attendance",
+    "Private diaries",
+    "Annual audit report of the Fund"
+   ],
+   "a": 3,
+   "e": "Section 19."
+  },
+  {
+   "q": "For how long does an institutional custody order generally last?",
+   "o": [
+    "One month always",
+    "Five years always",
+    "Until the child turns 18 or a shorter period in exceptional cases",
+    "Ten days"
+   ],
+   "a": 2,
+   "e": "Sections 28 and 32."
+  },
+  {
+   "q": "Maintenance ordered under Section 33 is recoverable as:",
+   "o": [
+    "Fine",
+    "Arrears of land revenue",
+    "Income tax",
+    "Stamp duty"
+   ],
+   "a": 1,
+   "e": "Section 33(2)."
+  }
+ ]
+}

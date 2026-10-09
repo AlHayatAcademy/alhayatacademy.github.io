@@ -1,0 +1,47 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import Ad from '../../components/Ad.astro';
+import { jobs } from '../../lib.js';
+const types = ['All', ...new Set(jobs.map((j) => j.type).filter(Boolean))];
+const totalPosts = jobs.reduce((n, j) => n + (j.posts || 0), 0);
+const fmt = (s) => s ? new Date(s + 'T00:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' }) : '';
+const schema = [{ '@context': 'https://schema.org', '@type': 'ItemList', name: 'PPSC jobs and syllabi', numberOfItems: jobs.length,
+  itemListElement: jobs.slice(0, 30).map((j, i) => ({ '@type': 'ListItem', position: i + 1, name: `${j.title} (${j.bps}) ${j.case}` })) }];
+---
+<Base title="Latest PPSC Jobs 2026: Posts, Syllabus & Case Numbers" description={`${jobs.length} PPSC recruitments with ${totalPosts.toLocaleString()} posts: Junior Clerk, Assistant, Deputy Accountant, Enforcement Officer, Food Safety Officer and more. See syllabus and preparation for each.`} active="jobs" schema={schema}>
+  <div class="page-hero"><div class="wrap">
+    <Crumbs items={[['Home', '/'], ['PPSC jobs']]} />
+    <h1>Latest PPSC jobs 2026</h1>
+    <p>{jobs.length} recruitments · {totalPosts.toLocaleString()} posts. Each row links to the syllabus and the right preparation page. Apply and check closing dates on the official PPSC website.</p>
+    <div class="btnrow"><a class="btn amber" href="https://ppsc.gop.pk" rel="noopener" target="_blank">Official PPSC website ↗</a><a class="btn alt" style="background:#fff" href="/news/">📰 News and updates</a></div>
+  </div></div>
+  <section class="block"><div class="wrap">
+    <div class="filters" id="filters">{types.map((t, i) => <button class={i === 0 ? 'on' : ''} data-t={t}>{t}</button>)}</div>
+    <input id="q" type="search" placeholder="Filter by post, department or case number" aria-label="Filter jobs" style="width:100%;padding:13px 16px;border-radius:12px;border:2px solid var(--line);background:var(--surface);color:var(--text);font-size:1rem;margin-bottom:14px" />
+    <div class="tablewrap"><table id="tbl">
+      <thead><tr><th>Post</th><th>Grade</th><th>Department</th><th>Posts</th><th>Paper</th><th>Syllabus date</th><th></th></tr></thead>
+      <tbody>
+        {jobs.map((j) => (
+          <tr data-t={j.type} data-s={`${j.title} ${j.dept} ${j.case}`.toLowerCase()}>
+            <td><b>{j.title}</b><br /><small style="color:var(--muted)">Case {j.case}{j.closing ? ` · closes ${fmt(j.closing)}` : ''}</small></td>
+            <td>{j.bps}</td><td>{j.dept}</td><td>{j.posts ?? '–'}</td><td>{j.type}</td><td>{fmt(j.date)}</td>
+            <td>{j.link ? <a class="btn sm" href={j.link}>Prepare</a> : null}{j.official ? <> <a class="btn sm alt" href={j.official} rel="noopener" target="_blank">Official</a></> : null}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table></div>
+    <Ad kind="inline" />
+    <p class="notice info">The list is compiled from PPSC syllabi and is updated regularly. It does not replace the official advertisement: closing dates, fees and eligibility are only reliable on <a href="https://ppsc.gop.pk" rel="noopener">ppsc.gop.pk</a>.</p>
+  </div></section>
+  <script>
+    const rows = [...document.querySelectorAll('#tbl tbody tr')];
+    let type = 'All', text = '';
+    const apply = () => rows.forEach((r) => (r.style.display = (type === 'All' || r.dataset.t === type) && r.dataset.s.includes(text) ? '' : 'none'));
+    document.getElementById('filters').addEventListener('click', (e) => {
+      const b = e.target.closest('button'); if (!b) return; type = b.dataset.t;
+      document.querySelectorAll('#filters button').forEach((x) => x.classList.toggle('on', x === b)); apply();
+    });
+    document.getElementById('q').addEventListener('input', (e) => { text = e.target.value.toLowerCase(); apply(); });
+  </script>
+</Base>

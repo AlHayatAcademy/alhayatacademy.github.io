@@ -1,0 +1,64 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import { posts, groups, groupByName, mixTotal, poolSize } from '../../lib.js';
+export function getStaticPaths() { return posts.filter((p) => p.mix).map((p) => ({ params: { slug: p.slug }, props: { p } })); }
+const { p } = Astro.props;
+const n = mixTotal(p.mix);
+const mins = Math.round(n * 0.9);
+const cfg = { slug: p.slug, mix: p.mix, mix2: p.mix2 || null, slugOf: Object.fromEntries(groups.map((g) => [g.name, g.slug])) };
+const partial = p.syllabus.some((s) => !s.covered);
+---
+<Base title={`${p.name} Mock Exam: ${n} MCQs, ${mins} Minutes (PPSC)`} description={`Timed PPSC ${p.name} mock exam with ${n} MCQs, ${mins} minutes and 0.25 negative marking, drawn from a bank of original practice questions. Free, with a full review.`} active="exam">
+  <div class="page-hero" style={`background:linear-gradient(135deg,${p.color},#db2777)`}><div class="wrap">
+    <Crumbs items={[['Home', '/'], ['Mock exams', '/exam/'], [p.name]]} />
+    <h1>{p.icon} {p.name} mock exam</h1><p>{n} MCQs · {mins} minutes · −0.25 per wrong answer</p>
+  </div></div>
+  <div class="narrow" id="exam" style="padding-top:18px">
+    <div id="intro">
+      <div class="card">
+        <h2>Before you start</h2>
+        <ul>
+          <li>{n} questions drawn at random from the bank, in the subject mix below. A different paper each time.</li>
+          <li>{mins} minutes (0.9 minute per question, like the 100 MCQs in 90 minutes pattern). The timer starts when you press Start.</li>
+          <li>Each wrong answer costs 0.25 marks. Unanswered questions cost nothing.</li>
+          <li>Tap an option to select it; tap again to clear. Explanations appear after you submit.</li>
+        </ul>
+        <div class="tablewrap"><table><thead><tr><th>Subject</th><th>Questions</th></tr></thead><tbody>
+          {Object.entries(p.mix).map(([g, c]) => <tr><td>{groupByName[g]?.icon} {g}</td><td>{c}</td></tr>)}
+        </tbody></table></div>
+        {partial && <p class="notice">This post also has subject questions we do not yet cover, so this mock covers only the General Ability part. Read the <a href={`/posts/${p.slug}/`}>post page</a> for the full split.</p>}
+        {p.mix2 && <p class="notice info">Two versions: the default follows a general-ability pattern; <a href={`/exam/${p.slug}/?v=2`}>version 2</a> is child-protection-heavy.</p>}
+        <div class="btnrow"><button class="btn amber" id="go" type="button">▶ Start exam</button><a class="btn alt" href={`/posts/${p.slug}/`}>Back to {p.name}</a></div>
+      </div>
+    </div>
+
+    <div id="run" class="hidden">
+      <div class="qbar">
+        <div class="sc"><span>⏱ <span class="timer" id="timer">--:--</span></span><span>Answered <b id="answered">0</b>/{n}</span></div>
+        <div class="acts"><button class="btn sm green" id="submit" type="button">Submit</button></div>
+      </div>
+      <article class="q">
+        <p style="margin:0 0 8px;color:var(--muted);font-weight:700"><span id="qn"></span> · <span id="qsub"></span></p>
+        <h3><span id="qt"></span></h3>
+        <ol class="opts" id="opts" type="A"></ol>
+        <div class="btnrow"><button class="btn alt sm" id="prev" type="button">‹ Prev</button><button class="btn alt sm" id="clear" type="button">Clear</button><button class="btn sm" id="next" type="button">Next ›</button></div>
+      </article>
+      <div class="pal" id="pal"></div>
+    </div>
+
+    <div id="done" class="hidden">
+      <div class="result"><div>Your net score</div><div class="big"><span id="r-score"></span> <small id="r-of" style="font-size:1.1rem"></small></div><p id="r-msg"></p></div>
+      <div class="facts">
+        <div class="fact"><small>Correct</small><b id="r-c"></b></div><div class="fact"><small>Wrong</small><b id="r-w"></b></div>
+        <div class="fact"><small>Skipped</small><b id="r-u"></b></div><div class="fact"><small>Time used</small><b id="r-t"></b></div>
+      </div>
+      <h2 style="margin-top:22px">Subject-wise (weakest first)</h2>
+      <div class="tablewrap"><table><thead><tr><th>Subject</th><th>Correct</th><th>Wrong</th><th>Skipped</th><th>Accuracy</th></tr></thead><tbody id="by"></tbody></table></div>
+      <div class="btnrow"><button class="btn" id="again" type="button">Take another paper</button><a class="btn alt" href="/practice/">Practise weak subjects</a><a class="btn alt" href="/progress/">My progress</a></div>
+      <h2>Review</h2><div id="review"></div>
+    </div>
+    <script type="application/json" id="exam-cfg" set:html={JSON.stringify(cfg)} />
+  </div>
+  <script>import '../../scripts/exam.js';</script>
+</Base>

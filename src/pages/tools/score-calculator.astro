@@ -1,0 +1,27 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+---
+<Base title="PPSC Score Calculator with Negative Marking" description="Calculate your PPSC MCQ net score. Enter correct, wrong and skipped answers and the negative marking value." active="tools">
+  <div class="page-hero"><div class="wrap"><Crumbs items={[['Home', '/'], ['Tools', '/tools/'], ['Score calculator']]} /><h1>PPSC score calculator</h1><p>Net score = correct − (penalty × wrong).</p></div></div>
+  <section class="block"><div class="narrow">
+    <div class="card">
+      <label>Total questions <input id="t" type="number" value="100" min="1" /></label>
+      <label>Correct <input id="c" type="number" value="0" min="0" /></label>
+      <label>Wrong <input id="w" type="number" value="0" min="0" /></label>
+      <label>Penalty per wrong answer <input id="p" type="number" value="0.25" step="0.05" min="0" /></label>
+      <div id="out" class="notice info" style="margin-top:14px;font-size:1.1rem"></div>
+    </div>
+    <style>.card label{display:block;margin:10px 0;font-weight:600}.card input{display:block;width:100%;padding:12px;margin-top:4px;border-radius:10px;border:2px solid var(--line);background:var(--surface);color:var(--text);font-size:1rem}</style>
+    <p class="notice info">Some PPSC papers have no negative marking. Check your own advertisement and set the penalty to 0 if so.</p>
+  </div></section>
+  <script>
+    const $ = (id) => document.getElementById(id);
+    const run = () => {
+      const t = +$('t').value || 0, c = +$('c').value || 0, w = +$('w').value || 0, p = +$('p').value || 0;
+      const skipped = Math.max(0, t - c - w), net = c - p * w;
+      $('out').innerHTML = `Net score: <b>${net.toFixed(2)}</b> / ${t} (${t ? ((net / t) * 100).toFixed(1) : 0}%)<br>Skipped: ${skipped}${c + w > t ? '<br>⚠️ Correct + wrong exceeds total questions.' : ''}`;
+    };
+    ['t', 'c', 'w', 'p'].forEach((id) => $(id).addEventListener('input', run)); run();
+  </script>
+</Base>

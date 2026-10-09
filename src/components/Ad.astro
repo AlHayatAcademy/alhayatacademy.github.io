@@ -1,0 +1,11 @@
+---
+import { site } from '../lib.js';
+const { kind = 'inline' } = Astro.props;
+const slot = site.adsenseSlots?.[kind];
+---
+{site.adsenseClient && slot && (
+  <div class="ad"><small>Advertisement</small>
+    <ins class="adsbygoogle" style="display:block" data-ad-client={site.adsenseClient} data-ad-slot={slot} data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script is:inline>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
+  </div>
+)}

@@ -1,0 +1,24 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import { posts, qualPosts } from '../../lib.js';
+---
+<Base title="PPSC Jobs Test Preparation by Post: Syllabus & Pattern 2026" description="Find your PPSC post: Junior Clerk, Assistant, Deputy Accountant, Enforcement Officer, Junior Computer Operator, Stenographer and more, with syllabus split, pattern and matching mock exams." active="posts">
+  <div class="page-hero"><div class="wrap">
+    <Crumbs items={[['Home', '/'], ['PPSC posts']]} />
+    <h1>PPSC test preparation by post</h1>
+    <p>Each page shows the exact paper split from the syllabi, recent advertisements, practice tests and a mock exam built to match.</p>
+  </div></div>
+  <section class="block"><div class="wrap">
+    <div class="grid">
+      {posts.map((p) => (
+        <a class="card pcard" href={`/posts/${p.slug}/`} style={`--c:${p.color}`}>
+          <div class="ico">{p.icon}</div><h3>{p.name}</h3><p>{p.summary}</p>
+          <span class="tag">{p.bps}</span>
+        </a>
+      ))}
+    </div>
+    <h2 style="margin-top:34px">Qualification-based posts</h2>
+    <p style="color:var(--muted)">These papers are 100% subject questions for your degree area, so no common bank exists. See the <a href="/syllabus/">full syllabus table</a> for {qualPosts.length} such posts including Food Safety Officer, Public Analyst, Senior Auditor, Municipal Officer and Director posts.</p>
+  </div></section>
+</Base>

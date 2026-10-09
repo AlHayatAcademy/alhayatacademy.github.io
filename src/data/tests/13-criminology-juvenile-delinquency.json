@@ -1,0 +1,560 @@
+{
+ "id": 13,
+ "slug": "criminology-juvenile-delinquency",
+ "title": "Criminology & Juvenile Delinquency",
+ "desc": "Crime theories, juvenile justice, probation and prevention",
+ "group": "Social Sciences",
+ "color": "#9333ea",
+ "questions": [
+  {
+   "q": "The 'Father of Criminology' is generally considered to be:",
+   "o": [
+    "Cesare Beccaria",
+    "Jeremy Bentham",
+    "Emile Durkheim",
+    "Cesare Lombroso"
+   ],
+   "a": 3,
+   "e": "Lombroso (1835–1909) started the positivist (Italian) school and wrote 'L'uomo delinquente' (1876). The term 'criminology' was coined by Garofalo (1885) and anthropologist Topinard."
+  },
+  {
+   "q": "The Classical School of criminology is associated with:",
+   "o": [
+    "Lombroso",
+    "Ferri",
+    "Cesare Beccaria",
+    "Garofalo"
+   ],
+   "a": 2,
+   "e": "Beccaria's 'On Crimes and Punishments' (1764) argued that punishment must be certain, swift and proportionate, and opposed torture and the death penalty."
+  },
+  {
+   "q": "Lombroso's theory of 'born criminals' relied on:",
+   "o": [
+    "Poverty",
+    "Atavism and physical features",
+    "Peer groups",
+    "Learning"
+   ],
+   "a": 1,
+   "e": "Lombroso believed criminals were evolutionary throwbacks. The theory is now rejected, but it began scientific study of crime."
+  },
+  {
+   "q": "Jeremy Bentham's 'felicific calculus' means:",
+   "o": [
+    "Weighing pleasure against pain before acting",
+    "Genetic code",
+    "Social bond",
+    "Anomie"
+   ],
+   "a": 0,
+   "e": "Bentham was a utilitarian who held that people choose crime after rationally weighing benefits and costs."
+  },
+  {
+   "q": "Rational choice and deterrence theory emphasizes:",
+   "o": [
+    "Biology",
+    "Poverty only",
+    "Mental illness",
+    "Certainty, swiftness and severity of punishment"
+   ],
+   "a": 3,
+   "e": "Deterrence works best when punishment is certain and swift rather than only severe."
+  },
+  {
+   "q": "The Chicago School's theory of 'social disorganization' was developed by:",
+   "o": [
+    "Shaw and McKay",
+    "Sutherland",
+    "Hirschi",
+    "Merton"
+   ],
+   "a": 0,
+   "e": "Clifford Shaw and Henry McKay found high delinquency rates in the transitional zone of the city regardless of which ethnic group lived there."
+  },
+  {
+   "q": "Sutherland's theory of differential association says criminal behaviour is:",
+   "o": [
+    "Inherited",
+    "Caused by sickness",
+    "Caused by weather",
+    "Learned in interaction with intimate groups"
+   ],
+   "a": 3,
+   "e": "Sutherland (1939) held that excess of definitions favorable to violation of law over unfavorable ones leads to crime."
+  },
+  {
+   "q": "Edwin Sutherland also introduced the concept of:",
+   "o": [
+    "Broken windows",
+    "White-collar crime",
+    "Labelling",
+    "Atavism"
+   ],
+   "a": 1,
+   "e": "White-collar crime (1939) is crime committed by persons of respectability and high social status in the course of their occupation."
+  },
+  {
+   "q": "Hirschi's social bond theory includes all EXCEPT:",
+   "o": [
+    "Attachment",
+    "Commitment",
+    "Anomie",
+    "Belief"
+   ],
+   "a": 2,
+   "e": "Hirschi (1969) identified attachment, commitment, involvement and belief as bonds that keep youth from delinquency."
+  },
+  {
+   "q": "The General Theory of Crime (self-control) was proposed by:",
+   "o": [
+    "Gottfredson and Hirschi",
+    "Merton",
+    "Becker",
+    "Sykes and Matza"
+   ],
+   "a": 0,
+   "e": "They argued that low self-control developed in early childhood due to ineffective parenting is the main cause of crime."
+  },
+  {
+   "q": "Techniques of neutralization and drift theory is by:",
+   "o": [
+    "Shaw and McKay",
+    "Sheldon",
+    "Sykes and Matza",
+    "Lombroso"
+   ],
+   "a": 2,
+   "e": "Delinquents rationalize behaviour with statements like 'denial of responsibility', 'denial of injury' or 'condemnation of the condemners'."
+  },
+  {
+   "q": "Albert Cohen's theory of delinquent subculture is based on:",
+   "o": [
+    "Status frustration of lower-class boys",
+    "Genes",
+    "Media",
+    "Drugs"
+   ],
+   "a": 0,
+   "e": "Cohen (1955), 'Delinquent Boys', said lower class boys unable to meet middle class standards form a subculture that rejects them."
+  },
+  {
+   "q": "Cloward and Ohlin proposed the theory of:",
+   "o": [
+    "Routine activity",
+    "Labelling",
+    "Atavism",
+    "Differential opportunity"
+   ],
+   "a": 3,
+   "e": "They stated that illegitimate opportunity structures determine whether subcultures become criminal, conflict or retreatist."
+  },
+  {
+   "q": "The 'Broken Windows' theory was given by:",
+   "o": [
+    "Merton",
+    "Sutherland",
+    "Wilson and Kelling",
+    "Lombroso"
+   ],
+   "a": 2,
+   "e": "It says visible disorder leads to more serious crime if neglected, suggesting order maintenance and community policing."
+  },
+  {
+   "q": "Routine Activity Theory by Cohen and Felson requires which three elements?",
+   "o": [
+    "Motivated offender, suitable target, absence of capable guardian",
+    "Poverty, gang, drug",
+    "Id, ego, superego",
+    "Anomie, strain, labelling"
+   ],
+   "a": 0,
+   "e": "Crime occurs when these three converge in time and space."
+  },
+  {
+   "q": "William Sheldon's somatotype theory linked delinquency with which body type?",
+   "o": [
+    "Endomorph",
+    "Mesomorph",
+    "Ectomorph",
+    "Dysplastic"
+   ],
+   "a": 1,
+   "e": "Sheldon described endomorphs (soft, round), mesomorphs (muscular) and ectomorphs (thin). The theory is now considered outdated."
+  },
+  {
+   "q": "Sheldon and Eleanor Glueck are known for their study of:",
+   "o": [
+    "Anomie",
+    "Labelling",
+    "500 Criminal Careers and juvenile delinquency",
+    "Gender"
+   ],
+   "a": 2,
+   "e": "The Gluecks developed prediction tables, emphasizing family factors like discipline and affection."
+  },
+  {
+   "q": "Juvenile delinquency refers to:",
+   "o": [
+    "Crimes by adults",
+    "Old age crime",
+    "Antisocial or illegal behaviour by minors",
+    "White-collar crime"
+   ],
+   "a": 2,
+   "e": "It includes both offences defined by law and status offences such as truancy and running away."
+  },
+  {
+   "q": "Status offences are acts that:",
+   "o": [
+    "Are offences for everyone",
+    "Are illegal only because the offender is a minor",
+    "Are murder",
+    "Are tax offences"
+   ],
+   "a": 1,
+   "e": "Examples: truancy, curfew violation, underage smoking, running away from home. They are not crimes if committed by adults."
+  },
+  {
+   "q": "The first juvenile court in the world was established in:",
+   "o": [
+    "London in 1900",
+    "Paris in 1910",
+    "Lahore in 1920",
+    "Chicago, Illinois, USA in 1899"
+   ],
+   "a": 3,
+   "e": "The Illinois Juvenile Court Act 1899 created a separate court for children based on parens patriae."
+  },
+  {
+   "q": "John Augustus, called the 'Father of Probation', was a:",
+   "o": [
+    "Judge",
+    "Priest in England",
+    "Shoemaker in Boston, USA (1841)",
+    "Police officer"
+   ],
+   "a": 2,
+   "e": "He bailed out and supervised offenders. Probation as a statutory service began in Massachusetts in 1878."
+  },
+  {
+   "q": "The Borstal system was started in:",
+   "o": [
+    "India in 1947",
+    "USA in 1850",
+    "England in the early 1900s",
+    "Pakistan in 2000"
+   ],
+   "a": 2,
+   "e": "Borstal derived its name from Borstal village in Kent (1902) under Sir Evelyn Ruggles-Brise. It provided training for young offenders aged 16–21. Pakistan retains Borstal Institutions."
+  },
+  {
+   "q": "Which theory of punishment aims to 'make the offender suffer for the offence'?",
+   "o": [
+    "Deterrent",
+    "Retributive",
+    "Reformative",
+    "Preventive"
+   ],
+   "a": 1,
+   "e": "Retributive: 'eye for an eye'. Deterrent: to discourage; preventive: to disable; reformative: to rehabilitate. Juveniles are mostly handled with a reformative approach."
+  },
+  {
+   "q": "Which theory of punishment is most appropriate for juvenile offenders?",
+   "o": [
+    "Reformative",
+    "Retributive",
+    "Capital",
+    "Vengeful"
+   ],
+   "a": 0,
+   "e": "Juvenile justice emphasizes education, rehabilitation and reintegration."
+  },
+  {
+   "q": "Restorative justice emphasizes:",
+   "o": [
+    "Only imprisonment",
+    "Repairing harm and involving victim, offender and community",
+    "Revenge",
+    "Fines"
+   ],
+   "a": 1,
+   "e": "Howard Zehr is the leading name. Examples are victim–offender mediation and family group conferencing."
+  },
+  {
+   "q": "The 'dark figure of crime' means:",
+   "o": [
+    "Murder at night",
+    "Prison population",
+    "Crime statistics",
+    "Unreported or undetected crime"
+   ],
+   "a": 3,
+   "e": "Many offences, especially child abuse, go unreported, so official data underestimates crime."
+  },
+  {
+   "q": "Mala in se refers to acts:",
+   "o": [
+    "Inherently wrong, like murder",
+    "Wrong only because law says",
+    "Charitable",
+    "Civil"
+   ],
+   "a": 0,
+   "e": "Mala prohibita are wrong because they are prohibited, e.g., traffic violations."
+  },
+  {
+   "q": "Victimology as a field was pioneered by:",
+   "o": [
+    "Beccaria",
+    "Freud",
+    "Bentham",
+    "Benjamin Mendelsohn and Hans von Hentig"
+   ],
+   "a": 3,
+   "e": "Mendelsohn coined 'victimology' and classified victims; von Hentig wrote 'The Criminal and His Victim' (1948)."
+  },
+  {
+   "q": "The 'cycle of violence' hypothesis states that:",
+   "o": [
+    "Abused children are at higher risk of later violence",
+    "Poverty is harmless",
+    "Violence decreases",
+    "Children are immune"
+   ],
+   "a": 0,
+   "e": "Most abused children don't become abusers, but abuse increases risk. Intervention can break the cycle."
+  },
+  {
+   "q": "Which one is a risk factor for juvenile delinquency?",
+   "o": [
+    "Good supervision",
+    "Stable family",
+    "High commitment to school",
+    "Family conflict, delinquent peers and school failure"
+   ],
+   "a": 3,
+   "e": "Risk factors accumulate; protective factors such as parental attachment and school bonding reduce risk."
+  },
+  {
+   "q": "The most effective approach to juvenile delinquency prevention is:",
+   "o": [
+    "Harsher prison terms",
+    "Public humiliation",
+    "Death penalty",
+    "Early family and school-based interventions"
+   ],
+   "a": 3,
+   "e": "Prevention is cheaper and more effective than punishment."
+  },
+  {
+   "q": "Adolescence-limited and life-course-persistent offenders were described by:",
+   "o": [
+    "Merton",
+    "Terrie Moffitt",
+    "Becker",
+    "Lombroso"
+   ],
+   "a": 1,
+   "e": "Moffitt (1993) said most youth offend only during adolescence, while a small group persists due to early neuropsychological and family problems."
+  },
+  {
+   "q": "Recidivism means:",
+   "o": [
+    "Return to criminal behaviour after punishment or treatment",
+    "First offence",
+    "Acquittal",
+    "Parole"
+   ],
+   "a": 0,
+   "e": "Reduction of recidivism is a main goal of rehabilitation."
+  },
+  {
+   "q": "Parole is:",
+   "o": [
+    "Release after sentence ends",
+    "Bail",
+    "Conditional early release from prison under supervision",
+    "Remand"
+   ],
+   "a": 2,
+   "e": "Probation is sentencing option instead of imprisonment, while parole follows imprisonment."
+  },
+  {
+   "q": "Bail means:",
+   "o": [
+    "Release after conviction",
+    "Death sentence",
+    "Release of an accused pending trial",
+    "Charge sheet"
+   ],
+   "a": 2,
+   "e": "Under the juvenile law a child is entitled to bail as a matter of right, except in some circumstances."
+  },
+  {
+   "q": "Which one is a non-custodial measure for juvenile offenders?",
+   "o": [
+    "Life imprisonment",
+    "Death penalty",
+    "Community service and counselling",
+    "Chains"
+   ],
+   "a": 2,
+   "e": "The Tokyo Rules (1990) promote non-custodial measures to reduce incarceration."
+  },
+  {
+   "q": "Locard's exchange principle in forensic science says:",
+   "o": [
+    "Fingerprints are unique",
+    "Every contact leaves a trace",
+    "Poison is detectable",
+    "Time heals"
+   ],
+   "a": 1,
+   "e": "Edmond Locard (France) said the perpetrator brings something to the scene and leaves with something."
+  },
+  {
+   "q": "Fingerprints as a system of identification were scientifically classified by:",
+   "o": [
+    "Edward Henry",
+    "Alphonse Bertillon",
+    "Locard",
+    "Alec Jeffreys"
+   ],
+   "a": 0,
+   "e": "Francis Galton studied fingerprints; Edward Henry developed the Henry classification system (1897). Bertillon introduced anthropometry; Jeffreys discovered DNA fingerprinting (1984)."
+  },
+  {
+   "q": "Bertillonage refers to:",
+   "o": [
+    "Fingerprinting",
+    "DNA test",
+    "Identification by body measurements",
+    "Polygraph"
+   ],
+   "a": 2,
+   "e": "Alphonse Bertillon's system (1879) was replaced by fingerprinting."
+  },
+  {
+   "q": "The Police Order in Pakistan was promulgated in:",
+   "o": [
+    "1861",
+    "1947",
+    "2002",
+    "1973"
+   ],
+   "a": 2,
+   "e": "The Police Order 2002 replaced the Police Act 1861 and set up Public Safety Commissions."
+  },
+  {
+   "q": "The Anti-Narcotics Force (ANF) of Pakistan was established in:",
+   "o": [
+    "1947",
+    "2001",
+    "2010",
+    "1995"
+   ],
+   "a": 3,
+   "e": "ANF is a federal law enforcement agency to combat drug trafficking. Drug use among youth is a major child protection challenge."
+  },
+  {
+   "q": "Cybercrime law in Pakistan is the:",
+   "o": [
+    "Arms Act",
+    "Customs Act",
+    "Excise Act",
+    "Prevention of Electronic Crimes Act (PECA) 2016"
+   ],
+   "a": 3,
+   "e": "PECA 2016 deals with unauthorized access, cyber stalking, child pornography and electronic forgery."
+  },
+  {
+   "q": "The Federal Investigation Agency (FIA) deals with:",
+   "o": [
+    "Federal offences including trafficking and cybercrime",
+    "Local traffic",
+    "Municipal taxes",
+    "School exams"
+   ],
+   "a": 0,
+   "e": "The National Response Centre for Cyber Crime (NR3C) works under FIA."
+  },
+  {
+   "q": "Which of the following is a gang-related risk for street children?",
+   "o": [
+    "Education",
+    "Immunization",
+    "Recruitment into drug dealing and theft",
+    "Scholarship"
+   ],
+   "a": 2,
+   "e": "Street children are vulnerable to exploitation by criminal networks."
+  },
+  {
+   "q": "Truancy refers to:",
+   "o": [
+    "Running a business",
+    "Domestic violence",
+    "Habitual absence from school without permission",
+    "Theft"
+   ],
+   "a": 2,
+   "e": "It is a status offence and a warning sign for other problems such as abuse, bullying or child labour."
+  },
+  {
+   "q": "The psychological theory of 'frustration–aggression' was proposed by:",
+   "o": [
+    "Pavlov",
+    "Piaget",
+    "Dollard and Miller",
+    "Skinner"
+   ],
+   "a": 2,
+   "e": "Aggression is a result of blocked goal-directed behaviour."
+  },
+  {
+   "q": "Which legal term applies when a child below the age of criminal responsibility commits an act?",
+   "o": [
+    "Mens rea",
+    "Actus reus",
+    "Habeas corpus",
+    "Doli incapax"
+   ],
+   "a": 3,
+   "e": "Doli incapax means incapable of crime. Under PPC Section 82 children below 10 are presumed incapable."
+  },
+  {
+   "q": "Mens rea means:",
+   "o": [
+    "Guilty act",
+    "Evidence",
+    "Witness",
+    "Guilty mind"
+   ],
+   "a": 3,
+   "e": "Actus reus is the guilty act. Both are normally required for criminal liability."
+  },
+  {
+   "q": "Which is an example of 'primary prevention' of crime?",
+   "o": [
+    "Imprisoning offenders",
+    "Parole",
+    "Executing murderers",
+    "Recreational and educational programmes for all youth"
+   ],
+   "a": 3,
+   "e": "Primary prevention addresses root causes in the general population. Secondary targets high-risk groups; tertiary prevents re-offending."
+  },
+  {
+   "q": "The 'Probation Officer' mainly:",
+   "o": [
+    "Prosecutes cases",
+    "Judges cases",
+    "Arrests persons",
+    "Supervises and counsels offenders released on probation"
+   ],
+   "a": 3,
+   "e": "Pre-sentence reports prepared by probation officers help courts decide sentence, especially for juveniles."
+  }
+ ]
+}

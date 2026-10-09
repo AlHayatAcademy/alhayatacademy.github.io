@@ -1,0 +1,11 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+---
+<Base title="Free PPSC Tools: Score Calculator & Study Planner" description="Free tools for PPSC applicants: negative marking score calculator and a day-by-day study planner built from your post's syllabus." active="tools">
+  <div class="page-hero"><div class="wrap"><Crumbs items={[['Home', '/'], ['Tools']]} /><h1>Free PPSC tools</h1><p>Work out your net score and plan your days.</p></div></div>
+  <section class="block"><div class="wrap grid">
+    <a class="card" href="/tools/score-calculator/"><h3>🧮 Score calculator</h3><p>Enter correct, wrong and skipped answers. See your net score with 0.25 negative marking.</p></a>
+    <a class="card" href="/tools/study-planner/"><h3>🗓️ Study planner</h3><p>Pick your post and the days left. Get a subject-by-subject plan.</p></a>
+  </div></section>
+</Base>

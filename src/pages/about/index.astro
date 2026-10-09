@@ -1,0 +1,11 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import { site } from '../../lib.js';
+---
+<Base title="About" description="About this PPSC preparation site, how content is produced and its limits.">
+  <div class="page-hero"><div class="wrap"><Crumbs items={[['Home', '/'], ['About']]} /><h1>About</h1></div></div>
+  <section class="block"><div class="narrow"><article class="prose">
+<p>{site.name} is an independent study resource for applicants to Punjab Public Service Commission (PPSC) tests. We are <b>not</b> affiliated with PPSC or the Government of the Punjab.</p><p>Syllabus summaries are compiled from syllabi published by PPSC. Practice questions are original, written for revision, and are not past papers. Each includes an explanation so you can learn from it.</p><p>We try to be accurate, but errors happen. If you spot one, write to <a href={`mailto:${site.email}`}>{site.email}</a> and we will fix it.</p><p>Always confirm dates, fees and eligibility on the official site, <a href="https://ppsc.gop.pk" rel="noopener">ppsc.gop.pk</a>.</p>
+  </article></div></section>
+</Base>

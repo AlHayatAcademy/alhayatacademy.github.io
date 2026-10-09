@@ -1,0 +1,37 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import { getCollection } from 'astro:content';
+const items = (await getCollection('news')).sort((a, b) => +b.data.date - +a.data.date);
+const cats = ['All', ...new Set(items.map((i) => i.data.category))];
+const fmt = (d) => d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
+const colors = { Jobs: '#7c3aed', Syllabus: '#0ea5e9', Results: '#16a34a', 'Test dates': '#f59e0b', Updates: '#db2777', Preparation: '#059669' };
+---
+<Base title="PPSC News & Updates: Jobs, Syllabus, Test Dates & Results" description="Latest PPSC news: new job advertisements, syllabus updates, test dates and results for Punjab Public Service Commission recruitment." active="news">
+  <div class="page-hero"><div class="wrap">
+    <Crumbs items={[['Home', '/'], ['News & updates']]} />
+    <h1>PPSC news and updates</h1>
+    <p>New advertisements, syllabus changes, test dates and results, with links to the right preparation page.</p>
+    <div class="btnrow"><a class="btn amber" href="/jobs/">💼 Latest PPSC jobs</a><a class="btn alt" style="background:#fff" href="/rss.xml">RSS feed</a></div>
+  </div></div>
+  <section class="block"><div class="narrow">
+    <div class="filters" id="filters">{cats.map((c, i) => <button class={i === 0 ? 'on' : ''} data-c={c}>{c}</button>)}</div>
+    <div id="list" style="display:grid;gap:14px">
+      {items.map((i) => (
+        <a class="card" href={`/news/${i.id.split('/').pop()}/`} data-c={i.data.category} style={`border-left:6px solid ${colors[i.data.category]}`}>
+          <div class="meta"><span class="tag" style={`--c:${colors[i.data.category]}`}>{i.data.category}</span><time datetime={i.data.date.toISOString()}>{fmt(i.data.date)}</time></div>
+          <h3 style="margin:.4em 0 .2em">{i.data.title}</h3><p style="color:var(--muted);margin:0">{i.data.description}</p>
+        </a>
+      ))}
+    </div>
+    <p class="notice info">Want alerts? Bookmark this page or subscribe to the <a href="/rss.xml">RSS feed</a>. Always confirm closing dates on the official PPSC website.</p>
+  </div></section>
+  <script>
+    const cards = [...document.querySelectorAll('#list .card')];
+    document.getElementById('filters').addEventListener('click', (e) => {
+      const b = e.target.closest('button'); if (!b) return;
+      document.querySelectorAll('#filters button').forEach((x) => x.classList.toggle('on', x === b));
+      cards.forEach((c) => (c.style.display = b.dataset.c === 'All' || c.dataset.c === b.dataset.c ? '' : 'none'));
+    });
+  </script>
+</Base>

@@ -1,0 +1,41 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import { posts, mixTotal } from '../../lib.js';
+const list = posts.filter((p) => p.mix).map((p) => ({ slug: p.slug, name: p.name, mix: p.mix }));
+---
+<Base title="PPSC Study Planner: Day-by-Day Plan for Your Post" description="Choose your PPSC post and the days left. Get a subject-by-subject study plan weighted by your syllabus." active="tools">
+  <div class="page-hero"><div class="wrap"><Crumbs items={[['Home', '/'], ['Tools', '/tools/'], ['Study planner']]} /><h1>PPSC study planner</h1><p>Days are divided in proportion to your post's question mix.</p></div></div>
+  <section class="block"><div class="narrow">
+    <div class="card">
+      <label>Post <select id="post">{list.map((p) => <option value={p.slug}>{p.name}</option>)}</select></label>
+      <label>Days left <input id="days" type="number" value="30" min="3" max="120" /></label>
+    </div>
+    <style>.card label{display:block;margin:10px 0;font-weight:600}.card input,.card select{display:block;width:100%;padding:12px;margin-top:4px;border-radius:10px;border:2px solid var(--line);background:var(--surface);color:var(--text);font-size:1rem}</style>
+    <div id="plan" style="margin-top:16px"></div>
+    <script id="posts-data" type="application/json" set:html={JSON.stringify(list)}></script>
+  </div></section>
+  <script>
+    const data = JSON.parse(document.getElementById('posts-data').textContent);
+    const render = () => {
+      const p = data.find((x) => x.slug === document.getElementById('post').value);
+      const days = Math.max(3, +document.getElementById('days').value || 30);
+      const mock = Math.min(5, Math.floor(days / 6));
+      const study = days - mock;
+      const total = Object.values(p.mix).reduce((a, b) => a + b, 0);
+      const ent = Object.entries(p.mix).map(([k, v]) => [k, v, (v / total) * study]);
+      const alloc = ent.map(([k, v, x]) => [k, v, Math.max(1, Math.floor(x)), x - Math.floor(x)]);
+      let used = alloc.reduce((n, a) => n + a[2], 0);
+      alloc.sort((a, b) => b[3] - a[3]);
+      for (let i = 0; used < study && i < alloc.length; i++, used++) alloc[i][2]++;
+      for (let i = alloc.length - 1; used > study && i >= 0; i--) if (alloc[i][2] > 1) { alloc[i][2]--; used--; }
+      alloc.sort((a, b) => b[1] - a[1]);
+      let d = 1, rows = '';
+      for (const [k, v, n] of alloc) { rows += `<tr><td>Day ${d}${n > 1 ? '–' + (d + n - 1) : ''}</td><td>${k}</td><td>${v} Qs in paper</td></tr>`; d += n; }
+      if (mock) rows += `<tr><td>Day ${d}${mock > 1 ? '–' + (d + mock - 1) : ''}</td><td>Full timed mock exams</td><td>1 per day</td></tr>`;
+      document.getElementById('plan').innerHTML = `<div class="tablewrap"><table><thead><tr><th>When</th><th>Focus</th><th>Weight</th></tr></thead><tbody>${rows}</tbody></table></div><div class="btnrow" style="margin-top:12px"><a class="btn" href="/posts/${p.slug}/">Syllabus</a><a class="btn amber" href="/exam/${p.slug}/">⏱️ Mock exam</a></div>`;
+    };
+    document.getElementById('post').addEventListener('change', render);
+    document.getElementById('days').addEventListener('input', render); render();
+  </script>
+</Base>

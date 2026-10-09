@@ -1,0 +1,15 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import { getCollection } from 'astro:content';
+const guides = (await getCollection('guides')).sort((a, b) => a.data.order - b.data.order);
+---
+<Base title="PPSC Preparation Guides: Study Plans, Negative Marking & MCQ Tips" description="Practical PPSC study guides: how to prepare in 30 days, negative marking explained, MCQ tricks, current affairs strategy and test-day checklist." active="guides">
+  <div class="page-hero"><div class="wrap">
+    <Crumbs items={[['Home', '/'], ['Guides']]} />
+    <h1>PPSC preparation guides</h1><p>Strategies built around how PPSC papers are actually set.</p>
+  </div></div>
+  <section class="block"><div class="wrap"><div class="grid g3">
+    {guides.map((g) => <a class="card" href={`/guides/${g.id}/`}><h3>{g.data.title}</h3><p style="color:var(--muted);margin:0">{g.data.description}</p></a>)}
+  </div></div></section>
+</Base>

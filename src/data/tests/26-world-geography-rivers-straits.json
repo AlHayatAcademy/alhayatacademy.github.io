@@ -1,0 +1,560 @@
+{
+ "id": 26,
+ "slug": "world-geography-rivers-straits",
+ "title": "World Geography II: Rivers, Lakes, Straits & Nicknames",
+ "desc": "Rivers, lakes, straits, mountains, deserts and city nicknames",
+ "group": "GK & Geography",
+ "color": "#f59e0b",
+ "questions": [
+  {
+   "q": "The Amazon River flows mainly through:",
+   "o": [
+    "Brazil",
+    "Argentina",
+    "India",
+    "Egypt"
+   ],
+   "a": 0,
+   "e": "It discharges the largest volume of water of any river."
+  },
+  {
+   "q": "The Nile flows into the:",
+   "o": [
+    "Red Sea",
+    "Black Sea",
+    "Persian Gulf",
+    "Mediterranean Sea"
+   ],
+   "a": 3,
+   "e": "It flows northward through Egypt."
+  },
+  {
+   "q": "The Yangtze is the longest river of:",
+   "o": [
+    "India",
+    "Japan",
+    "China",
+    "Russia"
+   ],
+   "a": 2,
+   "e": "It flows into the East China Sea at Shanghai."
+  },
+  {
+   "q": "The Ganges flows into the:",
+   "o": [
+    "Arabian Sea",
+    "Persian Gulf",
+    "Red Sea",
+    "Bay of Bengal"
+   ],
+   "a": 3,
+   "e": "It is sacred to Hindus and passes through India and Bangladesh."
+  },
+  {
+   "q": "The Tigris and Euphrates flow through:",
+   "o": [
+    "Iran",
+    "Egypt",
+    "Iraq",
+    "Turkey only"
+   ],
+   "a": 2,
+   "e": "Mesopotamia means 'land between the rivers'."
+  },
+  {
+   "q": "The Danube flows into the:",
+   "o": [
+    "Baltic Sea",
+    "Black Sea",
+    "North Sea",
+    "Mediterranean Sea"
+   ],
+   "a": 1,
+   "e": "It passes through ten countries, including Austria and Hungary."
+  },
+  {
+   "q": "The Rhine flows mostly through:",
+   "o": [
+    "Spain",
+    "Italy",
+    "Poland",
+    "Germany"
+   ],
+   "a": 3,
+   "e": "It ends in the North Sea in the Netherlands."
+  },
+  {
+   "q": "The Volga is the longest river in:",
+   "o": [
+    "Asia",
+    "Africa",
+    "North America",
+    "Europe"
+   ],
+   "a": 3,
+   "e": "It flows into the Caspian Sea."
+  },
+  {
+   "q": "The Thames flows through:",
+   "o": [
+    "Paris",
+    "Rome",
+    "London",
+    "Berlin"
+   ],
+   "a": 2,
+   "e": "The Seine flows through Paris; the Tiber through Rome; the Spree through Berlin."
+  },
+  {
+   "q": "The Mississippi flows in:",
+   "o": [
+    "USA",
+    "Canada",
+    "Mexico",
+    "Brazil"
+   ],
+   "a": 0,
+   "e": "It empties into the Gulf of Mexico."
+  },
+  {
+   "q": "The deepest lake in the world is:",
+   "o": [
+    "Lake Baikal",
+    "Lake Tanganyika",
+    "Lake Superior",
+    "Lake Victoria"
+   ],
+   "a": 0,
+   "e": "Baikal in Russia is over 1,600 m deep and holds the most fresh water."
+  },
+  {
+   "q": "The largest freshwater lake by area is:",
+   "o": [
+    "Lake Victoria",
+    "Lake Baikal",
+    "Lake Michigan",
+    "Lake Superior"
+   ],
+   "a": 3,
+   "e": "It is one of the Great Lakes of North America."
+  },
+  {
+   "q": "The Dead Sea lies between:",
+   "o": [
+    "Egypt and Sudan",
+    "Iran and Iraq",
+    "Jordan and Israel/Palestine",
+    "Turkey and Greece"
+   ],
+   "a": 2,
+   "e": "Its shore is the lowest land point on Earth."
+  },
+  {
+   "q": "The Suez Canal connects:",
+   "o": [
+    "Atlantic and Pacific",
+    "Black and Caspian Sea",
+    "Mediterranean and Red Sea",
+    "Arabian Sea and Persian Gulf"
+   ],
+   "a": 2,
+   "e": "It opened in 1869 and shortens the Europe-Asia route."
+  },
+  {
+   "q": "The Panama Canal connects:",
+   "o": [
+    "Indian and Pacific Oceans",
+    "Atlantic and Pacific Oceans",
+    "Red Sea and Mediterranean",
+    "Baltic and North Sea"
+   ],
+   "a": 1,
+   "e": "It opened in 1914."
+  },
+  {
+   "q": "The Strait of Hormuz connects:",
+   "o": [
+    "Red Sea and Mediterranean",
+    "Black Sea and Aegean",
+    "Persian Gulf and the Gulf of Oman",
+    "Arabian Sea and Bay of Bengal"
+   ],
+   "a": 2,
+   "e": "About a fifth of the world's oil passes through it."
+  },
+  {
+   "q": "The Strait of Gibraltar separates:",
+   "o": [
+    "Italy and Greece",
+    "Turkey and Cyprus",
+    "Spain and Morocco",
+    "India and Sri Lanka"
+   ],
+   "a": 2,
+   "e": "It connects the Atlantic and the Mediterranean."
+  },
+  {
+   "q": "The Bosphorus Strait is in:",
+   "o": [
+    "Turkey",
+    "Greece",
+    "Egypt",
+    "Iran"
+   ],
+   "a": 0,
+   "e": "It divides Istanbul into European and Asian sides."
+  },
+  {
+   "q": "The Bab-el-Mandeb strait connects:",
+   "o": [
+    "Red Sea and the Gulf of Aden",
+    "Persian Gulf and Arabian Sea",
+    "Mediterranean and Atlantic",
+    "Black Sea and Caspian Sea"
+   ],
+   "a": 0,
+   "e": "It lies between Yemen and Djibouti/Eritrea."
+  },
+  {
+   "q": "The Malacca Strait lies between:",
+   "o": [
+    "India and Sri Lanka",
+    "Japan and Korea",
+    "Australia and New Zealand",
+    "Malay Peninsula and Sumatra"
+   ],
+   "a": 3,
+   "e": "It is one of the busiest shipping lanes."
+  },
+  {
+   "q": "The English Channel separates England from:",
+   "o": [
+    "Spain",
+    "Ireland",
+    "France",
+    "Norway"
+   ],
+   "a": 2,
+   "e": "The Channel Tunnel links the UK with France."
+  },
+  {
+   "q": "The Palk Strait separates India from:",
+   "o": [
+    "Maldives",
+    "Sri Lanka",
+    "Pakistan",
+    "Myanmar"
+   ],
+   "a": 1,
+   "e": "It connects the Bay of Bengal and the Palk Bay."
+  },
+  {
+   "q": "The Himalayan range is located mainly in:",
+   "o": [
+    "Europe",
+    "South America",
+    "Africa",
+    "Asia"
+   ],
+   "a": 3,
+   "e": "It includes Everest, Kangchenjunga and Nanga Parbat."
+  },
+  {
+   "q": "The Andes mountain range is in:",
+   "o": [
+    "Africa",
+    "South America",
+    "Asia",
+    "Europe"
+   ],
+   "a": 1,
+   "e": "It is the longest continental mountain range."
+  },
+  {
+   "q": "The Alps are located mainly in:",
+   "o": [
+    "Asia",
+    "Europe",
+    "Africa",
+    "North America"
+   ],
+   "a": 1,
+   "e": "Mont Blanc is the highest peak."
+  },
+  {
+   "q": "The Rockies are in:",
+   "o": [
+    "South America",
+    "North America",
+    "Europe",
+    "Asia"
+   ],
+   "a": 1,
+   "e": "They stretch from Canada to the USA."
+  },
+  {
+   "q": "The Atlas mountains are in:",
+   "o": [
+    "South Africa",
+    "Asia",
+    "Europe",
+    "North Africa"
+   ],
+   "a": 3,
+   "e": "They stretch across Morocco, Algeria and Tunisia."
+  },
+  {
+   "q": "Mount Kilimanjaro, the highest peak of Africa, is in:",
+   "o": [
+    "Kenya",
+    "Uganda",
+    "Tanzania",
+    "Ethiopia"
+   ],
+   "a": 2,
+   "e": "It is a dormant volcano, 5,895 m high."
+  },
+  {
+   "q": "The highest mountain of North America is:",
+   "o": [
+    "Mount Logan",
+    "Denali (Mount McKinley)",
+    "Mount Whitney",
+    "Mount Rainier"
+   ],
+   "a": 1,
+   "e": "Denali in Alaska is about 6,190 m."
+  },
+  {
+   "q": "The highest mountain of Europe is:",
+   "o": [
+    "Mont Blanc",
+    "Matterhorn",
+    "Mount Olympus",
+    "Mount Elbrus"
+   ],
+   "a": 3,
+   "e": "Mount Elbrus in Russia is about 5,642 m; Mont Blanc is the highest in the Alps."
+  },
+  {
+   "q": "The highest mountain of South America is:",
+   "o": [
+    "Chimborazo",
+    "Huascaran",
+    "Aconcagua",
+    "Cotopaxi"
+   ],
+   "a": 2,
+   "e": "Aconcagua in Argentina is about 6,961 m."
+  },
+  {
+   "q": "The highest mountain of Antarctica is:",
+   "o": [
+    "Mount Erebus",
+    "Mount Kosciuszko",
+    "Mount Cook",
+    "Vinson Massif"
+   ],
+   "a": 3,
+   "e": "Mount Kosciuszko is the highest in Australia."
+  },
+  {
+   "q": "The Gobi desert lies in:",
+   "o": [
+    "India",
+    "Saudi Arabia",
+    "China and Mongolia",
+    "Africa"
+   ],
+   "a": 2,
+   "e": "It is a cold desert."
+  },
+  {
+   "q": "The Atacama desert, one of the driest places on Earth, is in:",
+   "o": [
+    "Argentina",
+    "Peru",
+    "Chile",
+    "Brazil"
+   ],
+   "a": 2,
+   "e": "Some weather stations there have never recorded rainfall."
+  },
+  {
+   "q": "The Rub' al Khali (Empty Quarter) is in:",
+   "o": [
+    "Sahara",
+    "Arabian Peninsula",
+    "Central Asia",
+    "Australia"
+   ],
+   "a": 1,
+   "e": "It is one of the largest sand deserts."
+  },
+  {
+   "q": "The Kalahari desert is mainly in:",
+   "o": [
+    "Egypt",
+    "Libya",
+    "Mali",
+    "Botswana"
+   ],
+   "a": 3,
+   "e": "It also extends into Namibia and South Africa."
+  },
+  {
+   "q": "The 'Land of the Rising Sun' is:",
+   "o": [
+    "China",
+    "Japan",
+    "India",
+    "Korea"
+   ],
+   "a": 1,
+   "e": "The Japanese name Nippon means 'origin of the sun'."
+  },
+  {
+   "q": "The 'Land of the Midnight Sun' is generally:",
+   "o": [
+    "Sweden only",
+    "Japan",
+    "Canada",
+    "Norway"
+   ],
+   "a": 3,
+   "e": "Norway (Arctic regions) experiences midnight sun in summer."
+  },
+  {
+   "q": "The 'Land of White Elephant' is:",
+   "o": [
+    "Burma",
+    "Thailand",
+    "India",
+    "Sri Lanka"
+   ],
+   "a": 1,
+   "e": "Thailand's old flag featured a white elephant."
+  },
+  {
+   "q": "The 'Land of Thousand Lakes' is:",
+   "o": [
+    "Finland",
+    "Sweden",
+    "Norway",
+    "Iceland"
+   ],
+   "a": 0,
+   "e": "Finland has about 188,000 lakes."
+  },
+  {
+   "q": "The 'Island Continent' is:",
+   "o": [
+    "Greenland",
+    "Madagascar",
+    "Borneo",
+    "Australia"
+   ],
+   "a": 3,
+   "e": "It is both a country and a continent."
+  },
+  {
+   "q": "The 'Eternal City' is:",
+   "o": [
+    "Athens",
+    "Paris",
+    "Rome",
+    "Jerusalem"
+   ],
+   "a": 2,
+   "e": "Rome is nicknamed Caput Mundi."
+  },
+  {
+   "q": "The 'City of Canals' is:",
+   "o": [
+    "Amsterdam",
+    "Bangkok",
+    "Venice",
+    "Stockholm"
+   ],
+   "a": 2,
+   "e": "Venice has about 118 islands and 400 bridges."
+  },
+  {
+   "q": "The 'Big Apple' is:",
+   "o": [
+    "Chicago",
+    "Los Angeles",
+    "New York City",
+    "Washington"
+   ],
+   "a": 2,
+   "e": "The nickname dates from the 1920s."
+  },
+  {
+   "q": "The 'Windy City' is:",
+   "o": [
+    "Boston",
+    "Seattle",
+    "Denver",
+    "Chicago"
+   ],
+   "a": 3,
+   "e": "Chicago is in Illinois on Lake Michigan."
+  },
+  {
+   "q": "The 'Sick Man of Europe' referred to:",
+   "o": [
+    "The Ottoman Empire",
+    "Greece",
+    "Spain",
+    "Italy"
+   ],
+   "a": 0,
+   "e": "The phrase was used in the nineteenth century."
+  },
+  {
+   "q": "The International Date Line runs roughly along the longitude:",
+   "o": [
+    "0 degrees",
+    "90 degrees East",
+    "180 degrees",
+    "90 degrees West"
+   ],
+   "a": 2,
+   "e": "The Prime Meridian is at 0 degrees and passes through Greenwich."
+  },
+  {
+   "q": "The Prime Meridian passes through:",
+   "o": [
+    "Paris",
+    "Cairo",
+    "Tokyo",
+    "Greenwich, London"
+   ],
+   "a": 3,
+   "e": "Longitude 0 degrees divides the Earth into Eastern and Western Hemispheres."
+  },
+  {
+   "q": "The Tropic of Cancer passes through which South Asian country?",
+   "o": [
+    "India and Bangladesh",
+    "Sri Lanka",
+    "Pakistan",
+    "Nepal"
+   ],
+   "a": 0,
+   "e": "It lies at about 23.5 degrees North."
+  },
+  {
+   "q": "The Great Barrier Reef lies off the coast of:",
+   "o": [
+    "Australia",
+    "Brazil",
+    "India",
+    "Egypt"
+   ],
+   "a": 0,
+   "e": "It is the largest coral reef system in the world."
+  }
+ ]
+}

@@ -1,0 +1,560 @@
+{
+ "id": 33,
+ "slug": "ms-office-internet",
+ "title": "Computer Skills II: MS Office, Internet & Cyber Safety",
+ "desc": "Word, Excel, PowerPoint, internet, email and phishing",
+ "group": "Computer & IT",
+ "color": "#9333ea",
+ "questions": [
+  {
+   "q": "MS Word is a:",
+   "o": [
+    "Spreadsheet program",
+    "Word processor",
+    "Database",
+    "Browser"
+   ],
+   "a": 1,
+   "e": "Word is part of Microsoft Office."
+  },
+  {
+   "q": "MS Excel is a:",
+   "o": [
+    "Word processor",
+    "Presentation program",
+    "Spreadsheet program",
+    "Database"
+   ],
+   "a": 2,
+   "e": "The extension is .xlsx."
+  },
+  {
+   "q": "MS PowerPoint is used for:",
+   "o": [
+    "Spreadsheets",
+    "Databases",
+    "Emails",
+    "Presentations"
+   ],
+   "a": 3,
+   "e": "Slides are created in PowerPoint."
+  },
+  {
+   "q": "MS Access is a:",
+   "o": [
+    "Database management system",
+    "Word processor",
+    "Browser",
+    "Presentation"
+   ],
+   "a": 0,
+   "e": "It stores data in tables."
+  },
+  {
+   "q": "MS Outlook is mainly used for:",
+   "o": [
+    "Email and calendar",
+    "Spreadsheets",
+    "Drawing",
+    "Database"
+   ],
+   "a": 0,
+   "e": "Outlook manages emails."
+  },
+  {
+   "q": "In MS Word, the shortcut key for Bold is:",
+   "o": [
+    "Ctrl + I",
+    "Ctrl + B",
+    "Ctrl + U",
+    "Ctrl + T"
+   ],
+   "a": 1,
+   "e": "Ctrl + I is italic; Ctrl + U is underline."
+  },
+  {
+   "q": "In MS Word, the shortcut key for Italic is:",
+   "o": [
+    "Ctrl + I",
+    "Ctrl + B",
+    "Ctrl + U",
+    "Ctrl + L"
+   ],
+   "a": 0,
+   "e": "Ctrl + L aligns left."
+  },
+  {
+   "q": "In MS Word, the shortcut key for Underline is:",
+   "o": [
+    "Ctrl + B",
+    "Ctrl + I",
+    "Ctrl + Y",
+    "Ctrl + U"
+   ],
+   "a": 3,
+   "e": "Underline emphasises text."
+  },
+  {
+   "q": "In MS Word, the shortcut to centre align text is:",
+   "o": [
+    "Ctrl + C",
+    "Ctrl + R",
+    "Ctrl + L",
+    "Ctrl + E"
+   ],
+   "a": 3,
+   "e": "Ctrl + R aligns right; Ctrl + J justifies."
+  },
+  {
+   "q": "In MS Word, the shortcut to justify text is:",
+   "o": [
+    "Ctrl + L",
+    "Ctrl + J",
+    "Ctrl + R",
+    "Ctrl + E"
+   ],
+   "a": 1,
+   "e": "Justify aligns both left and right margins."
+  },
+  {
+   "q": "In MS Word, the shortcut to open the Find dialog is:",
+   "o": [
+    "Ctrl + H",
+    "Ctrl + F",
+    "Ctrl + G",
+    "Ctrl + K"
+   ],
+   "a": 1,
+   "e": "Ctrl + H opens Find and Replace."
+  },
+  {
+   "q": "In MS Word, the shortcut for Find and Replace is:",
+   "o": [
+    "Ctrl + H",
+    "Ctrl + F",
+    "Ctrl + G",
+    "Ctrl + R"
+   ],
+   "a": 0,
+   "e": "It replaces text."
+  },
+  {
+   "q": "In MS Word, the shortcut to create a new document is:",
+   "o": [
+    "Ctrl + O",
+    "Ctrl + N",
+    "Ctrl + S",
+    "Ctrl + P"
+   ],
+   "a": 1,
+   "e": "Ctrl + O opens a document."
+  },
+  {
+   "q": "In MS Word, the shortcut to open a document is:",
+   "o": [
+    "Ctrl + N",
+    "Ctrl + S",
+    "Ctrl + W",
+    "Ctrl + O"
+   ],
+   "a": 3,
+   "e": "Ctrl + W closes a document."
+  },
+  {
+   "q": "In MS Word, the shortcut to save a document is:",
+   "o": [
+    "Ctrl + S",
+    "Ctrl + A",
+    "Ctrl + P",
+    "Ctrl + N"
+   ],
+   "a": 0,
+   "e": "F12 opens Save As."
+  },
+  {
+   "q": "In MS Word, the shortcut to print is:",
+   "o": [
+    "Ctrl + S",
+    "Ctrl + P",
+    "Ctrl + O",
+    "Ctrl + R"
+   ],
+   "a": 1,
+   "e": "Print opens the print dialog."
+  },
+  {
+   "q": "The shortcut key for Save As in MS Word is:",
+   "o": [
+    "F1",
+    "F5",
+    "F7",
+    "F12"
+   ],
+   "a": 3,
+   "e": "F7 runs spelling and grammar check."
+  },
+  {
+   "q": "The shortcut key for the spelling and grammar check in MS Word is:",
+   "o": [
+    "F5",
+    "F12",
+    "F4",
+    "F7"
+   ],
+   "a": 3,
+   "e": "F4 repeats the last action."
+  },
+  {
+   "q": "The default file extension for a template in Word is:",
+   "o": [
+    ".dotx",
+    ".docx",
+    ".txt",
+    ".pdf"
+   ],
+   "a": 0,
+   "e": "Templates give predefined layouts."
+  },
+  {
+   "q": "The default orientation of a page in MS Word is:",
+   "o": [
+    "Landscape",
+    "Square",
+    "Diagonal",
+    "Portrait"
+   ],
+   "a": 3,
+   "e": "Page Layout lets you change it."
+  },
+  {
+   "q": "The default font in recent MS Word versions is:",
+   "o": [
+    "Times New Roman",
+    "Arial",
+    "Verdana",
+    "Calibri/Aptos"
+   ],
+   "a": 3,
+   "e": "Older versions used Times New Roman; Word 2007-2019 used Calibri, newer versions use Aptos."
+  },
+  {
+   "q": "The area at the top of a page where repeated text appears is the:",
+   "o": [
+    "Header",
+    "Footer",
+    "Margin",
+    "Gutter"
+   ],
+   "a": 0,
+   "e": "The bottom area is the footer."
+  },
+  {
+   "q": "The Mail Merge feature in MS Word is used to:",
+   "o": [
+    "Merge two images",
+    "Print",
+    "Draw",
+    "Create personalised letters for many recipients"
+   ],
+   "a": 3,
+   "e": "Data from a list is merged into a template."
+  },
+  {
+   "q": "The intersection of a row and a column in Excel is a:",
+   "o": [
+    "Table",
+    "Chart",
+    "Cell",
+    "Range"
+   ],
+   "a": 2,
+   "e": "A cell is referenced like A1."
+  },
+  {
+   "q": "The default name of a new worksheet in Excel is:",
+   "o": [
+    "Book1",
+    "Table1",
+    "Sheet1",
+    "Data1"
+   ],
+   "a": 2,
+   "e": "Book1 is the default workbook name."
+  },
+  {
+   "q": "Every formula in Excel begins with:",
+   "o": [
+    "= sign",
+    "+ sign",
+    "@ sign",
+    "# sign"
+   ],
+   "a": 0,
+   "e": "Example: =SUM(A1:A5)."
+  },
+  {
+   "q": "The Excel function to add numbers is:",
+   "o": [
+    "ADD",
+    "TOTAL",
+    "SUM",
+    "PLUS"
+   ],
+   "a": 2,
+   "e": "=SUM(A1:A10) adds the range."
+  },
+  {
+   "q": "The Excel function to find the average is:",
+   "o": [
+    "MEAN",
+    "AVG",
+    "AVERAGE",
+    "MID"
+   ],
+   "a": 2,
+   "e": "=AVERAGE(A1:A10)."
+  },
+  {
+   "q": "The Excel function to find the largest number is:",
+   "o": [
+    "BIG",
+    "MAX",
+    "LARGE only",
+    "TOP"
+   ],
+   "a": 1,
+   "e": "MIN finds the smallest."
+  },
+  {
+   "q": "The Excel function to count cells containing numbers is:",
+   "o": [
+    "SUM",
+    "NUM",
+    "TOTAL",
+    "COUNT"
+   ],
+   "a": 3,
+   "e": "COUNTA counts non-empty cells."
+  },
+  {
+   "q": "The Excel function IF is used for:",
+   "o": [
+    "Counting",
+    "Addition",
+    "Conditional logic",
+    "Printing"
+   ],
+   "a": 2,
+   "e": "=IF(A1>50,\"Pass\",\"Fail\")."
+  },
+  {
+   "q": "VLOOKUP searches for a value in the:",
+   "o": [
+    "First column of a table",
+    "Last column",
+    "Any row",
+    "Header only"
+   ],
+   "a": 0,
+   "e": "HLOOKUP searches the first row."
+  },
+  {
+   "q": "The number of rows in an Excel worksheet (modern versions) is:",
+   "o": [
+    "1,048,576",
+    "65,536",
+    "256",
+    "16,384"
+   ],
+   "a": 0,
+   "e": "The number of columns is 16,384 (XFD)."
+  },
+  {
+   "q": "The last column in an Excel worksheet is:",
+   "o": [
+    "XFD",
+    "ZZ",
+    "IV",
+    "AZ"
+   ],
+   "a": 0,
+   "e": "IV was the last column in Excel 2003."
+  },
+  {
+   "q": "The shortcut to edit a cell in Excel is:",
+   "o": [
+    "F4",
+    "F5",
+    "F2",
+    "F7"
+   ],
+   "a": 2,
+   "e": "F4 repeats the last action or toggles absolute reference."
+  },
+  {
+   "q": "The symbol used to make a reference absolute in Excel is:",
+   "o": [
+    "$",
+    "#",
+    "&",
+    "@"
+   ],
+   "a": 0,
+   "e": "Example: $A$1."
+  },
+  {
+   "q": "In PowerPoint, the shortcut to start a slideshow from the beginning is:",
+   "o": [
+    "F5",
+    "F7",
+    "F2",
+    "F12"
+   ],
+   "a": 0,
+   "e": "Shift + F5 starts from the current slide."
+  },
+  {
+   "q": "The area where you type notes for the presenter in PowerPoint is the:",
+   "o": [
+    "Slide sorter",
+    "Outline",
+    "Notes pane",
+    "Master"
+   ],
+   "a": 2,
+   "e": "Slide Master controls the layout."
+  },
+  {
+   "q": "The extension of a PowerPoint slideshow is:",
+   "o": [
+    ".docx",
+    ".xlsx",
+    ".pptx",
+    ".accdb"
+   ],
+   "a": 2,
+   "e": ".ppsx opens directly in slideshow mode."
+  },
+  {
+   "q": "The term for the world's largest computer network is the:",
+   "o": [
+    "Intranet",
+    "LAN",
+    "WAN",
+    "Internet"
+   ],
+   "a": 3,
+   "e": "The internet is a global network of networks."
+  },
+  {
+   "q": "WWW stands for:",
+   "o": [
+    "World Wide Wire",
+    "Web Wide World",
+    "World Wide Web",
+    "Wide World Web"
+   ],
+   "a": 2,
+   "e": "Tim Berners-Lee invented it in 1989."
+  },
+  {
+   "q": "URL stands for:",
+   "o": [
+    "Universal Resource Link",
+    "Uniform Resource Locator",
+    "Unified Reference Locator",
+    "Uniform Reference Link"
+   ],
+   "a": 1,
+   "e": "It is the web address."
+  },
+  {
+   "q": "HTML is used to:",
+   "o": [
+    "Create web pages",
+    "Browse the internet",
+    "Send emails",
+    "Store data"
+   ],
+   "a": 0,
+   "e": "HTML stands for HyperText Markup Language."
+  },
+  {
+   "q": "A web browser is:",
+   "o": [
+    "A search engine",
+    "An operating system",
+    "Software for browsing websites",
+    "A virus"
+   ],
+   "a": 2,
+   "e": "Chrome, Firefox, Edge and Safari are browsers."
+  },
+  {
+   "q": "Which of the following is a search engine?",
+   "o": [
+    "Google",
+    "Chrome",
+    "Firefox",
+    "Windows"
+   ],
+   "a": 0,
+   "e": "A browser displays pages; a search engine finds them."
+  },
+  {
+   "q": "An email address must contain the symbol:",
+   "o": [
+    "@",
+    "#",
+    "&",
+    "%"
+   ],
+   "a": 0,
+   "e": "Format: name@domain.com."
+  },
+  {
+   "q": "CC in an email means:",
+   "o": [
+    "Computer Copy",
+    "Common Copy",
+    "Carbon Copy",
+    "Complete Copy"
+   ],
+   "a": 2,
+   "e": "BCC means Blind Carbon Copy, in which recipients are hidden."
+  },
+  {
+   "q": "LAN stands for:",
+   "o": [
+    "Large Area Network",
+    "Linked Area Network",
+    "Local Area Network",
+    "Line Area Network"
+   ],
+   "a": 2,
+   "e": "WAN means Wide Area Network."
+  },
+  {
+   "q": "Phishing is:",
+   "o": [
+    "A hardware fault",
+    "A browser",
+    "A fraud to steal personal information through fake messages",
+    "A programming language"
+   ],
+   "a": 2,
+   "e": "Never share passwords or OTPs."
+  },
+  {
+   "q": "The key combination Ctrl + Home in a Word document moves the cursor to:",
+   "o": [
+    "End of the document",
+    "Beginning of the document",
+    "Next page",
+    "Previous word"
+   ],
+   "a": 1,
+   "e": "Ctrl + End goes to the end."
+  }
+ ]
+}

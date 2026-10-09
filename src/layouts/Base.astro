@@ -1,0 +1,98 @@
+---
+import '../styles/global.css';
+import { site, abs } from '../lib.js';
+const { title, description, schema = [], noindex = false, active = '' } = Astro.props;
+const path = Astro.url.pathname;
+const canonical = abs(path);
+const fullTitle = title.includes(site.name) ? title : `${title} | ${site.name}`;
+const nav = [
+  ['/jobs/', 'PPSC Jobs', 'jobs'],
+  ['/news/', 'News & Updates', 'news'],
+  ['/posts/', 'Syllabus by Post', 'posts'],
+  ['/practice/', 'Practice MCQs', 'practice'],
+  ['/exam/', 'Mock Exams', 'exam'],
+  ['/guides/', 'Guides', 'guides'],
+  ['/tools/', 'Tools', 'tools'],
+];
+const tabs = [
+  ['/', '🏠', 'Home', 'home'],
+  ['/jobs/', '💼', 'Jobs', 'jobs'],
+  ['/news/', '📰', 'News', 'news'],
+  ['/practice/', '📝', 'Practice', 'practice'],
+  ['/exam/', '⏱️', 'Mock', 'exam'],
+];
+const ld = [
+  { '@context': 'https://schema.org', '@type': 'Organization', name: site.name, url: site.url, logo: abs('/favicon.svg') },
+  { '@context': 'https://schema.org', '@type': 'WebSite', name: site.name, url: site.url,
+    potentialAction: { '@type': 'SearchAction', target: abs('/search/') + '?q={search_term_string}', 'query-input': 'required name=search_term_string' } },
+  ...schema,
+];
+---
+<!doctype html>
+<html lang={site.lang}>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{fullTitle}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+  {noindex && <meta name="robots" content="noindex,follow" />}
+  <meta name="theme-color" content="#6d28d9" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="alternate" type="application/rss+xml" title={`${site.name} news`} href="/rss.xml" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content={site.name} />
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonical} />
+  <meta name="twitter:card" content="summary" />
+  <script is:inline>
+    try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}
+  </script>
+  {ld.map((o) => <script type="application/ld+json" set:html={JSON.stringify(o)} />)}
+  {site.adsenseClient && <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${site.adsenseClient}`} crossorigin="anonymous"></script>}
+  {site.gaId && <script async src={`https://www.googletagmanager.com/gtag/js?id=${site.gaId}`}></script>}
+  {site.gaId && <script is:inline define:vars={{ id: site.gaId }}>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config',id);</script>}
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="hdr">
+    <div class="wrap">
+      <a class="logo" href="/"><i>🎓</i><span>PPSC <b>Prep Hub</b></span></a>
+      <nav class="nav" aria-label="Main">
+        {nav.map(([href, label, key]) => <a href={href} aria-current={active === key ? 'page' : undefined}>{label}</a>)}
+      </nav>
+      <div class="icons">
+        <a class="ib" href="/search/" aria-label="Search">🔍</a>
+        <button class="ib" id="theme" aria-label="Toggle dark mode">🌓</button>
+      </div>
+    </div>
+  </header>
+  <main id="main"><slot /></main>
+  <footer>
+    <div class="wrap">
+      <div class="cols">
+        <div><h4>{site.name}</h4><p style="color:var(--muted)">Free, independent PPSC test preparation. Not affiliated with the Punjab Public Service Commission or any government body.</p></div>
+        <div><h4>Prepare</h4><a href="/jobs/">PPSC jobs</a><a href="/news/">News &amp; updates</a><a href="/posts/">Syllabus by post</a><a href="/practice/">Practice MCQs</a><a href="/exam/">Mock exams</a></div>
+        <div><h4>Learn</h4><a href="/syllabus/">Syllabus 2026</a><a href="/subjects/">Subjects</a><a href="/guides/">Study guides</a><a href="/tools/">Tools</a><a href="/progress/">My progress</a></div>
+        <div><h4>Site</h4><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy-policy/">Privacy policy</a><a href="/disclaimer/">Disclaimer</a><a href="/terms/">Terms</a></div>
+      </div>
+      <p class="fine">© {new Date().getFullYear()} {site.name}. Practice questions are original, prepared for study. Always confirm syllabus, dates and laws on <a style="display:inline" href="https://ppsc.gop.pk" rel="noopener">ppsc.gop.pk</a>.</p>
+    </div>
+  </footer>
+  <nav class="tabbar" aria-label="Quick">
+    {tabs.map(([href, icon, label, key]) => <a href={href} aria-current={active === key ? 'page' : undefined}><span>{icon}</span>{label}</a>)}
+  </nav>
+  <script>
+    const b = document.getElementById('theme');
+    b?.addEventListener('click', () => {
+      const cur = document.documentElement.getAttribute('data-theme');
+      const dark = cur ? cur === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+      const next = dark ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+    });
+  </script>
+</body>
+</html>

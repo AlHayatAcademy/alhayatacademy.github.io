@@ -1,0 +1,65 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import Ad from '../../components/Ad.astro';
+import { tests, groupByName, letters, posts, abs } from '../../lib.js';
+export function getStaticPaths() { return tests.map((t, i) => ({ params: { slug: t.slug }, props: { t, next: tests[i + 1] } })); }
+const { t, next } = Astro.props;
+const g = groupByName[t.group];
+const sameGroup = tests.filter((x) => x.group === t.group && x.slug !== t.slug);
+const relPosts = posts.filter((p) => p.mix && p.mix[t.group]).slice(0, 5);
+const title = `${t.title} MCQs with Answers (${t.questions.length} Questions)`;
+const desc = `${t.questions.length} free practice MCQs: ${t.desc}. Each answer has a full explanation. Useful for PPSC, FPSC and other Punjab recruitment tests.`;
+const quiz = {
+  '@context': 'https://schema.org', '@type': 'Quiz', name: t.title, educationalLevel: 'Recruitment test preparation', about: t.group,
+  hasPart: t.questions.slice(0, 10).map((q) => ({ '@type': 'Question', name: q.q, eduQuestionType: 'Multiple choice',
+    suggestedAnswer: q.o.filter((_, i) => i !== q.a).map((o) => ({ '@type': 'Answer', text: o })),
+    acceptedAnswer: { '@type': 'Answer', text: q.o[q.a], answerExplanation: { '@type': 'Comment', text: q.e } } })),
+};
+---
+<Base title={title} description={desc} active="practice" schema={[quiz]}>
+  <div class="page-hero" style={`background:linear-gradient(135deg,${g.color},#db2777)`}><div class="wrap">
+    <Crumbs items={[['Home', '/'], ['Practice', '/practice/'], [t.title]]} />
+    <h1>{g.icon} {t.title}</h1>
+    <p>{t.desc}. {t.questions.length} MCQs with explanations. Tap an option to check your answer.</p>
+  </div></div>
+
+  <div class="narrow" data-test={t.slug} data-group={t.group} style="padding-top:6px">
+    <div class="qbar" role="status">
+      <div class="sc"><span>Answered <b id="s-ans">0</b>/{t.questions.length}</span><span class="g">✓ <b id="s-ok">0</b></span><span class="r">✗ <b id="s-no">0</b></span><span>Accuracy <b id="s-pct">0%</b></span></div>
+      <div class="acts"><button class="btn sm alt" id="b-study" type="button">Show all answers</button><button class="btn sm alt" id="b-reset" type="button">Reset</button></div>
+      <div class="bar" style={`--c:${g.color};width:100%;margin:0`}><i id="s-bar"></i></div>
+    </div>
+
+    {t.questions.map((q, i) => (
+      <>
+        <article class="q" id={`q${i + 1}`} data-a={q.a}>
+          <h3><span class="qn">{i + 1}</span><span>{q.q}</span></h3>
+          <ol class="opts" type="A">
+            {q.o.map((o, k) => <li><button class="opt" type="button"><span class="l">{letters[k]}</span><span style="unicode-bidi:plaintext">{o}</span></button></li>)}
+          </ol>
+          <details class="why"><summary>Answer and explanation</summary>
+            <p><b>Correct answer: {letters[q.a]}. {q.o[q.a]}</b></p><p>{q.e}</p></details>
+        </article>
+        {(i + 1) % 10 === 0 && i + 1 < t.questions.length && <Ad kind="inline" />}
+      </>
+    ))}
+
+    <div class="result hidden" id="result">
+      <div>Your score</div><div class="big" id="r-big"></div><p id="r-msg"></p>
+      <div class="btnrow" style="justify-content:center">
+        {next && <a class="btn" href={`/practice/${next.slug}/`}>Next test →</a>}
+        <a class="btn" href="/exam/">Take a mock exam</a>
+      </div>
+    </div>
+
+    <h2 style="margin-top:30px">More {t.group} tests</h2>
+    <div class="grid">{sameGroup.map((x) => <a class="card tcard" href={`/practice/${x.slug}/`} style={`--c:${g.color}`}><h3>{x.title}</h3><p>{x.desc}</p></a>)}</div>
+    {relPosts.length > 0 && (<>
+      <h2 style="margin-top:26px">Posts that test this subject</h2>
+      <div class="btnrow">{relPosts.map((p) => <a class="btn alt sm" href={`/posts/${p.slug}/`}>{p.icon} {p.name}</a>)}</div>
+    </>)}
+    <p class="notice info">These questions are original practice material written for study. Facts that change (office-holders, laws, current events) should be checked against current sources.</p>
+  </div>
+  <script>import '../../scripts/quiz.js';</script>
+</Base>

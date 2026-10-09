@@ -1,0 +1,32 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import Ad from '../../components/Ad.astro';
+import { getCollection, render } from 'astro:content';
+import { site, abs } from '../../lib.js';
+export async function getStaticPaths() {
+  return (await getCollection('guides')).map((g) => ({ params: { slug: g.id }, props: { g } }));
+}
+const { g } = Astro.props;
+const { Content, headings } = await render(g);
+const toc = headings.filter((h) => h.depth === 2);
+const all = (await getCollection('guides')).filter((x) => x.id !== g.id).sort((a, b) => a.data.order - b.data.order).slice(0, 4);
+const upd = g.data.updated || site.updated;
+const schema = [{ '@context': 'https://schema.org', '@type': 'Article', headline: g.data.title, description: g.data.description, dateModified: upd, datePublished: upd,
+  author: { '@type': 'Organization', name: site.name }, publisher: { '@type': 'Organization', name: site.name }, mainEntityOfPage: abs(Astro.url.pathname) }];
+---
+<Base title={g.data.title} description={g.data.description} active="guides" schema={schema}>
+  <div class="page-hero"><div class="wrap">
+    <Crumbs items={[['Home', '/'], ['Guides', '/guides/'], [g.data.title]]} />
+    <h1 style="font-size:clamp(1.5rem,4vw,2.3rem)">{g.data.title}</h1><p>{g.data.description}</p>
+  </div></div>
+  <section class="block"><div class="narrow">
+    {toc.length > 2 && (<nav class="toc" aria-label="Contents"><b>In this guide</b><ol style="margin:.4em 0 0">{toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ol></nav>)}
+    <article class="prose"><Content /></article>
+    <Ad kind="inline" />
+    <div class="card" style="margin-top:22px"><h3>Put it into practice</h3>
+      <div class="btnrow"><a class="btn" href="/practice/">📝 Practice MCQs</a><a class="btn amber" href="/exam/">⏱️ Mock exam</a><a class="btn alt" href="/posts/">🎯 Find my post</a></div></div>
+    <h2 style="margin-top:28px">More guides</h2>
+    <div class="grid">{all.map((x) => <a class="card" href={`/guides/${x.id}/`}><h3>{x.data.title}</h3></a>)}</div>
+  </div></section>
+</Base>

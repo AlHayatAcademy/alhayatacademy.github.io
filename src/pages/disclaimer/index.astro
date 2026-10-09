@@ -1,0 +1,11 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import { site } from '../../lib.js';
+---
+<Base title="Disclaimer" description="This site is not affiliated with PPSC. Information is for preparation only.">
+  <div class="page-hero"><div class="wrap"><Crumbs items={[['Home', '/'], ['Disclaimer']]} /><h1>Disclaimer</h1></div></div>
+  <section class="block"><div class="narrow"><article class="prose">
+<p>{site.name} is not affiliated with, endorsed by, or connected to the Punjab Public Service Commission or any government body.</p><p>Content is for preparation only. Syllabi, job details and dates can change. Verify everything with the official advertisement and <a href="https://ppsc.gop.pk" rel="noopener">ppsc.gop.pk</a>. Practice questions are not actual past papers and we do not guarantee that any question will appear in your test or that you will pass.</p><p>Current affairs facts change quickly. Check they are still current before relying on them.</p>
+  </article></div></section>
+</Base>

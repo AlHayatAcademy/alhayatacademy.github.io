@@ -1,0 +1,31 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import { posts, qualPosts, groupByName } from '../../lib.js';
+const list = posts.filter((p) => p.slug !== 'general-ability' && p.slug !== 'child-protection-officer');
+---
+<Base title="PPSC Syllabus 2026: All Posts, Marks Split & Paper Pattern" description="PPSC syllabus 2026 summarised for Junior Clerk, Assistant, Deputy Accountant, Enforcement Officer, Junior Computer Operator, Stenographer, Public Relations Officer and 19 qualification-based posts." active="posts">
+  <div class="page-hero"><div class="wrap">
+    <Crumbs items={[['Home', '/'], ['Syllabus 2026']]} />
+    <h1>PPSC syllabus 2026 for every post</h1>
+    <p>Summarised from the syllabi attached to recent PPSC advertisements. Every MCQ paper in this list is 100 marks and 90 minutes unless noted.</p>
+  </div></div>
+  <section class="block"><div class="wrap">
+    <h2>Posts with General Ability or skills tests</h2>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Post</th><th>Grade</th><th>Paper split</th><th>Prepare</th></tr></thead>
+      <tbody>{list.map((p) => (
+        <tr><td><b>{p.icon} {p.name}</b></td><td>{p.bps}</td>
+          <td>{p.syllabus.map((s) => `${s.label}${s.weight ? ` ${s.weight}%` : ''}`).join(' + ')}</td>
+          <td><a class="btn sm" href={`/posts/${p.slug}/`}>Open</a></td></tr>
+      ))}</tbody>
+    </table></div>
+    <h2 style="margin-top:30px">Qualification-based posts</h2>
+    <p>The paper tests your degree subject, so a common question bank does not exist. The syllabus text is shown as printed.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Post</th><th>Grade</th><th>Department</th><th>Case</th><th>Syllabus</th></tr></thead>
+      <tbody>{qualPosts.map((q) => <tr><td><b>{q.post}</b></td><td>{q.bps}</td><td>{q.dept}</td><td>{q.case}</td><td>{q.syllabus}</td></tr>)}</tbody>
+    </table></div>
+    <p class="notice info">Syllabi can change from one advertisement to the next. Always use the one attached to your own advertisement on <a href="https://ppsc.gop.pk" rel="noopener">ppsc.gop.pk</a>.</p>
+  </div></section>
+</Base>

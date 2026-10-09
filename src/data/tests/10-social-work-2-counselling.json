@@ -1,0 +1,560 @@
+{
+ "id": 10,
+ "slug": "social-work-2-counselling",
+ "title": "Social Work II: Counselling, Welfare & Research",
+ "desc": "Counselling, NGOs, welfare institutions and research basics",
+ "group": "Social Sciences",
+ "color": "#f97316",
+ "questions": [
+  {
+   "q": "The founder of client-centered (person-centered) counselling is:",
+   "o": [
+    "Sigmund Freud",
+    "Carl Rogers",
+    "B.F. Skinner",
+    "Albert Ellis"
+   ],
+   "a": 1,
+   "e": "Rogers emphasized unconditional positive regard, empathy and genuineness as core conditions for change."
+  },
+  {
+   "q": "Rational Emotive Behaviour Therapy (REBT) was developed by:",
+   "o": [
+    "Albert Ellis",
+    "Aaron Beck",
+    "Carl Jung",
+    "Carl Rogers"
+   ],
+   "a": 0,
+   "e": "Ellis proposed the ABC model: Activating event, Beliefs, Consequences. Irrational beliefs are challenged and replaced."
+  },
+  {
+   "q": "Cognitive Behavioural Therapy (CBT) was developed by:",
+   "o": [
+    "Ivan Pavlov",
+    "Abraham Maslow",
+    "Erik Erikson",
+    "Aaron T. Beck"
+   ],
+   "a": 3,
+   "e": "Beck's cognitive therapy treats depression by changing negative thought patterns. CBT is evidence-based for trauma, anxiety and depression, including trauma-focused CBT for children."
+  },
+  {
+   "q": "Egan's SOLER micro-skills for attending stand for:",
+   "o": [
+    "Speak, Observe, Listen, Evaluate, Respond",
+    "Study, Observe, Learn, Explain, Review",
+    "Sit, Open, Look, Eat, Rest",
+    "Squarely, Open posture, Lean, Eye contact, Relax"
+   ],
+   "a": 3,
+   "e": "SOLER is a helpful acronym for non-verbal attending in counselling interviews."
+  },
+  {
+   "q": "Motivational Interviewing was developed by:",
+   "o": [
+    "Beck and Ellis",
+    "Freud and Jung",
+    "Piaget and Vygotsky",
+    "William Miller and Stephen Rollnick"
+   ],
+   "a": 3,
+   "e": "MI is a collaborative, goal-oriented style that strengthens motivation for change, widely used in addiction work."
+  },
+  {
+   "q": "Reflection in counselling means:",
+   "o": [
+    "Giving advice",
+    "Mirroring the client's feelings and meaning back",
+    "Changing the topic",
+    "Judging"
+   ],
+   "a": 1,
+   "e": "It conveys understanding and helps the client explore feelings further."
+  },
+  {
+   "q": "Which is a barrier to effective listening?",
+   "o": [
+    "Eye contact",
+    "Prejudging the client",
+    "Paraphrasing",
+    "Silence used wisely"
+   ],
+   "a": 1,
+   "e": "Biases, distractions, interrupting and giving premature advice hinder listening."
+  },
+  {
+   "q": "Confidentiality may be breached when:",
+   "o": [
+    "The client is annoyed",
+    "A friend asks",
+    "The worker is curious",
+    "There is serious risk of harm to the client or others (e.g., child abuse)"
+   ],
+   "a": 3,
+   "e": "Limits of confidentiality should be explained at the beginning of the helping relationship, especially in child protection."
+  },
+  {
+   "q": "Informed consent means the client:",
+   "o": [
+    "Signs without reading",
+    "Understands the nature, risks and benefits and agrees voluntarily",
+    "Is forced",
+    "Is misled"
+   ],
+   "a": 1,
+   "e": "Competent clients should be given information in plain language. For children assent plus parental or legal consent is sought."
+  },
+  {
+   "q": "A non-governmental organization (NGO) is:",
+   "o": [
+    "A non-profit voluntary organization independent of the government",
+    "A government department",
+    "A for-profit company",
+    "A political party"
+   ],
+   "a": 0,
+   "e": "NGOs operate for welfare, development or advocacy purposes and are registered under laws such as the Societies Registration Act 1860 or Companies Ordinance Section 42 (now Section 42 of Companies Act 2017)."
+  },
+  {
+   "q": "In Pakistan, voluntary social welfare agencies are registered under:",
+   "o": [
+    "Police Order 2002",
+    "Customs Act 1969",
+    "Voluntary Social Welfare Agencies (Registration and Control) Ordinance 1961",
+    "Arms Ordinance"
+   ],
+   "a": 2,
+   "e": "VSWA Ordinance 1961 regulates registration and control of voluntary social welfare agencies by the Social Welfare Department."
+  },
+  {
+   "q": "The 'Edhi Foundation' was founded by:",
+   "o": [
+    "Akhtar Hameed Khan",
+    "Amjad Saqib",
+    "Abdul Sattar Edhi",
+    "Imran Khan"
+   ],
+   "a": 2,
+   "e": "Edhi started in 1951 in Karachi; his ambulance network is among the largest in the world. He was famously called 'Angel of Mercy'."
+  },
+  {
+   "q": "Akhuwat, an interest-free microfinance organization, was founded in 2001 by:",
+   "o": [
+    "Dr. Akhtar Hameed Khan",
+    "Dr. Muhammad Amjad Saqib",
+    "Dr. Sania Nishtar",
+    "Dr. Abdul Qadeer"
+   ],
+   "a": 1,
+   "e": "Akhuwat gives Qarz-e-Hasna (interest-free loans) based on the principle of Islamic brotherhood (mawakhat)."
+  },
+  {
+   "q": "The Orangi Pilot Project (OPP) in Karachi was established by:",
+   "o": [
+    "Edhi",
+    "Arif Hasan",
+    "Amjad Saqib",
+    "Akhtar Hameed Khan"
+   ],
+   "a": 3,
+   "e": "Dr. Akhtar Hameed Khan started OPP in 1980 for community-managed sanitation. He also pioneered the Comilla Model of rural development."
+  },
+  {
+   "q": "The Comilla model of cooperative rural development is associated with:",
+   "o": [
+    "Mahbub ul Haq",
+    "Edhi",
+    "Fatima Jinnah",
+    "Akhtar Hameed Khan"
+   ],
+   "a": 3,
+   "e": "Comilla Academy for Rural Development in East Pakistan (1959) introduced a two-tier cooperative system."
+  },
+  {
+   "q": "The Aga Khan Foundation was set up in:",
+   "o": [
+    "1947",
+    "1990",
+    "1967",
+    "2001"
+   ],
+   "a": 2,
+   "e": "AKF is part of the Aga Khan Development Network and works in health, education and rural development."
+  },
+  {
+   "q": "The Citizens Foundation (TCF) is mainly working in:",
+   "o": [
+    "Education for underprivileged children",
+    "Cricket",
+    "Banking",
+    "Power"
+   ],
+   "a": 0,
+   "e": "TCF was founded in 1995 and operates schools in urban slums and rural areas."
+  },
+  {
+   "q": "The Society for the Protection of the Rights of the Child (SPARC) is an organization based in:",
+   "o": [
+    "Islamabad",
+    "London",
+    "Delhi",
+    "Dhaka"
+   ],
+   "a": 0,
+   "e": "SPARC (1991) works for child rights, monitors child abuse and publishes the 'State of Pakistan's Children' report."
+  },
+  {
+   "q": "Which NGO is known in Pakistan for working on child sexual abuse prevention?",
+   "o": [
+    "Edhi",
+    "Akhuwat",
+    "Sahil",
+    "Hum Sab"
+   ],
+   "a": 2,
+   "e": "Sahil collects data and publishes an annual 'Cruel Numbers' report on child sexual abuse cases reported in the media."
+  },
+  {
+   "q": "Which of the following is the helpline for missing and lost children in Pakistan operated by Roshan/NGO partners?",
+   "o": [
+    "1121",
+    "1138",
+    "15",
+    "1122"
+   ],
+   "a": 1,
+   "e": "1138 is the Roshni Helpline for missing children, founded by Roshni (a registered NGO in Islamabad). Madadgar Helpline 1098 is also a child helpline."
+  },
+  {
+   "q": "Zakat is levied at the rate of:",
+   "o": [
+    "10 percent",
+    "2.5 percent",
+    "5 percent",
+    "20 percent"
+   ],
+   "a": 1,
+   "e": "Zakat is 2.5 percent on savings above nisab held for a year, 10% Ushr on rain-fed crop produce. Zakat funds are used for the needy, orphans and others categories mentioned in Surah At-Tawbah (9:60)."
+  },
+  {
+   "q": "Pakistan Bait-ul-Mal (PBM) mainly provides assistance to:",
+   "o": [
+    "Large industrial houses",
+    "Destitute, widows, orphans and persons with disabilities",
+    "Foreign banks",
+    "Political parties"
+   ],
+   "a": 1,
+   "e": "PBM is a federal welfare institution funded through public and government resources. It also runs child support and education assistance programmes for needy families."
+  },
+  {
+   "q": "The Benazir Income Support Programme (BISP) was launched in:",
+   "o": [
+    "2008",
+    "1992",
+    "2000",
+    "2019"
+   ],
+   "a": 0,
+   "e": "BISP gives unconditional cash transfers to poor women through the National Socioeconomic Registry. Waseela-e-Taleem gives conditional transfers for school attendance."
+  },
+  {
+   "q": "The Ehsaas Programme was launched in:",
+   "o": [
+    "2008",
+    "2019",
+    "2010",
+    "2005"
+   ],
+   "a": 1,
+   "e": "Ehsaas, led by Dr. Sania Nishtar, includes Kafaalat, Tahafuz, Ehsaas Education Stipends and Langar schemes."
+  },
+  {
+   "q": "The Employees' Old-Age Benefits Institution (EOBI) was established in:",
+   "o": [
+    "1990",
+    "2008",
+    "1947",
+    "1976"
+   ],
+   "a": 3,
+   "e": "EOBI provides old-age pension, invalidity pension and survivor's benefits for workers in private establishments."
+  },
+  {
+   "q": "The Workers Welfare Fund Ordinance was promulgated in:",
+   "o": [
+    "1971",
+    "1960",
+    "1999",
+    "2010"
+   ],
+   "a": 0,
+   "e": "WWF provides housing, scholarships and dowry assistance for workers."
+  },
+  {
+   "q": "Which of the following is a social security scheme for health care of workers?",
+   "o": [
+    "Employees' Social Security Institution (ESSI)",
+    "Pakistan Railways",
+    "NAB",
+    "Excise"
+   ],
+   "a": 0,
+   "e": "Punjab Employees Social Security Institution gives medical care, maternity and injury benefits."
+  },
+  {
+   "q": "Needs assessment is:",
+   "o": [
+    "Systematic process of identifying gaps between current and desired conditions",
+    "A court case",
+    "A tax return",
+    "A random guess"
+   ],
+   "a": 0,
+   "e": "It is a first step in programme planning. It uses surveys, focus groups and secondary data."
+  },
+  {
+   "q": "A logical framework (log-frame) matrix includes:",
+   "o": [
+    "Goal, purpose/outcome, outputs, activities, indicators",
+    "Only budget",
+    "Only staff list",
+    "Only photographs"
+   ],
+   "a": 0,
+   "e": "Logframes link inputs to results and describe indicators, means of verification and assumptions."
+  },
+  {
+   "q": "SMART objectives stand for:",
+   "o": [
+    "Specific, Measurable, Achievable, Relevant, Time-bound",
+    "Simple, Modern, Active, Real, Total",
+    "Social, Moral, Artistic, Rich, Trained",
+    "Sure, Mature, Adjustable, Ready, True"
+   ],
+   "a": 0,
+   "e": "Good objectives are clear and measurable; time-bound objectives set a deadline."
+  },
+  {
+   "q": "Monitoring is:",
+   "o": [
+    "Continuous tracking of activities and progress",
+    "Final evaluation only",
+    "Closing the project",
+    "Fund raising"
+   ],
+   "a": 0,
+   "e": "Monitoring checks that implementation is on track; evaluation assesses relevance, effectiveness, efficiency, impact and sustainability."
+  },
+  {
+   "q": "SWOT analysis stands for:",
+   "o": [
+    "Skills, Work, Order, Time",
+    "Study, Write, Organize, Teach",
+    "Strengths, Weaknesses, Opportunities, Threats",
+    "Safety, Welfare, Order, Trust"
+   ],
+   "a": 2,
+   "e": "SWOT is a strategic planning tool. Strengths and weaknesses are internal; opportunities and threats are external."
+  },
+  {
+   "q": "Participatory Rural Appraisal (PRA) was popularized by:",
+   "o": [
+    "Max Weber",
+    "Robert Chambers",
+    "Karl Marx",
+    "Piaget"
+   ],
+   "a": 1,
+   "e": "PRA enables local people to analyse their own conditions using tools like mapping, seasonal calendars and transect walks."
+  },
+  {
+   "q": "The first step of social research is:",
+   "o": [
+    "Data analysis",
+    "Identification of the research problem",
+    "Report writing",
+    "Publication"
+   ],
+   "a": 1,
+   "e": "A clear problem statement guides objectives, design and methods."
+  },
+  {
+   "q": "A hypothesis is:",
+   "o": [
+    "A tentative testable statement about relationship between variables",
+    "A proven fact",
+    "A theory",
+    "A conclusion"
+   ],
+   "a": 0,
+   "e": "A hypothesis is formulated before data collection. The null hypothesis states no relationship."
+  },
+  {
+   "q": "The variable which is manipulated or considered the cause is called:",
+   "o": [
+    "Dependent variable",
+    "Independent variable",
+    "Intervening variable",
+    "Constant"
+   ],
+   "a": 1,
+   "e": "The dependent variable is the effect or outcome measured."
+  },
+  {
+   "q": "Reliability of a research tool means:",
+   "o": [
+    "Accuracy of what it measures",
+    "Cost",
+    "Consistency of results over repeated use",
+    "Length"
+   ],
+   "a": 2,
+   "e": "Validity means the tool measures what it is supposed to measure. A tool can be reliable without being valid."
+  },
+  {
+   "q": "Which sampling technique gives every unit an equal chance of selection?",
+   "o": [
+    "Purposive sampling",
+    "Convenience sampling",
+    "Simple random sampling",
+    "Snowball sampling"
+   ],
+   "a": 2,
+   "e": "Probability sampling (simple random, systematic, stratified, cluster) permits generalization. Non-probability sampling includes quota, purposive, convenience and snowball."
+  },
+  {
+   "q": "Snowball sampling is useful for:",
+   "o": [
+    "Large populations",
+    "Hard-to-reach populations like street children",
+    "Census",
+    "Lotteries"
+   ],
+   "a": 1,
+   "e": "Initial participants refer other participants. It is a non-probability method."
+  },
+  {
+   "q": "A questionnaire is a tool in which:",
+   "o": [
+    "Interviewer records speech",
+    "Respondent writes answers to printed questions",
+    "Observer watches",
+    "Machine measures"
+   ],
+   "a": 1,
+   "e": "An interview schedule is filled by the interviewer. Questionnaire suits literate respondents."
+  },
+  {
+   "q": "Qualitative research mainly uses:",
+   "o": [
+    "Only numbers",
+    "Only graphs",
+    "Words, narratives and observations",
+    "Only equations"
+   ],
+   "a": 2,
+   "e": "Qualitative research explores meanings, e.g., through interviews, focus groups, case studies and ethnography."
+  },
+  {
+   "q": "A focus group discussion (FGD) usually involves:",
+   "o": [
+    "1000 people",
+    "6 to 12 people guided by a facilitator",
+    "1 person",
+    "Whole village"
+   ],
+   "a": 1,
+   "e": "FGDs generate views quickly and reveal group dynamics."
+  },
+  {
+   "q": "The 'mean' is:",
+   "o": [
+    "Middle value",
+    "Most frequent value",
+    "Arithmetic average",
+    "Difference of extremes"
+   ],
+   "a": 2,
+   "e": "Median is the middle value; mode is the most frequent. Range = highest − lowest."
+  },
+  {
+   "q": "Informed consent, confidentiality and avoiding harm are principles of:",
+   "o": [
+    "Research ethics",
+    "Taxation",
+    "Advertising",
+    "Politics"
+   ],
+   "a": 0,
+   "e": "Researchers must also protect vulnerable groups like children. Ethical review is required before studies involving minors."
+  },
+  {
+   "q": "Social work practice with children and families should be guided by:",
+   "o": [
+    "Worker's preference only",
+    "Donor's preference only",
+    "Convenience",
+    "Child's best interests and family strengths"
+   ],
+   "a": 3,
+   "e": "Both child safety and family preservation are balanced by careful assessment."
+  },
+  {
+   "q": "Burnout among social workers is caused by:",
+   "o": [
+    "Holidays",
+    "Good supervision",
+    "Adequate pay",
+    "Chronic work stress, high caseload and lack of support"
+   ],
+   "a": 3,
+   "e": "Self-care, supervision and peer support are essential in a trauma-exposed job."
+  },
+  {
+   "q": "Vicarious trauma refers to:",
+   "o": [
+    "Child trauma only",
+    "Physical injury",
+    "Financial loss",
+    "Emotional impact on helpers exposed to others' trauma"
+   ],
+   "a": 3,
+   "e": "It can include nightmares, numbness and cynicism. Debriefing and supervision reduce its effects."
+  },
+  {
+   "q": "The term 'social justice' means:",
+   "o": [
+    "Fair distribution of resources and opportunities in society",
+    "Punishment",
+    "Equal income",
+    "Charity only"
+   ],
+   "a": 0,
+   "e": "It is a core value of social work and has an important role in advocacy for vulnerable groups."
+  },
+  {
+   "q": "Social welfare differs from social work in that social welfare is:",
+   "o": [
+    "The same thing",
+    "A tax",
+    "A broad system of programmes and services; social work is the profession delivering help",
+    "A court"
+   ],
+   "a": 2,
+   "e": "Social welfare includes policies; social work is a professional activity within it."
+  },
+  {
+   "q": "Which is a preventive social welfare service?",
+   "o": [
+    "Prison",
+    "Immunization and parenting education",
+    "Court punishment",
+    "Fine"
+   ],
+   "a": 1,
+   "e": "Preventive services reduce problems before they occur; curative services treat existing problems; rehabilitative services restore functioning."
+  }
+ ]
+}

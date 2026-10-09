@@ -1,0 +1,560 @@
+{
+ "id": 34,
+ "slug": "english-1",
+ "title": "English I: Synonyms, Antonyms & Idioms",
+ "desc": "Vocabulary, idioms and grammar basics",
+ "group": "English",
+ "color": "#059669",
+ "questions": [
+  {
+   "q": "Choose the word nearest in meaning to BENEVOLENT:",
+   "o": [
+    "Kind",
+    "Cruel",
+    "Selfish",
+    "Lazy"
+   ],
+   "a": 0,
+   "e": "Benevolent means well-meaning and generous. Related word: benefactor (one who helps others). Antonym: malevolent."
+  },
+  {
+   "q": "Choose the word nearest in meaning to CANDID:",
+   "o": [
+    "Frank",
+    "Secretive",
+    "Rude",
+    "Shy"
+   ],
+   "a": 0,
+   "e": "Candid means truthful and straightforward. The noun is candour."
+  },
+  {
+   "q": "Choose the word nearest in meaning to ABUNDANT:",
+   "o": [
+    "Plentiful",
+    "Scarce",
+    "Rare",
+    "Little"
+   ],
+   "a": 0,
+   "e": "Abundant = existing in large quantities. Antonym: scarce or meagre."
+  },
+  {
+   "q": "Choose the word nearest in meaning to DILIGENT:",
+   "o": [
+    "Hardworking",
+    "Careless",
+    "Lazy",
+    "Sleepy"
+   ],
+   "a": 0,
+   "e": "Diligence is steady, earnest effort. Antonym: indolent."
+  },
+  {
+   "q": "Choose the word nearest in meaning to EMINENT:",
+   "o": [
+    "Ordinary",
+    "Hidden",
+    "Weak",
+    "Distinguished"
+   ],
+   "a": 3,
+   "e": "Eminent describes a famous and respected person. Do not confuse with imminent (about to happen) or immanent."
+  },
+  {
+   "q": "Choose the word nearest in meaning to VAGUE:",
+   "o": [
+    "Unclear",
+    "Precise",
+    "Sharp",
+    "Bright"
+   ],
+   "a": 0,
+   "e": "Vague = not clearly expressed. Antonym: definite."
+  },
+  {
+   "q": "Choose the word nearest in meaning to MELANCHOLY:",
+   "o": [
+    "Joy",
+    "Sadness",
+    "Anger",
+    "Hope"
+   ],
+   "a": 1,
+   "e": "Melancholy is a pensive sadness. Related word: gloomy."
+  },
+  {
+   "q": "Choose the word nearest in meaning to PRAGMATIC:",
+   "o": [
+    "Dreamy",
+    "Theoretical",
+    "Lazy",
+    "Practical"
+   ],
+   "a": 3,
+   "e": "A pragmatic approach is based on practical results rather than theory."
+  },
+  {
+   "q": "Choose the word opposite in meaning to GENEROUS:",
+   "o": [
+    "Kind",
+    "Stingy",
+    "Liberal",
+    "Noble"
+   ],
+   "a": 1,
+   "e": "Generous = ready to give. Stingy or miserly = unwilling to spend or give."
+  },
+  {
+   "q": "Choose the word opposite in meaning to ANCIENT:",
+   "o": [
+    "Old",
+    "Modern",
+    "Historic",
+    "Archaic"
+   ],
+   "a": 1,
+   "e": "Ancient means very old; modern or contemporary is its antonym."
+  },
+  {
+   "q": "Choose the word opposite in meaning to TRANSPARENT:",
+   "o": [
+    "Clear",
+    "Visible",
+    "Opaque",
+    "Glassy"
+   ],
+   "a": 2,
+   "e": "Transparent allows light to pass through; opaque does not. Also used for honest and open governance."
+  },
+  {
+   "q": "Choose the word opposite in meaning to OPTIMISTIC:",
+   "o": [
+    "Hopeful",
+    "Cheerful",
+    "Pessimistic",
+    "Confident"
+   ],
+   "a": 2,
+   "e": "An optimist expects the best; a pessimist expects the worst."
+  },
+  {
+   "q": "Choose the word opposite in meaning to EXPAND:",
+   "o": [
+    "Contract",
+    "Grow",
+    "Spread",
+    "Enlarge"
+   ],
+   "a": 0,
+   "e": "Expand = increase in size; contract = decrease."
+  },
+  {
+   "q": "Choose the word opposite in meaning to SCARCE:",
+   "o": [
+    "Rare",
+    "Plentiful",
+    "Limited",
+    "Few"
+   ],
+   "a": 1,
+   "e": "Scarce = in short supply. Plentiful and abundant are opposites."
+  },
+  {
+   "q": "Choose the word opposite in meaning to HUMBLE:",
+   "o": [
+    "Arrogant",
+    "Modest",
+    "Meek",
+    "Polite"
+   ],
+   "a": 0,
+   "e": "Humble persons do not boast. Arrogant persons overrate themselves."
+  },
+  {
+   "q": "The idiom 'to break the ice' means:",
+   "o": [
+    "To destroy something",
+    "To feel cold",
+    "To start a conversation in an awkward situation",
+    "To cancel a plan"
+   ],
+   "a": 2,
+   "e": "It is used to ease tension when people meet for the first time."
+  },
+  {
+   "q": "The idiom 'a piece of cake' means:",
+   "o": [
+    "A dessert",
+    "Something expensive",
+    "A difficult task",
+    "Something very easy"
+   ],
+   "a": 3,
+   "e": "The exam was a piece of cake means it was easy."
+  },
+  {
+   "q": "The idiom 'once in a blue moon' means:",
+   "o": [
+    "Every night",
+    "Very rarely",
+    "Daily",
+    "Frequently"
+   ],
+   "a": 1,
+   "e": "It refers to a rare occurrence."
+  },
+  {
+   "q": "The idiom 'to burn the midnight oil' means:",
+   "o": [
+    "To waste fuel",
+    "To start a fire",
+    "To sleep early",
+    "To work or study late into the night"
+   ],
+   "a": 3,
+   "e": "It comes from oil lamps used for night-time work."
+  },
+  {
+   "q": "The idiom 'to cry over spilt milk' means:",
+   "o": [
+    "To be happy",
+    "To waste milk",
+    "To feel hungry",
+    "To regret what cannot be undone"
+   ],
+   "a": 3,
+   "e": "It advises against grieving over past mistakes."
+  },
+  {
+   "q": "The idiom 'to hit the nail on the head' means:",
+   "o": [
+    "To work as a carpenter",
+    "To say or do exactly the right thing",
+    "To injure oneself",
+    "To make a mistake"
+   ],
+   "a": 1,
+   "e": "It describes a precise, accurate remark."
+  },
+  {
+   "q": "The idiom 'a blessing in disguise' means:",
+   "o": [
+    "A good thing that seemed bad at first",
+    "A secret blessing from a saint",
+    "A costume",
+    "A curse"
+   ],
+   "a": 0,
+   "e": "It is used when a misfortune turns out beneficial."
+  },
+  {
+   "q": "The idiom 'to beat around the bush' means:",
+   "o": [
+    "To hunt birds",
+    "To avoid the main point",
+    "To clean a garden",
+    "To run fast"
+   ],
+   "a": 1,
+   "e": "It means speaking indirectly without coming to the point."
+  },
+  {
+   "q": "The idiom 'to bite the bullet' means:",
+   "o": [
+    "To eat metal",
+    "To face a difficult situation bravely",
+    "To shoot someone",
+    "To refuse"
+   ],
+   "a": 1,
+   "e": "It comes from the practice of biting a bullet during surgery without anaesthesia."
+  },
+  {
+   "q": "The phrase 'under the weather' means:",
+   "o": [
+    "Feeling slightly ill",
+    "Standing in rain",
+    "Very happy",
+    "Rich"
+   ],
+   "a": 0,
+   "e": "It is a common idiom for mild illness."
+  },
+  {
+   "q": "One who loves books is called a:",
+   "o": [
+    "Philanthropist",
+    "Misanthrope",
+    "Philatelist",
+    "Bibliophile"
+   ],
+   "a": 3,
+   "e": "Bibliophile = book lover; philatelist collects stamps; philanthropist loves mankind; misanthrope hates mankind."
+  },
+  {
+   "q": "Fear of heights is called:",
+   "o": [
+    "Claustrophobia",
+    "Hydrophobia",
+    "Xenophobia",
+    "Acrophobia"
+   ],
+   "a": 3,
+   "e": "Claustrophobia is fear of closed spaces; hydrophobia is fear of water; xenophobia is fear of foreigners."
+  },
+  {
+   "q": "One who knows everything is:",
+   "o": [
+    "Omnipotent",
+    "Omnipresent",
+    "Omniscient",
+    "Optimist"
+   ],
+   "a": 2,
+   "e": "Omnipotent = all-powerful; omnipresent = present everywhere."
+  },
+  {
+   "q": "The study of birds is called:",
+   "o": [
+    "Ornithology",
+    "Entomology",
+    "Zoology",
+    "Herpetology"
+   ],
+   "a": 0,
+   "e": "Entomology is the study of insects; herpetology is the study of reptiles and amphibians."
+  },
+  {
+   "q": "A medicine that cures all diseases is a:",
+   "o": [
+    "Panacea",
+    "Antidote",
+    "Placebo",
+    "Vaccine"
+   ],
+   "a": 0,
+   "e": "Panacea = universal remedy. Antidote counteracts poison."
+  },
+  {
+   "q": "Something lasting for a very short time is:",
+   "o": [
+    "Eternal",
+    "Perennial",
+    "Ephemeral",
+    "Permanent"
+   ],
+   "a": 2,
+   "e": "Ephemeral comes from Greek for 'lasting a day'."
+  },
+  {
+   "q": "Murder of a king is called:",
+   "o": [
+    "Homicide",
+    "Regicide",
+    "Suicide",
+    "Genocide"
+   ],
+   "a": 1,
+   "e": "Patricide is killing a father; fratricide killing a brother; infanticide killing an infant."
+  },
+  {
+   "q": "Fill in the blank: He ___ to school every day.",
+   "o": [
+    "go",
+    "going",
+    "goes",
+    "gone"
+   ],
+   "a": 2,
+   "e": "The simple present uses the verb with 's' for the third person singular subject."
+  },
+  {
+   "q": "Fill in the blank: Neither of the boys ___ present.",
+   "o": [
+    "was",
+    "were",
+    "are",
+    "have been"
+   ],
+   "a": 0,
+   "e": "'Neither' takes a singular verb. Similarly 'each' and 'either' are followed by singular verbs."
+  },
+  {
+   "q": "Fill in the blank: She has been living here ___ 2015.",
+   "o": [
+    "for",
+    "from",
+    "by",
+    "since"
+   ],
+   "a": 3,
+   "e": "'Since' is used for a point of time; 'for' is used for a duration (for ten years)."
+  },
+  {
+   "q": "Fill in the blank: I look forward to ___ you soon.",
+   "o": [
+    "see",
+    "seeing",
+    "saw",
+    "have seen"
+   ],
+   "a": 1,
+   "e": "'To' in 'look forward to' is a preposition, so a gerund (-ing form) follows."
+  },
+  {
+   "q": "Fill in the blank: She is ___ honest girl.",
+   "o": [
+    "a",
+    "an",
+    "the",
+    "no article"
+   ],
+   "a": 1,
+   "e": "Use 'an' before a vowel sound; 'honest' begins with a silent h, so a vowel sound."
+  },
+  {
+   "q": "Fill in the blank: He is good ___ mathematics.",
+   "o": [
+    "in",
+    "at",
+    "on",
+    "for"
+   ],
+   "a": 1,
+   "e": "Good at (a subject or skill); interested in; fond of; afraid of."
+  },
+  {
+   "q": "Fill in the blank: She was accused ___ theft.",
+   "o": [
+    "of",
+    "for",
+    "with",
+    "by"
+   ],
+   "a": 0,
+   "e": "Accused of; charged with; suspected of."
+  },
+  {
+   "q": "Change into passive voice: 'The teacher praised the students.'",
+   "o": [
+    "The students are praised by the teacher.",
+    "The students had praised the teacher.",
+    "The teacher was praised by students.",
+    "The students were praised by the teacher."
+   ],
+   "a": 3,
+   "e": "Past simple active becomes 'was/were + past participle' in the passive."
+  },
+  {
+   "q": "Change into indirect speech: He said, 'I am happy.'",
+   "o": [
+    "He said that I was happy.",
+    "He said that he is happy.",
+    "He told that he was happy.",
+    "He said that he was happy."
+   ],
+   "a": 3,
+   "e": "In reported speech the present tense shifts to the past tense and the pronoun changes accordingly."
+  },
+  {
+   "q": "Choose the correctly spelt word:",
+   "o": [
+    "Acommodation",
+    "Accomodation",
+    "Accommodation",
+    "Acomodation"
+   ],
+   "a": 2,
+   "e": "Accommodation has double c and double m. Other tricky spellings: necessary, occurrence, separate, definitely."
+  },
+  {
+   "q": "The plural of 'phenomenon' is:",
+   "o": [
+    "Phenomenons",
+    "Phenomenas",
+    "Phenomenum",
+    "Phenomena"
+   ],
+   "a": 3,
+   "e": "Other Latin/Greek plurals: criterion–criteria; datum–data; analysis–analyses; crisis–crises."
+  },
+  {
+   "q": "The past participle of 'write' is:",
+   "o": [
+    "Wrote",
+    "Writed",
+    "Writing",
+    "Written"
+   ],
+   "a": 3,
+   "e": "Write–wrote–written. Similarly: go–went–gone; see–saw–seen."
+  },
+  {
+   "q": "In the sentence 'Honesty is the best policy', the word 'Honesty' is a/an:",
+   "o": [
+    "Proper noun",
+    "Collective noun",
+    "Adjective",
+    "Abstract noun"
+   ],
+   "a": 3,
+   "e": "Abstract nouns name qualities or ideas that cannot be touched, such as love, courage and honesty."
+  },
+  {
+   "q": "In the sentence 'She sings beautifully', the word 'beautifully' is a/an:",
+   "o": [
+    "Adverb",
+    "Adjective",
+    "Noun",
+    "Verb"
+   ],
+   "a": 0,
+   "e": "Adverbs modify verbs, adjectives or other adverbs and often end in -ly."
+  },
+  {
+   "q": "Choose the correct sentence:",
+   "o": [
+    "Each of the students have completed the task.",
+    "Each of the students has completed the task.",
+    "Each of the students are completing the tasks.",
+    "Each of the student has completed the task."
+   ],
+   "a": 1,
+   "e": "'Each' is singular so it takes 'has'."
+  },
+  {
+   "q": "Choose the word nearest in meaning to RESILIENT:",
+   "o": [
+    "Able to recover quickly",
+    "Fragile",
+    "Careless",
+    "Hostile"
+   ],
+   "a": 0,
+   "e": "A resilient child bounces back from hardship. Resilience is a key concept in child protection and psychology."
+  },
+  {
+   "q": "Choose the word opposite in meaning to BRIEF:",
+   "o": [
+    "Short",
+    "Concise",
+    "Quick",
+    "Lengthy"
+   ],
+   "a": 3,
+   "e": "Brief means short in duration or words; lengthy or prolonged is the opposite."
+  },
+  {
+   "q": "Choose the word nearest in meaning to ENORMOUS:",
+   "o": [
+    "Tiny",
+    "Huge",
+    "Narrow",
+    "Weak"
+   ],
+   "a": 1,
+   "e": "Enormous = very large."
+  }
+ ]
+}

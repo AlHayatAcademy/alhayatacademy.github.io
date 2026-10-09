@@ -1,0 +1,560 @@
+{
+ "id": 12,
+ "slug": "sociology",
+ "title": "Sociology",
+ "desc": "Family, culture, deviance, stratification and theorists",
+ "group": "Social Sciences",
+ "color": "#0d9488",
+ "questions": [
+  {
+   "q": "The term 'sociology' was coined by:",
+   "o": [
+    "Herbert Spencer",
+    "Karl Marx",
+    "Auguste Comte",
+    "Max Weber"
+   ],
+   "a": 2,
+   "e": "Comte coined 'sociologie' in 1838 and is called the father of sociology. Spencer coined 'survival of the fittest'."
+  },
+  {
+   "q": "Auguste Comte's book on sociology is:",
+   "o": [
+    "The Division of Labour in Society",
+    "Positive Philosophy (Cours de philosophie positive)",
+    "Das Kapital",
+    "Suicide"
+   ],
+   "a": 1,
+   "e": "Comte proposed the Law of Three Stages: theological, metaphysical and positive (scientific)."
+  },
+  {
+   "q": "Emile Durkheim is known for the study of:",
+   "o": [
+    "Capitalism only",
+    "Suicide and social facts",
+    "Psychoanalysis",
+    "Primary groups"
+   ],
+   "a": 1,
+   "e": "Durkheim wrote 'The Rules of Sociological Method', 'The Division of Labour in Society' (1893), 'Suicide' (1897) and 'Elementary Forms of Religious Life'."
+  },
+  {
+   "q": "Durkheim's four types of suicide are:",
+   "o": [
+    "Passive, active, silent, loud",
+    "Primary, secondary, tertiary, quaternary",
+    "Social, legal, moral, cultural",
+    "Egoistic, altruistic, anomic, fatalistic"
+   ],
+   "a": 3,
+   "e": "They arise from too little or too much social integration or regulation. Anomie refers to normlessness."
+  },
+  {
+   "q": "Karl Marx is associated with:",
+   "o": [
+    "Symbolic interactionism",
+    "Class conflict and historical materialism",
+    "Structural functionalism",
+    "Social Darwinism"
+   ],
+   "a": 1,
+   "e": "Marx wrote 'Das Kapital' and the 'Communist Manifesto' (with Engels, 1848). He viewed history as a struggle between bourgeoisie and proletariat."
+  },
+  {
+   "q": "Max Weber's famous book is:",
+   "o": [
+    "The Protestant Ethic and the Spirit of Capitalism",
+    "Suicide",
+    "The Social Contract",
+    "The Wealth of Nations"
+   ],
+   "a": 0,
+   "e": "Weber introduced verstehen (interpretive understanding), ideal types, bureaucracy and types of authority (traditional, charismatic, legal-rational)."
+  },
+  {
+   "q": "Weber's three types of authority are:",
+   "o": [
+    "Primary, secondary, tertiary",
+    "Mechanical, organic, anomic",
+    "Traditional, charismatic and legal-rational",
+    "Caste, class, status"
+   ],
+   "a": 2,
+   "e": "Authority is legitimate power. Bureaucracy is the typical form of legal-rational authority."
+  },
+  {
+   "q": "Which sociologist developed the concept of 'looking-glass self'?",
+   "o": [
+    "G.H. Mead",
+    "Weber",
+    "Charles Horton Cooley",
+    "Marx"
+   ],
+   "a": 2,
+   "e": "Cooley said we see ourselves through others' reactions. G.H. Mead developed 'I' and 'Me' and symbolic interactionism."
+  },
+  {
+   "q": "Symbolic interactionism was developed by:",
+   "o": [
+    "Talcott Parsons",
+    "Karl Marx",
+    "Herbert Spencer",
+    "George Herbert Mead"
+   ],
+   "a": 3,
+   "e": "Interactionists study how meanings arise through social interaction, e.g., labelling theory."
+  },
+  {
+   "q": "Structural functionalism is associated with:",
+   "o": [
+    "Marx",
+    "Talcott Parsons and Robert Merton",
+    "Weber",
+    "Mead"
+   ],
+   "a": 1,
+   "e": "It views society as a system of interrelated parts functioning to maintain stability. Merton distinguished manifest and latent functions."
+  },
+  {
+   "q": "A group in which relations are face-to-face, intimate and personal is called a:",
+   "o": [
+    "Secondary group",
+    "Primary group",
+    "Reference group",
+    "Out-group"
+   ],
+   "a": 1,
+   "e": "Cooley described the family and play group as primary groups. Secondary groups are formal and impersonal, such as an office."
+  },
+  {
+   "q": "The concept of 'in-group' and 'out-group' was introduced by:",
+   "o": [
+    "Cooley",
+    "Mead",
+    "Durkheim",
+    "William Graham Sumner"
+   ],
+   "a": 3,
+   "e": "Sumner described 'we-feeling' of the in-group (and ethnocentrism). A reference group is one whose standards we use for self-evaluation."
+  },
+  {
+   "q": "Ferdinand Tönnies distinguished between:",
+   "o": [
+    "Mechanical and organic solidarity",
+    "Caste and class",
+    "Sacred and profane",
+    "Gemeinschaft and Gesellschaft"
+   ],
+   "a": 3,
+   "e": "Gemeinschaft is community with close ties; Gesellschaft is society with impersonal ties."
+  },
+  {
+   "q": "Culture is defined by E.B. Tylor as:",
+   "o": [
+    "A complex whole including knowledge, belief, art, morals, law, custom and other habits",
+    "Only material things",
+    "Only language",
+    "Only religion"
+   ],
+   "a": 0,
+   "e": "Tylor's definition (1871) is the classical one. Culture is learned, shared and transmitted."
+  },
+  {
+   "q": "The material aspect of culture such as tools and buildings is called:",
+   "o": [
+    "Non-material culture",
+    "Subculture",
+    "Counterculture",
+    "Material culture"
+   ],
+   "a": 3,
+   "e": "Non-material culture includes beliefs, values and norms."
+  },
+  {
+   "q": "The term 'culture lag' was introduced by:",
+   "o": [
+    "Durkheim",
+    "Comte",
+    "Weber",
+    "William F. Ogburn"
+   ],
+   "a": 3,
+   "e": "Ogburn said that non-material culture changes slower than material culture, e.g., laws may lag behind technology like the internet."
+  },
+  {
+   "q": "Folkways are:",
+   "o": [
+    "Customary ways of everyday behaviour",
+    "Strict laws",
+    "Moral obligations",
+    "Taboos"
+   ],
+   "a": 0,
+   "e": "Sumner classified norms as folkways, mores and laws. Mores are moral norms whose violation is serious, e.g., incest taboo."
+  },
+  {
+   "q": "The process through which a person learns culture and becomes a social being is:",
+   "o": [
+    "Stratification",
+    "Migration",
+    "Segregation",
+    "Socialization"
+   ],
+   "a": 3,
+   "e": "Primary socialization occurs in the family; secondary socialization occurs in school, peer groups and media. Agents of socialization influence values and behaviour."
+  },
+  {
+   "q": "The most important agent of primary socialization is:",
+   "o": [
+    "Media",
+    "Family",
+    "Peers",
+    "Religion"
+   ],
+   "a": 1,
+   "e": "The family provides early emotional care and teaches language and norms, hence child neglect has deep consequences."
+  },
+  {
+   "q": "Cases of isolated children like Anna and Isabelle showed the importance of:",
+   "o": [
+    "Genes",
+    "Intelligence tests",
+    "Climate",
+    "Social contact for socialization"
+   ],
+   "a": 3,
+   "e": "Kingsley Davis studied them and concluded that human nature develops only through social interaction."
+  },
+  {
+   "q": "The family consisting of husband, wife and unmarried children is called:",
+   "o": [
+    "Joint family",
+    "Extended family",
+    "Reconstituted family",
+    "Nuclear family"
+   ],
+   "a": 3,
+   "e": "A joint family includes several generations or brothers' families living together, common in rural South Asia."
+  },
+  {
+   "q": "Which type of family is typical in traditional Pakistani rural society?",
+   "o": [
+    "Single-parent family",
+    "Cohabitation",
+    "Joint family",
+    "Communes"
+   ],
+   "a": 2,
+   "e": "Joint families are changing with urbanization, migration and economic pressures toward nuclear families."
+  },
+  {
+   "q": "Marriage between members of the same group is called:",
+   "o": [
+    "Exogamy",
+    "Endogamy",
+    "Monogamy",
+    "Polyandry"
+   ],
+   "a": 1,
+   "e": "Exogamy is marriage outside the group. Polygyny: more wives; polyandry: more husbands; monogamy: one spouse."
+  },
+  {
+   "q": "Matrilocal residence means a couple lives with:",
+   "o": [
+    "The husband's family",
+    "The wife's family",
+    "Alone",
+    "In a hotel"
+   ],
+   "a": 1,
+   "e": "Patrilocal is the norm in Pakistan. Neolocal means couple establishes a new household."
+  },
+  {
+   "q": "The system of social stratification based on birth and ascribed status is:",
+   "o": [
+    "Class system",
+    "Estate system",
+    "Slavery",
+    "Caste system"
+   ],
+   "a": 3,
+   "e": "Caste is closed and hereditary. Class is open and based on economic position and achievements."
+  },
+  {
+   "q": "'Social mobility' means:",
+   "o": [
+    "Moving homes",
+    "Movement between social positions",
+    "Travel",
+    "Trade"
+   ],
+   "a": 1,
+   "e": "Vertical mobility is upward or downward in status; horizontal mobility is a change of occupation without status change."
+  },
+  {
+   "q": "The concept of 'social capital' emphasizes:",
+   "o": [
+    "Bank money",
+    "Land",
+    "Gold",
+    "Networks, trust and norms that facilitate cooperation"
+   ],
+   "a": 3,
+   "e": "Pierre Bourdieu, James Coleman and Robert Putnam developed the concept."
+  },
+  {
+   "q": "Social control refers to:",
+   "o": [
+    "Government taxes",
+    "Population control",
+    "Mechanisms to regulate behaviour and ensure conformity",
+    "Control of prices"
+   ],
+   "a": 2,
+   "e": "Formal controls include laws and police; informal controls include family, gossip and customs."
+  },
+  {
+   "q": "Deviance means:",
+   "o": [
+    "Following norms",
+    "Behaviour that violates social norms",
+    "Intelligence",
+    "Charity"
+   ],
+   "a": 1,
+   "e": "Deviance is relative to culture and time. Crime is deviance that violates criminal law."
+  },
+  {
+   "q": "The functionalist who considered some deviance as normal and even functional in society is:",
+   "o": [
+    "Emile Durkheim",
+    "Cooley",
+    "Mead",
+    "Weber"
+   ],
+   "a": 0,
+   "e": "Durkheim said crime is normal because it appears in all societies and may clarify moral boundaries."
+  },
+  {
+   "q": "Merton's strain theory explains deviance due to:",
+   "o": [
+    "Genetics",
+    "Gap between cultural goals and institutional means",
+    "Climate",
+    "Intelligence"
+   ],
+   "a": 1,
+   "e": "Merton's modes of adaptation: conformity, innovation, ritualism, retreatism and rebellion."
+  },
+  {
+   "q": "Labelling theory is associated with:",
+   "o": [
+    "Howard Becker",
+    "Merton",
+    "Comte",
+    "Spencer"
+   ],
+   "a": 0,
+   "e": "Becker's 'Outsiders' (1963) argues that deviance is created by society's reaction; labelling a child 'bad' may lead to a deviant identity."
+  },
+  {
+   "q": "Edwin Sutherland proposed the theory of:",
+   "o": [
+    "Anomie",
+    "Strain",
+    "Differential association",
+    "Broken windows"
+   ],
+   "a": 2,
+   "e": "Criminal behaviour is learned through interaction with others who favour law violation."
+  },
+  {
+   "q": "The phenomenon in which a migrating group adopts the culture of the host society is:",
+   "o": [
+    "Assimilation",
+    "Segregation",
+    "Diffusion",
+    "Conflict"
+   ],
+   "a": 0,
+   "e": "Acculturation is cultural change from contact; assimilation is the complete absorption."
+  },
+  {
+   "q": "Rapid growth of cities and the shift of population from rural to urban areas is:",
+   "o": [
+    "Urbanization",
+    "Industrialization",
+    "Globalization",
+    "Modernization"
+   ],
+   "a": 0,
+   "e": "Pakistan is one of the most urbanizing countries in South Asia with around 38% urban population (2023 census)."
+  },
+  {
+   "q": "Slums and 'katchi abadis' are mainly associated with:",
+   "o": [
+    "Rural prosperity",
+    "Rapid urbanization and poverty",
+    "Low population",
+    "Good planning"
+   ],
+   "a": 1,
+   "e": "Poor housing, child labour and lack of services expose children to risk."
+  },
+  {
+   "q": "Poverty in which a person cannot meet basic needs is called:",
+   "o": [
+    "Relative poverty",
+    "Absolute poverty",
+    "Mobility",
+    "Marginality"
+   ],
+   "a": 1,
+   "e": "Relative poverty is defined in relation to the standard of living in a society. Pakistan uses a cost-of-basic-needs approach."
+  },
+  {
+   "q": "The Multidimensional Poverty Index (MPI) includes:",
+   "o": [
+    "Only income",
+    "Only land",
+    "Health, education and living standards",
+    "Only age"
+   ],
+   "a": 2,
+   "e": "It was developed by Oxford (OPHI) and UNDP and shows overlapping deprivations."
+  },
+  {
+   "q": "The term 'social exclusion' refers to:",
+   "o": [
+    "Giving charity",
+    "Denying individuals or groups access to resources and participation",
+    "Group parties",
+    "Voting"
+   ],
+   "a": 1,
+   "e": "Children with disabilities, minorities and street children face exclusion."
+  },
+  {
+   "q": "A sudden mass movement of public concern is called:",
+   "o": [
+    "Constitution",
+    "Social movement",
+    "Census",
+    "Treaty"
+   ],
+   "a": 1,
+   "e": "Social movements aim to bring about or resist change, e.g., the women's rights movement and Lawyers' movement."
+  },
+  {
+   "q": "Gender is best defined as:",
+   "o": [
+    "Socially constructed roles and expectations for men and women",
+    "Biological sex",
+    "Age",
+    "Race"
+   ],
+   "a": 0,
+   "e": "Sex is biological; gender is cultural. Gender discrimination affects girls' education and early marriage."
+  },
+  {
+   "q": "'Patriarchy' means:",
+   "o": [
+    "Rule by women",
+    "A social system dominated by men",
+    "Rule by elders",
+    "Rule by youth"
+   ],
+   "a": 1,
+   "e": "Patriarchal norms underlie preference for sons, honour crimes and restrictions on girls."
+  },
+  {
+   "q": "Sociological imagination was introduced by:",
+   "o": [
+    "Comte",
+    "C. Wright Mills",
+    "Marx",
+    "Durkheim"
+   ],
+   "a": 1,
+   "e": "Mills (1959) said it links personal troubles with public issues of social structure."
+  },
+  {
+   "q": "The branch of sociology that studies population is:",
+   "o": [
+    "Ecology",
+    "Criminology",
+    "Demography",
+    "Anthropology"
+   ],
+   "a": 2,
+   "e": "Demographers study fertility, mortality and migration. Pakistan's growth rate in 2023 was about 2.55% per year."
+  },
+  {
+   "q": "Pakistan's population according to the 2023 digital census was approximately:",
+   "o": [
+    "207.7 million",
+    "130 million",
+    "300 million",
+    "241.5 million"
+   ],
+   "a": 3,
+   "e": "Total 241.49 million with annual growth 2.55%. The 2017 census recorded 207.68 million."
+  },
+  {
+   "q": "Dependency ratio is the ratio of:",
+   "o": [
+    "Dependents (children, elderly) to working-age population",
+    "Males to females",
+    "Urban to rural",
+    "Rich to poor"
+   ],
+   "a": 0,
+   "e": "A high child dependency ratio demands investment in education and health."
+  },
+  {
+   "q": "Ethnocentrism means:",
+   "o": [
+    "Respecting all cultures",
+    "Worshiping ancestors",
+    "Judging other cultures by one's own standards",
+    "Learning languages"
+   ],
+   "a": 2,
+   "e": "Cultural relativism says each culture should be understood on its own terms."
+  },
+  {
+   "q": "Anomie, a state of normlessness, is a concept of:",
+   "o": [
+    "Mead",
+    "Durkheim",
+    "Cooley",
+    "Weber"
+   ],
+   "a": 1,
+   "e": "It occurs during rapid social change or crisis when old norms break down."
+  },
+  {
+   "q": "The term 'mechanical solidarity' refers to:",
+   "o": [
+    "Cohesion based on division of labour",
+    "Machine work",
+    "Social cohesion based on similarity in traditional societies",
+    "Chaos"
+   ],
+   "a": 2,
+   "e": "Durkheim said modern societies show organic solidarity based on interdependence."
+  },
+  {
+   "q": "Which research method is used to study 'a community through long-term observation by living in it'?",
+   "o": [
+    "Participant observation",
+    "Survey",
+    "Experiment",
+    "Census"
+   ],
+   "a": 0,
+   "e": "Ethnography and participant observation are common in sociology and anthropology."
+  }
+ ]
+}

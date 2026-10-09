@@ -1,0 +1,33 @@
+---
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import Ad from '../../components/Ad.astro';
+import { groups, testsOfGroup, poolSize, posts } from '../../lib.js';
+export function getStaticPaths() { return groups.map((g) => ({ params: { slug: g.slug }, props: { g } })); }
+const { g } = Astro.props;
+const ts = testsOfGroup(g.name);
+const relPosts = posts.filter((p) => p.mix && p.mix[g.name]);
+const title = `PPSC ${g.name} MCQs & Preparation Guide`;
+const desc = `${poolSize(g.name)} free ${g.name} MCQs for PPSC tests in ${ts.length} practice tests, with preparation tips and the posts that test this subject.`;
+---
+<Base title={title} description={desc} active="subjects">
+  <div class="page-hero" style={`background:linear-gradient(135deg,${g.color},#db2777)`}><div class="wrap">
+    <Crumbs items={[['Home', '/'], ['Subjects', '/subjects/'], [g.name]]} />
+    <h1>{g.icon} {g.name} for PPSC tests</h1><p>{g.blurb}</p>
+  </div></div>
+  <section class="block"><div class="wrap">
+    <h2>Practice tests ({poolSize(g.name)} MCQs)</h2>
+    <div class="grid g3">{ts.map((t) => (
+      <a class="card tcard" href={`/practice/${t.slug}/`} style={`--c:${g.color}`}><h3>{t.title}</h3><p>{t.desc}</p><div class="meta">{t.questions.length} MCQs</div></a>
+    ))}</div>
+    <Ad kind="inline" />
+    <h2 style="margin-top:28px">How to prepare {g.name}</h2>
+    <ul class="prose">{g.tips.map((x) => <li>{x}</li>)}</ul>
+    {relPosts.length > 0 && (<>
+      <h2>Posts that test {g.name}</h2>
+      <div class="tablewrap"><table><thead><tr><th>Post</th><th>Questions in our mock</th></tr></thead><tbody>
+        {relPosts.map((p) => <tr><td><a href={`/posts/${p.slug}/`}>{p.icon} {p.name}</a></td><td>{p.mix[g.name]} of {Object.values(p.mix).reduce((a, b) => a + b, 0)}</td></tr>)}
+      </tbody></table></div>
+    </>)}
+  </div></section>
+</Base>
